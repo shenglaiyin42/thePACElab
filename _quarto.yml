@@ -16,6 +16,8 @@ website:
     right:
       - text: "Home"
         href: index.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "People"
         href: people.qmd
       - text: "Publications"

@@ -1,0 +1,50 @@
+---
+title: "Research"
+page-layout: full
+body-classes: "research-page-body"
+---
+
+::: {.page-shell .research-page}
+<svg class="research-arrow-definitions" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="research-bidirectional-arrow" viewBox="0 0 48 16">
+      <path d="M3 8H45 M3 8L9 2 M3 8L9 14 M45 8L39 2 M45 8L39 14"></path>
+    </symbol>
+  </defs>
+</svg>
+
+::: {.research-grid}
+::: {.research-card}
+## Pathogen Dynamics
+
+We study how pathogens transmit, diversify, and emerge in wild animal populations by linking host traits, ecological communities, surveillance data, and quantitative models.
+:::
+
+::: {.research-card}
+## Animal Movement
+
+We study how animals move across changing landscapes and climates, and how those movements connect populations and shape ecological and disease processes.
+:::
+
+::: {.research-card}
+## Global Change
+
+We investigate how climate and landscape change reshape host ecology and influence disease dynamics.
+:::
+
+::: {.research-card}
+## Ecology
+
+We study how species traits, populations, and communities shape disease transmission dynamics across space and time.
+:::
+
+<div class="research-connections" aria-hidden="true">
+  <div class="research-arrow research-arrow-top"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
+  <div class="research-arrow research-arrow-bottom"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
+  <div class="research-arrow research-arrow-left"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
+  <div class="research-arrow research-arrow-right"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
+  <div class="research-arrow research-arrow-diagonal-down"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
+  <div class="research-arrow research-arrow-diagonal-up"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
+</div>
+:::
+:::
