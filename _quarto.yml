@@ -30,7 +30,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: pace-site.css
     toc: false
     highlight-style: none
     anchor-sections: true
