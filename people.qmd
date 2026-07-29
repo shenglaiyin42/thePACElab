@@ -23,9 +23,9 @@ Principal Investigator
 
 ## Dr. Shenglai Yin
 
-Dr. Shenglai Yin is the Principal Investigator of PACE Lab. His research integrates disease ecology, movement ecology, and global-change biology to understand and predict pathogen transmission.
+Dr. Shenglai Yin is the Principal Investigator of PACE Lab. His research integrates disease ecology, movement ecology, and global change biology to understand and predict pathogen transmission.
 
-He develops quantitative approaches—including agent-based, epidemiological, network, statistical, and machine-learning models—to examine how animal movement, landscape and climate changes, and host communities shape disease risk.
+He develops quantitative approaches, including agent-based, epidemiological, network, statistical, and machine-learning models, to examine how animal movement, landscape and climate changes, and host communities shape disease risk.
 
 His current work focuses on migratory waterbirds, avian influenza, and One Health challenges at wildlife–poultry–human interfaces. Through ecological data and mechanistic models, he aims to improve prediction of disease spread, spillover, and viral emergence while supporting wildlife conservation and animal health.
 
