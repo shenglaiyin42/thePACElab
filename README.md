@@ -1,53 +1,26 @@
-# PACE Lab website
+# PaceLab 资料库
 
-Public website for **PACE Lab — Pathogens, Animal Movement, Changes, and Ecology**.
+本仓库用于集中维护 PaceLab 的课题组资料、工作手册和公共网站。
 
-The site is built with [Quarto](https://quarto.org/) and is designed to be straightforward to update without web-development experience.
+目前采用以下结构：
 
-## Edit the site
-
-Each public page is a plain-text `.qmd` file:
-
-- `index.qmd` — home page and lab overview
-- `people.qmd` — PI profile and future lab members
-- `publications.qmd` — publication list
-- `contact.qmd` — contact and affiliation details
-- `_quarto.yml` — navigation, footer, and site-wide settings
-- `styles.css` — visual styling
-
-To update a page, edit its text, save the file, and preview the result with:
-
-```sh
-quarto preview
+```text
+thePACElab/
+├── handbook/           # 课题组手册与入组资料
+│   └── onboarding/     # 新成员入组指南
+└── website/            # PaceLab 公共网站子项目
 ```
 
-To build the publishable site:
+## 课题组手册
 
-```sh
-quarto render
-```
+- [新成员入组指南](handbook/onboarding/README.md)
 
-Quarto writes the finished website to `_site/`.
+手册目前从最必要的内容开始，后续可根据实际需要逐步增加数据与代码管理、野外工作、组会与沟通、常用模板等资料。
 
-## Publish with GitHub and Cloudflare Pages
+## 公共网站
 
-After creating a GitHub repository and pushing this folder:
+网站的内容、样式和构建脚本统一保存在 [`website/`](website/) 中。网站仍可独立维护和发布，详细说明见 [网站维护指南](website/README.md)。
 
-1. In Cloudflare Pages, choose **Create a project** and connect the GitHub repository.
-2. Choose no framework preset.
-3. Use `bash scripts/cloudflare-build.sh` as the build command.
-4. Use `_site` as the build output directory.
-5. Leave the root directory at the repository root.
+课题组内部资料不会自动发布到 PaceLab 网站。只有 `website/` 子项目中的内容会进入网站构建与发布流程。
 
-The build script downloads a pinned stable Quarto release inside Cloudflare’s temporary build environment, then renders the site. To change that version later, set a `QUARTO_VERSION` environment variable in the Cloudflare Pages project settings.
-
-Cloudflare will create a preview for repository branches and update the public site whenever the production branch changes.
-
-## Before the first public launch
-
-Review these intentional placeholders:
-
-- `_quarto.yml` — footer university and department line
-- `contact.qmd` — affiliation and mailing-address section
-
-Do not publish university, department, or mailing-address details until they are confirmed.
+> 本仓库目前是公开仓库。请勿在手册或资料中提交密码、未公开数据、私人联系方式或其他敏感信息。
