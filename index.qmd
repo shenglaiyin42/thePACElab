@@ -9,7 +9,7 @@ body-classes: "pace-home"
 # PACE Lab
 
 ::: {.pace-expansion}
-**P**athogen dynamic, **A**nimal Movement, Global **C**hange, and **E**cology.
+**P**athogen Dynamic, **A**nimal Movement, Global **C**hange, and **E**cology.
 :::
 
 ::: {.home-pi}
