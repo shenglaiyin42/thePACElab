@@ -1,0 +1,49 @@
+---
+title: "Contact"
+description: "Contact PACE Lab and Dr. Shenglai Yin."
+page-layout: full
+---
+
+::: {.page-shell .page-intro}
+## Get in touch
+
+For research questions, collaboration inquiries, or future opportunities, please contact Dr. Shenglai Yin.
+:::
+
+::: {.page-shell .content-shell}
+::: {.contact-grid}
+::: {.contact-card}
+::: {.eyebrow}
+Email
+:::
+
+### [shenglai.yin@outlook.com](mailto:shenglai.yin@outlook.com)
+
+The best way to reach PACE Lab.
+:::
+
+::: {.contact-card}
+::: {.eyebrow}
+Research profiles
+:::
+
+### [ORCID](https://orcid.org/0000-0001-9889-9656)
+
+0000-0001-9889-9656
+
+### [Google Scholar](https://scholar.google.com/citations?user=J9VueqQAAAAJ&hl=en)
+
+Publication record and citation profile
+:::
+
+::: {.contact-card}
+::: {.eyebrow}
+Location
+:::
+
+### Affiliation to be added
+
+University, department, and mailing address details will be added when available.
+:::
+:::
+:::

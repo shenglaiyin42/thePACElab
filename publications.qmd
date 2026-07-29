@@ -1,0 +1,76 @@
+---
+title: "Publications"
+description: "Selected publications from PACE Lab and Dr. Shenglai Yin."
+page-layout: full
+---
+
+::: {.page-shell .page-intro}
+## Publications
+
+Selected peer-reviewed work by Dr. Shenglai Yin and collaborators. For a current citation record, visit [Google Scholar](https://scholar.google.com/citations?user=J9VueqQAAAAJ&hl=en).
+:::
+
+::: {.page-shell .publications-page}
+## Selected publications
+
+1. **Yin, S., et al.** (2025). Landscape changes drive highly pathogenic avian influenza emergence at the wild bird-poultry interface in the East Asian-Australasian Flyway. *Proceedings of the National Academy of Sciences*. [https://doi.org/10.1073/pnas.2503427122](https://doi.org/10.1073/pnas.2503427122)
+
+2. **Yin, S.**, Li, N., Xu, W., Becker, D. J., de Boer, W. F., Xu, C., Mundkur, T., Fountain-Jones, N. M., Li, C., Han, G., Wu, Q., Prosser, D. J., Cui, L., & Huang, Z. Y. X. (2023). Functional traits explain waterbirds’ host status, subtype richness, and community-level infection risk for avian influenza. *Ecology Letters*. [https://doi.org/10.1111/ele.14294](https://doi.org/10.1111/ele.14294)
+
+3. Prosser, D. J., Teitelbaum, C. S., **Yin, S.**, Hill, N. J., & Xiao, X. (2023). Climate change impacts on bird migration and highly pathogenic avian influenza. *Nature Microbiology*. [https://doi.org/10.1038/s41564-023-01538-0](https://doi.org/10.1038/s41564-023-01538-0)
+
+## Additional lead- or corresponding-author publications
+
+1. **Yin, S., et al.** (2024). Strong and consistent associations of waterbird community composition with HPAI H5 occurrence in European wild birds. *Ecological Applications*. [https://doi.org/10.1002/eap.3010](https://doi.org/10.1002/eap.3010)
+
+2. **Yin, S.**, Xie, Q., Mundkur, T., Wu, Y., Chai, H., Wu, Q., & Huang, Z. Y. X. (2025). The predictable HPAI H5 outbreaks in European wild birds. *Avian Research*. [https://doi.org/10.1016/j.avrs.2025.100311](https://doi.org/10.1016/j.avrs.2025.100311)
+
+3. Zhang, S., Li, N., Xu, M., Huang, Z. Y. X., Gu, Z., & **Yin, S.** (2022). Urbanization and habitat characteristics associated with the occurrence of Peste des Petits Ruminants in Africa. *Sustainability*. [https://doi.org/10.3390/su14158978](https://doi.org/10.3390/su14158978)
+
+4. **Yin, S., et al.** (2021). Do contrasting patterns of migration movements and disease outbreaks between congeneric waterfowl species reflect differing immunity? *Geospatial Health*. [https://doi.org/10.4081/gh.2021.909](https://doi.org/10.4081/gh.2021.909)
+
+5. **Yin, S., et al.** (2020). Effects of migration network configuration and migration synchrony on infection prevalence in geese. *Journal of Theoretical Biology*. [https://doi.org/10.1016/j.jtbi.2020.110315](https://doi.org/10.1016/j.jtbi.2020.110315)
+
+6. **Yin, S., et al.** (2017). No evidence that migratory geese disperse avian influenza viruses from breeding to wintering ground. *PLOS ONE*. [https://doi.org/10.1371/journal.pone.0177790](https://doi.org/10.1371/journal.pone.0177790)
+
+7. **Yin, S., et al.** (2015). *Spartina alterniflora* invasions impact CH4 and N2O fluxes from a salt marsh in eastern China. *Ecological Engineering*. [https://doi.org/10.1016/j.ecoleng.2015.04.044](https://doi.org/10.1016/j.ecoleng.2015.04.044)
+
+8. Zhou, L., **Yin, S., et al.** (2015). *Spartina alterniflora* invasion alters carbon exchange and soil organic carbon in the eastern salt marsh of China. *CLEAN – Soil, Air, Water*. [https://doi.org/10.1002/clen.201300838](https://doi.org/10.1002/clen.201300838)
+
+## Collaborative publications
+
+1. Harvey, J., Gonnerman, M., **Yin, S., et al.** (2026). Feathers and flu: Avian influenza host dynamics and future data needs to prioritize wildlife conservation. *Wildlife Monographs*. [https://doi.org/10.1002/wmon.70015](https://doi.org/10.1002/wmon.70015)
+
+2. Zhang, Q., Dong, J., Li, Z., Xiao, X., Yan, C., You, N., **Yin, S., et al.** (2026). Annual global habitat maps of avian influenza host birds from 2000 to 2022. *Diversity and Distributions*. [https://doi.org/10.1111/ddi.70153](https://doi.org/10.1111/ddi.70153)
+
+3. Zhang, Q., Dong, J., Li, Z., Xiao, X., Yan, C., You, N., **Yin, S., et al.** (2026). Anthropogenic transformation in terrestrial habitats of avian influenza host birds in the 21st century. *Science Bulletin*. [https://doi.org/10.1016/j.scib.2025.12.035](https://doi.org/10.1016/j.scib.2025.12.035)
+
+4. Yin, C., Xiao, X., Pan, L., Chen, R., Yin, Y., Qin, Y., Shi, W., van de Voorde, T., **Yin, S., et al.** (2025). Concurrent increases of impervious surface area and vegetation greenness and productivity in China’s Yangtze River Delta. *Earth Future*. [https://doi.org/10.1029/2025EF006652](https://doi.org/10.1029/2025EF006652)
+
+5. Zhang, H., Xiao, L., Zhao, Z., **Yin, S.**, & Zhang, Y. (2025). Importance of surrounding landscape features in explaining wintering waterbird diversity and community assembly in Jiangsu’s inland lake wetlands. *Avian Research*. [https://doi.org/10.1016/j.avrs.2025.100295](https://doi.org/10.1016/j.avrs.2025.100295)
+
+6. Pan, L., Xiao, X., Qin, Y., Canadell, J. G., Huete, A., Ciais, P., **Yin, S., et al.** (2025). Strong and rapid postfire recovery of vegetation productivity in Australia. *Global Change Biology*. [https://doi.org/10.1111/gcb.70321](https://doi.org/10.1111/gcb.70321)
+
+7. Li, X., Li, A., Qu, F., Li, Y., Chen, F., Lv, X., An, Q., et al. (2025). Evaluation of global distribution, genetic evolution, and mammalian infectivity and pathogenicity of H13 and H16 avian influenza viruses. *Emerging Microbes & Infections*. [https://doi.org/10.1080/22221751.2025.2482695](https://doi.org/10.1080/22221751.2025.2482695)
+
+8. Pan, L., Xiao, X., Pan, B., Meng, C., Doughty, R., Qin, Y., Zhang, C., et al. (2025). Vegetation Photosynthesis Model v3.0: Improved estimates of terrestrial gross primary production from individual eddy flux tower sites to the globe. *Journal of Remote Sensing*. [https://doi.org/10.34133/remotesensing.0471](https://doi.org/10.34133/remotesensing.0471)
+
+9. Zheng, F., Zhao, D., **Yin, S., et al.** (2024). Water N/P ratios influence emergent plant nutrient uptake and growth by altering the microbial activities of rhizosphere soil. *Applied Soil Ecology*. [https://doi.org/10.1016/j.apsoil.2024.105677](https://doi.org/10.1016/j.apsoil.2024.105677)
+
+10. McEachran, M. C., Harvey, J. A., Mummah, R. O., Bletz, M. C., Teitelbaum, C. S., Rosenblatt, E., **Yin, S., et al.** (2024). Reframing wildlife disease management problems with decision analysis. *Conservation Biology*. [https://doi.org/10.1111/cobi.14284](https://doi.org/10.1111/cobi.14284)
+
+11. Takekawa, J., Prosser, D. J., Sullivan, J., **Yin, S., et al.** (2023). Potential effects of habitat change on migratory bird movements and avian influenza transmission in the East Asian-Australasian Flyway. *Diversity*. [https://doi.org/10.3390/d15050601](https://doi.org/10.3390/d15050601)
+
+12. Zheng, F., Mou, X., Zhang, J., Zhang, T., Xia, L., **Yin, S., et al.** (2022). Gradual enhancement of the assemblage stability of the reed rhizosphere microbiome with recovery time. *Microorganisms*. [https://doi.org/10.3390/microorganisms10050937](https://doi.org/10.3390/microorganisms10050937)
+
+13. Zheng, F., Zhang, T., **Yin, S., et al.** (2022). Comparison and interpretation of freshwater bacterial structure and interactions with organic to nutrient imbalances in restored wetlands. *Frontiers in Microbiology*. [https://doi.org/10.3389/fmicb.2022.946537](https://doi.org/10.3389/fmicb.2022.946537)
+
+14. Xu, Y., Si, Y., Takekawa, J., Liu, Q., Prins, H., **Yin, S., et al.** (2020). A network approach to prioritize conservation efforts for migratory birds. *Conservation Biology*. [https://doi.org/10.1111/cobi.13383](https://doi.org/10.1111/cobi.13383)
+
+15. Xu, Y., Si, Y., **Yin, S., et al.** (2019). Species-dependent effects of habitat degradation in relation to seasonal distribution of migratory waterfowl in the East Asian-Australasian Flyway. *Landscape Ecology*. [https://doi.org/10.1007/s10980-018-00767-7](https://doi.org/10.1007/s10980-018-00767-7)
+
+16. Ren, L., Xu, L., Zhang, Y., Pan, W., **Yin, S., et al.** (2015). Effects of connection mode and hydraulic retention time on wastewater pollutants removal in constructed wetland microcosms. *CLEAN – Soil, Air, Water*. [https://doi.org/10.1002/clen.201300842](https://doi.org/10.1002/clen.201300842)
+
+17. Yang, W., Zhao, H., Chen, X., **Yin, S., et al.** (2013). Consequences of short-term C4 plant *Spartina alterniflora* invasions for soil organic carbon dynamics in a coastal wetland of Eastern China. *Ecological Engineering*. [https://doi.org/10.1016/j.ecoleng.2013.09.056](https://doi.org/10.1016/j.ecoleng.2013.09.056)
+:::
+

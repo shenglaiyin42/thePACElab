@@ -1,0 +1,10 @@
+/.quarto/
+/_freeze/
+/_site/
+/.cf-quarto/
+/outputs/
+/work/
+.DS_Store
+
+
+**/*.quarto_ipynb

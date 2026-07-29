@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets
+
+website:
+  title: "PACE Lab"
+  description: "Pathogens, Animal Movement, Changes, and Ecology"
+  favicon: assets/favicon.svg
+  navbar:
+    title: "PACE Lab"
+    background: "#ffffff"
+    foreground: "#183d3d"
+    search: false
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    border: true
+    left: |
+      **PACE Lab**  
+      Pathogens, Animal Movement, Changes, and Ecology
+    center: |
+      University and department details to be added.
+    right:
+      - text: "Email"
+        href: mailto:shenglai.yin@outlook.com
+      - text: "ORCID"
+        href: https://orcid.org/0000-0001-9889-9656
+      - text: "Google Scholar"
+        href: https://scholar.google.com/citations?user=J9VueqQAAAAJ&hl=en
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    highlight-style: none
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="theme-color" content="#183d3d">
+
+execute:
+  freeze: auto

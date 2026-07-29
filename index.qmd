@@ -1,0 +1,118 @@
+---
+title: "PACE Lab"
+description: "Pathogens, Animal Movement, Changes, and Ecology"
+page-layout: full
+body-classes: "pace-home"
+---
+
+::: {.hero}
+::: {.hero-inner}
+::: {.hero-kicker}
+Pathogens · Animal Movement · Changes · Ecology
+:::
+
+# Understanding how a changing world reshapes disease.
+
+PACE Lab connects animal movement, ecological change, and quantitative modeling to understand pathogen transmission—and to strengthen wildlife conservation, animal health, and One Health preparedness.
+
+[Our approach](#our-approach){.btn .btn-primary} [Meet the lab](people.qmd){.btn .btn-outline-secondary}
+:::
+:::
+
+::: {.page-shell}
+::: {.intro-grid}
+::: {}
+## About PACE Lab
+
+PACE Lab investigates **P**athogen transmission through **A**nimal movement, environmental **C**hanges, and **E**cological community dynamics.
+
+We combine quantitative analysis with mechanistic modeling—particularly individual-based and network models—alongside statistical models and machine learning to understand infectious-disease ecology and transmission across scales.
+:::
+
+::: {.focus-note}
+### Current focus
+
+Our work focuses especially on migratory birds and avian influenza, including how climate and landscape changes affect:
+
+- host movement and community composition
+- wildlife–poultry–human interfaces
+- transmission, spillover, and viral evolution
+:::
+:::
+
+## Our approach {#our-approach}
+
+::: {.approach-grid}
+::: {.approach-card}
+### Link ecology and disease
+
+We study how movement, environmental change, and host communities shape when and where pathogens spread.
+:::
+
+::: {.approach-card}
+### Build quantitative models
+
+We use mechanistic, network, epidemiological, statistical, and machine-learning approaches to connect ecological data with prediction.
+:::
+
+::: {.approach-card}
+### Support action
+
+We aim to generate knowledge that supports wildlife conservation, animal health, and preparedness at the wildlife–poultry–human interface.
+:::
+:::
+
+::: {.section-heading}
+## Selected publications
+
+[View all publications](publications.qmd){.section-link}
+:::
+
+::: {.publication-list}
+::: {.publication-card}
+::: {.pub-year}
+2025
+:::
+
+### Landscape changes drive highly pathogenic avian influenza emergence at the wild bird–poultry interface in the East Asian–Australasian Flyway
+
+Yin, S., et al. *Proceedings of the National Academy of Sciences*.
+
+[Read the article](https://doi.org/10.1073/pnas.2503427122)
+:::
+
+::: {.publication-card}
+::: {.pub-year}
+2023
+:::
+
+### Functional traits explain waterbirds’ host status, subtype richness, and community-level infection risk for avian influenza
+
+Yin, S., Li, N., Xu, W., et al. *Ecology Letters*.
+
+[Read the article](https://doi.org/10.1111/ele.14294)
+:::
+
+::: {.publication-card}
+::: {.pub-year}
+2023
+:::
+
+### Climate change impacts on bird migration and highly pathogenic avian influenza
+
+Prosser, D. J., Teitelbaum, C. S., Yin, S., Hill, N. J., & Xiao, X. *Nature Microbiology*.
+
+[Read the article](https://doi.org/10.1038/s41564-023-01538-0)
+:::
+:::
+
+::: {.contact-band}
+::: {}
+## Interested in our work?
+
+For research questions, collaboration inquiries, or future opportunities, contact Dr. Shenglai Yin.
+:::
+
+[Get in touch](contact.qmd){.btn .btn-light}
+:::
+:::
