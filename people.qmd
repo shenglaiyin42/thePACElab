@@ -1,19 +1,29 @@
 ---
-title: "People"
+title: "Meet the People of PACE Lab"
 description: "Meet the people of PACE Lab."
 page-layout: full
+body-classes: "people-page"
 ---
 
-::: {.page-shell .page-intro}
-## Our lab
+::: {.page-shell .people-opening}
+# Meet the People of PACE Lab
 
-PACE Lab is led by Dr. Shenglai Yin. Additional lab members and collaborators will be added as the group grows.
+PACE Lab is led by Dr. Shenglai Yin.
+
+Additional lab members and collaborators will be added as the group grows.
 :::
 
 ::: {.page-shell .content-shell}
 ::: {.profile-grid}
 ::: {.profile-image-wrap}
 <img src="assets/img/shenglai-yin-headshot.jpg" class="profile-image" alt="Professional headshot of Dr. Shenglai Yin">
+
+<nav class="profile-social-links" aria-label="Dr. Shenglai Yin’s social and research profiles">
+  <a href="https://x.com/Shenglai_Y" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin on X (Twitter)"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
+  <a href="https://bsky.app/profile/shenglai.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin on Bluesky"><i class="bi bi-bluesky" aria-hidden="true"></i></a>
+  <a href="https://orcid.org/0000-0001-9889-9656" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin’s ORCID profile"><span class="profile-orcid-mark" aria-hidden="true">iD</span></a>
+  <a href="https://scholar.google.com/citations?user=J9VueqQAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin’s Google Scholar profile"><i class="bi bi-mortarboard" aria-hidden="true"></i></a>
+</nav>
 :::
 
 ::: {.profile-copy}
@@ -28,18 +38,6 @@ Dr. Shenglai Yin is the Principal Investigator of PACE Lab. His research integra
 He develops quantitative approaches, including agent-based, epidemiological, network, statistical, and machine-learning models, to examine how animal movement, landscape and climate changes, and host communities shape disease risk.
 
 His current work focuses on migratory waterbirds, avian influenza, and One Health challenges at wildlife–poultry–human interfaces. Through ecological data and mechanistic models, he aims to improve prediction of disease spread, spillover, and viral emergence while supporting wildlife conservation and animal health.
-
-::: {.profile-links}
-[Email](mailto:shenglai.yin@outlook.com){.btn .btn-primary}
-[ORCID](https://orcid.org/0000-0001-9889-9656){.btn .btn-outline-secondary}
-[Google Scholar](https://scholar.google.com/citations?user=J9VueqQAAAAJ&hl=en){.btn .btn-outline-secondary}
 :::
-:::
-:::
-
-::: {.quiet-note}
-### Join the lab
-
-Information about future student and research opportunities will be posted here. In the meantime, relevant inquiries are welcome through the [Contact page](contact.qmd).
 :::
 :::

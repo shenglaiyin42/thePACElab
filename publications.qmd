@@ -1,34 +1,32 @@
 ---
-title: "Publications"
-description: "Selected publications from PACE Lab and Dr. Shenglai Yin."
+title: "Publications from PACE Lab"
 page-layout: full
+body-classes: "publications-page-body"
 ---
-
-::: {.page-shell .page-intro}
-## Publications
-
-Selected peer-reviewed work by Dr. Shenglai Yin and collaborators. For a current citation record, visit [Google Scholar](https://scholar.google.com/citations?user=J9VueqQAAAAJ&hl=en).
-:::
 
 ::: {.page-shell .publications-page}
 ## Selected publications
-1. **Shenglai Yin**<sup>*</sup>, et al. (2025). Landscape changes elevate the risk of avian influenza virus diversification and emergence in the East Asian-Australasian Flyway. *Proceedings of the National Academy of Sciences*. [https://doi.org/10.1073/pnas.2503427122](https://doi.org/10.1073/pnas.2503427122)
+1. **Shenglai Yin**<sup>&#42;</sup>, et al. (2025). Landscape changes elevate the risk of avian influenza virus diversification and emergence in the East Asian-Australasian Flyway. *Proceedings of the National Academy of Sciences*. [https://doi.org/10.1073/pnas.2503427122](https://doi.org/10.1073/pnas.2503427122)
 2. Diann J. Prosser<sup>†</sup>, Claire S. Teitelbaum<sup>†</sup>, **Shenglai Yin**<sup>†</sup>, et al. (2023). Climate change impacts on bird migration and highly pathogenic avian influenza. *Nature Microbiology*. [https://doi.org/10.1038/s41564-023-01538-0](https://doi.org/10.1038/s41564-023-01538-0)
 3. **Shenglai Yin**, et al. (2023). Functional traits explain waterbirds’ host status, subtype richness, and community-level infection risk for avian influenza. *Ecology Letters*. [https://doi.org/10.1111/ele.14294](https://doi.org/10.1111/ele.14294)
+
 ## Additional lead- or corresponding-author publications
-4. John Y. Takekawa, Diann J. Prosser, **Shenglai Yin**<sup>*</sup>, et al. (2026). Global change and threats to waterbirds in the Asian flyways. *Avian Research*. [https://doi.org/10.1016/j.avrs.2026.100409](https://doi.org/10.1016/j.avrs.2026.100409)
-5. Yanjie Xu<sup>†</sup>, **Shenglai Yin**<sup>†*</sup>, et al. Range shifts of migratory hosts facilitate avian influenza panzootics via crossroads of flyways. *In preparation.*
+
+4. John Y. Takekawa, Diann J. Prosser, **Shenglai Yin**<sup>&#42;</sup>, et al. (2026). Global change and threats to waterbirds in the Asian flyways. *Avian Research*. [https://doi.org/10.1016/j.avrs.2026.100409](https://doi.org/10.1016/j.avrs.2026.100409)
+5. Yanjie Xu<sup>†</sup>, **Shenglai Yin**<sup>†&#42;</sup>, et al. Range shifts of migratory hosts facilitate avian influenza panzootics via crossroads of flyways. *In preparation.*
 6. **Shenglai Yin**, et al. A systematic review of avian influenza virus transmission models: Gaps and opportunities. *In revision.*
 7. **Shenglai Yin**, et al. (2025). The predictable HPAI H5 outbreaks in European wild birds. *Avian Research*. [https://doi.org/10.1016/j.avrs.2025.100311](https://doi.org/10.1016/j.avrs.2025.100311)
 8. **Shenglai Yin**, et al. (2024). Strong and consistent effects of waterbird composition on HPAI H5 occurrences across Europe. *Ecological Applications*. [https://doi.org/10.1002/eap.3010](https://doi.org/10.1002/eap.3010)
 9. **Shenglai Yin**, et al. (2022). Habitat loss exacerbates pathogen spread: An agent-based model of avian influenza infection in migratory waterfowl. *PLOS Computational Biology*. [https://doi.org/10.1371/journal.pcbi.1009577](https://doi.org/10.1371/journal.pcbi.1009577)
-10. Shanyong Zhang, Ning Li, Mingshuai Xu, Zheng Y. X. Huang, Zhujun Gu, **Shenglai Yin**<sup>*</sup> (2022). Urbanization and habitat characteristics associated with the occurrence of Peste des Petits Ruminants in Africa. *Sustainability*. [https://doi.org/10.3390/su14158978](https://doi.org/10.3390/su14158978)
+10. Shanyong Zhang, Ning Li, Mingshuai Xu, Zheng Y. X. Huang, Zhujun Gu, **Shenglai Yin**<sup>&#42;</sup> (2022). Urbanization and habitat characteristics associated with the occurrence of Peste des Petits Ruminants in Africa. *Sustainability*. [https://doi.org/10.3390/su14158978](https://doi.org/10.3390/su14158978)
 11. **Shenglai Yin**, et al. (2021). Do contrasting patterns of migration movements and disease outbreaks between congeneric waterfowl species reflect differing immunity? *Geospatial Health*. [https://doi.org/10.4081/gh.2021.909](https://doi.org/10.4081/gh.2021.909)
 12. **Shenglai Yin**, et al. (2020). Effects of migration network configuration and migration synchrony on infection prevalence in geese. *Journal of Theoretical Biology*. [https://doi.org/10.1016/j.jtbi.2020.110315](https://doi.org/10.1016/j.jtbi.2020.110315)
 13. **Shenglai Yin**, et al. (2017). No evidence that migratory geese disperse avian influenza viruses from breeding to wintering ground. *PLOS ONE*. [https://doi.org/10.1371/journal.pone.0177790](https://doi.org/10.1371/journal.pone.0177790)
 14. **Shenglai Yin**, et al. (2015). *Spartina alterniflora* invasions impact CH4 and N2O fluxes from a salt marsh in eastern China. *Ecological Engineering*. [https://doi.org/10.1016/j.ecoleng.2015.04.044](https://doi.org/10.1016/j.ecoleng.2015.04.044)
-15. Lingyan Zhou, **Shenglai Yin**<sup>*</sup>, et al. (2015). *Spartina alterniflora* invasion alters carbon exchange and soil organic carbon in the eastern salt marsh of China. *CLEAN – Soil, Air, Water*. [https://doi.org/10.1002/clen.201300838](https://doi.org/10.1002/clen.201300838)
+15. Lingyan Zhou, **Shenglai Yin**<sup>&#42;</sup>, et al. (2015). *Spartina alterniflora* invasion alters carbon exchange and soil organic carbon in the eastern salt marsh of China. *CLEAN – Soil, Air, Water*. [https://doi.org/10.1002/clen.201300838](https://doi.org/10.1002/clen.201300838)
+
 ## Collaborative publications
+
 16. Baihong Pan, Nishan Bhattarai, Yanhua Xie, **Shenglai Yin**, et al. Identifying yellow flowers of canola crop with PlanetScope images and the Carotenoids and Yellow Flower Indicator (CYFI). *Remote Sensing of Environment*. *Under review.*
 17. Johanna Harvey, Matthew Gonnerman, **Shenglai Yin**, et al. (2026). Feathers and flu: Identifying data gaps in avian influenza host dynamics to prioritize wildlife conservation. *Wildlife Monographs*. [https://doi.org/10.1002/wmon.70015](https://doi.org/10.1002/wmon.70015)
 18. Fuchao Zheng, Wendian Zhu, Jinghan Zhang, **Shenglai Yin**, et al. (2026). Associations of oxygen availability with eukaryotic plankton assembly and coalescence in river–lake ecotones. *Ecological Informatics*. [https://doi.org/10.1016/j.ecoinf.2026.103787](https://doi.org/10.1016/j.ecoinf.2026.103787)
