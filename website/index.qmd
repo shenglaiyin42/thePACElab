@@ -9,12 +9,12 @@ body-classes: "pace-home"
 # PACE Lab
 
 ::: {.pace-expansion}
-**P**athogen Dynamic, **A**nimal Movement, Global **C**hange, and **E**cology.
+**P**athogen Dynamics, **A**nimal Movement, Global **C**hanges, and **E**cology.
 :::
 
 ::: {.home-pi}
 Research Group PI, Dr. Shenglai Yin.
 :::
 
-We combine quantitative analysis with mechanistic modeling, particularly individual-based and network models, alongside statistical models and machine learning to understand infectious-disease ecology and transmission at various scales.
+We combine quantitative analysis with mechanistic modeling, particularly agent-based and network models, alongside statistical models and machine learning to understand infectious disease transmission at various scales.
 :::
