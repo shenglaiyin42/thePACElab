@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - people.qmd
+    - publications.qmd
+    - contact.qmd
   resources:
     - assets
 
@@ -9,6 +15,8 @@ website:
   description: "Pathogens, Animal Movement, Changes, and Ecology"
   favicon: assets/favicon.svg
   navbar:
+    logo: assets/logo-concepts/pace-logo-official.png
+    logo-alt: "PACE Lab logo"
     title: "PACE Lab"
     background: "#fffdf7"
     foreground: "#171716"

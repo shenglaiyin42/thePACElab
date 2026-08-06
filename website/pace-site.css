@@ -71,8 +71,22 @@ a:focus {
 }
 
 .navbar-brand {
+  align-items: center;
+  display: inline-flex;
   font-size: 1.45rem;
   font-weight: 700;
+}
+
+.navbar-logo {
+  height: 4rem;
+  margin-right: 0.18rem;
+  max-height: none;
+  object-fit: contain;
+  width: 4rem;
+}
+
+.navbar-brand-logo {
+  margin-right: 0.12rem;
 }
 
 .navbar-nav .nav-link {
