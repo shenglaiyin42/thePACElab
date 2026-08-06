@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "website/**"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions: {}
@@ -29,8 +26,9 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site
-        run: quarto render
-        working-directory: website
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: website
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
