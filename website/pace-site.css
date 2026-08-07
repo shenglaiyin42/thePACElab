@@ -65,9 +65,13 @@ a:focus {
 }
 
 .navbar {
+  background: var(--pace-paper);
   border-bottom: 1px solid var(--pace-line);
   box-shadow: none;
   padding: 0.85rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
 }
 
 .navbar-brand {
