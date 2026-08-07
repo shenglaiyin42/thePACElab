@@ -150,6 +150,18 @@ body.people-page #title-block-header {
   margin: 0;
 }
 
+.home-chinese {
+  color: #6f6c65;
+  font-size: 0.88em;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  margin-top: 0.3rem;
+}
+
+.home-chinese p {
+  margin: 0;
+}
+
 .pace-expansion strong {
   color: var(--pace-ink);
   font-size: 1.08em;
