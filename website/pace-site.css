@@ -68,7 +68,7 @@ a:focus {
   background: var(--pace-paper);
   border-bottom: 1px solid var(--pace-line);
   box-shadow: none;
-  padding: 0.85rem 0;
+  padding: 0.75rem 0;
   position: sticky;
   top: 0;
   z-index: 1030;
@@ -88,11 +88,11 @@ a:focus {
 }
 
 .navbar-logo {
-  height: 6rem;
+  height: 5.25rem;
   margin-right: 0.18rem;
   max-height: none;
   object-fit: contain;
-  width: 6rem;
+  width: 5.25rem;
 }
 
 .navbar-brand-logo {
@@ -128,6 +128,26 @@ a:focus {
 
 body.pace-home #title-block-header {
   display: none;
+}
+
+/* A quiet, full-page flyway network watermark for the Home page. */
+body.pace-home::before {
+  background: url("assets/backgrounds/flyway-network.png") center center / contain no-repeat;
+  content: "";
+  inset: 0;
+  opacity: 0.11;
+  pointer-events: none;
+  position: fixed;
+  z-index: 0;
+}
+
+body.pace-home > #quarto-content {
+  position: relative;
+  z-index: 1;
+}
+
+body.pace-home #quarto-header {
+  z-index: 1030;
 }
 
 body.people-page #title-block-header {
