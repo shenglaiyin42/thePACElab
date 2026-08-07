@@ -74,6 +74,12 @@ a:focus {
   z-index: 1030;
 }
 
+/* Keep Quarto's outer fixed header visible; never let scroll behavior move it away. */
+#quarto-header,
+#quarto-header.headroom--unpinned {
+  transform: translateY(0) !important;
+}
+
 .navbar-brand {
   align-items: center;
   display: inline-flex;
