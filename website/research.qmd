@@ -27,7 +27,7 @@ We study how animals move across changing landscapes and climates, and how those
 :::
 
 ::: {.research-card}
-## Global Change
+## Global Changes
 
 We investigate how climate and landscape change reshape host ecology and influence disease dynamics.
 :::
