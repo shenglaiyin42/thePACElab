@@ -134,10 +134,13 @@ body.pace-home #title-block-header {
 body.pace-home::before {
   background: url("assets/backgrounds/flyway-network.png") center center / contain no-repeat;
   content: "";
-  inset: 0;
+  bottom: 0;
+  left: 0;
   opacity: 0.11;
   pointer-events: none;
   position: fixed;
+  right: 0;
+  top: 126px;
   z-index: 0;
 }
 
