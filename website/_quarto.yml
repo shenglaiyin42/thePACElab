@@ -15,7 +15,7 @@ website:
   description: "Pathogens, Animal Movement, Changes, and Ecology"
   favicon: assets/favicon.svg
   navbar:
-    logo: assets/logo-concepts/pace-logo-official.png
+    logo: assets/logo-concepts/pace-logo-official-v2.png
     logo-alt: "PACE Lab logo"
     title: "PACE Lab"
     background: "#fffdf7"
