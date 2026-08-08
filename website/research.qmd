@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Research Topics"
 page-layout: full
 body-classes: "research-page-body"
 ---
@@ -46,5 +46,15 @@ We study how species traits, populations, and communities shape disease transmis
   <div class="research-arrow research-arrow-diagonal-down"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
   <div class="research-arrow research-arrow-diagonal-up"><svg class="research-arrow-svg" viewBox="0 0 48 16" focusable="false"><use href="#research-bidirectional-arrow"></use></svg></div>
 </div>
+:::
+
+::: {.research-projects}
+## Research Projects
+
+1. 2023 NSFC General Program: Multiscale Study of the Effects of Species Functional Traits on Animal Infectious Disease Risk (Participate, granted, ¥540,000)
+2. 2022 NSFC Young Scientists Fund (C): Using multiplex network to identify spatial pattern of HPAI occurrence and its landscape driving mechanism (PI, granted, ¥200,000)
+3. 2013 Funding of China Scholarship Council funding: How does the migration of geese influence the dispersal and perpetuation of avian influenza viruses? (Ph.D. funding, granted, ¥550,000)
+4. 08/2022 - present US-China Workshop on Frontiers in Ecology and Evolution of Infectious Diseases (EEID) [NSF award number: 1911955, postdoc researcher]
+5. 08/2022 - present PIPP Phase 1: International Center for Avian Influenza Pandemic Prediction and Prevention (PIPP Phase I) [NSF award number: 2200310, postdoc researcher]
 :::
 :::

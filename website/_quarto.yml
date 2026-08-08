@@ -29,7 +29,7 @@ website:
         href: research.qmd
       - text: "People"
         href: people.qmd
-      - text: "Publications"
+      - text: "Pubs"
         href: publications.qmd
       - text: "Contact"
         href: contact.qmd

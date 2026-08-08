@@ -562,6 +562,32 @@ body.research-page-body #title-block-header {
   margin: 0;
 }
 
+.research-projects {
+  margin-top: clamp(4rem, 7vw, 6rem);
+  max-width: 980px;
+}
+
+.research-projects h2 {
+  border-bottom: 1px solid var(--pace-line);
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.research-projects ol {
+  margin-bottom: 0;
+  padding-left: 1.4rem;
+}
+
+.research-projects li {
+  color: var(--pace-ink-soft);
+  margin-bottom: 0.9rem;
+  padding-left: 0.35rem;
+}
+
+.research-projects li:last-child {
+  margin-bottom: 0;
+}
+
 .research-connections {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 3.5rem minmax(0, 1fr);
