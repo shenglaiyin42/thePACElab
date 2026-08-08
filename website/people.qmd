@@ -8,9 +8,9 @@ body-classes: "people-page"
 ::: {.page-shell .people-opening}
 # Meet the People of PACE Lab
 
-PACE Lab is led by Dr. Shenglai Yin.
+PACE Lab is created by Dr. Shenglai Yin.
 
-Additional lab members and collaborators will be added as the group grows.
+Additional lab members and collaborators will be added as the team grows.
 :::
 
 ::: {.page-shell .content-shell}
@@ -28,7 +28,6 @@ Additional lab members and collaborators will be added as the group grows.
 
 ::: {.profile-copy}
 ::: {.eyebrow}
-Principal Investigator
 :::
 
 ## Dr. Shenglai Yin
