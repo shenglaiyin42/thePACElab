@@ -283,7 +283,8 @@ body.people-page #title-block-header {
 .people-opening h1,
 body.research-page-body #title-block-header h1.title,
 body.publications-page-body #title-block-header h1.title,
-body.contact-page-body #title-block-header h1.title {
+body.contact-page-body #title-block-header h1.title,
+.research-projects h1 {
   font-size: clamp(2.2rem, 3.6vw, 3.1rem);
   margin: 0 0 2rem;
   max-width: none;
@@ -563,14 +564,12 @@ body.research-page-body #title-block-header {
 }
 
 .research-projects {
-  margin-top: clamp(4rem, 7vw, 6rem);
+  margin-top: clamp(1.33rem, 2.33vw, 2rem);
   max-width: 980px;
 }
 
-.research-projects h2 {
-  border-bottom: 1px solid var(--pace-line);
-  margin: 0 0 1.5rem;
-  padding-bottom: 0.8rem;
+.research-projects h1 {
+  margin: 0 0 2rem;
 }
 
 .research-projects ol {
@@ -729,7 +728,8 @@ body.research-page-body #title-block-header {
   .people-opening h1,
   body.research-page-body #title-block-header h1.title,
   body.publications-page-body #title-block-header h1.title,
-  body.contact-page-body #title-block-header h1.title {
+  body.contact-page-body #title-block-header h1.title,
+  .research-projects h1 {
     font-size: 2.2rem;
   }
 

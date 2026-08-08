@@ -49,7 +49,7 @@ We study how species traits, populations, and communities shape disease transmis
 :::
 
 ::: {.research-projects}
-## Research Projects
+# Research Projects
 
 1. 2023 NSFC General Program: Multiscale Study of the Effects of Species Functional Traits on Animal Infectious Disease Risk (Participate, granted, ¥540,000)
 2. 2022 NSFC Young Scientists Fund (C): Using multiplex network to identify spatial pattern of HPAI occurrence and its landscape driving mechanism (PI, granted, ¥200,000)
