@@ -1,5 +1,0 @@
-/* Keep right-aligned navigation fixed when page length changes. */
-html {
-  overflow-y: scroll;
-  scrollbar-gutter: stable;
-}

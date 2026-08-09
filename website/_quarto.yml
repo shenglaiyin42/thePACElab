@@ -41,7 +41,7 @@ format:
     theme: cosmo
     css:
       - pace-site.css
-      - navigation-stability.css
+      - navigation-stability-v2.css
     toc: false
     highlight-style: none
     anchor-sections: true
