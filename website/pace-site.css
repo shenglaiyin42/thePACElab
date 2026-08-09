@@ -17,7 +17,9 @@
 }
 
 html {
+  overflow-y: scroll;
   scroll-padding-top: 5rem;
+  scrollbar-gutter: stable;
 }
 
 body {
