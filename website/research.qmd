@@ -17,25 +17,25 @@ body-classes: "research-page-body"
 ::: {.research-card}
 ## Pathogen Dynamics
 
-We study how pathogens transmit, diversify, and emerge in wild animal populations by linking host traits, ecological communities, surveillance data, and quantitative models.
+I study how pathogens transmit, diversify, and emerge in wild animal populations by linking host traits, ecological communities, surveillance data, and quantitative models.
 :::
 
 ::: {.research-card}
 ## Animal Movement
 
-We study how animals move across changing landscapes and climates, and how those movements connect populations and shape ecological and disease processes.
+I study how animals move across changing landscapes and climates, and how those movements connect populations and shape ecological and disease processes.
 :::
 
 ::: {.research-card}
 ## Global Changes
 
-We investigate how climate and landscape change reshape host ecology and influence disease dynamics.
+I investigate how climate and landscape change reshape host ecology and influence disease dynamics.
 :::
 
 ::: {.research-card}
 ## Ecology
 
-We study how species traits, populations, and communities shape disease transmission dynamics across space and time.
+I study how species traits, populations, and communities shape disease transmission dynamics across space and time.
 :::
 
 <div class="research-connections" aria-hidden="true">
@@ -52,7 +52,7 @@ We study how species traits, populations, and communities shape disease transmis
 <section id="research-toolkit" class="research-toolkit">
 <h1>Research Toolkit</h1>
 
-<p class="toolkit-intro">PACE Lab combines mechanistic models with movement, environmental, ecological, and disease-surveillance data to understand and predict infectious-disease dynamics.</p>
+<p class="toolkit-intro">PACE Lab combines statistical and mechanistic models with movement, environmental, ecological, and disease-surveillance data to study infectious-disease dynamics.</p>
 
 <div class="toolkit-groups">
   <section class="toolkit-group" aria-labelledby="toolkit-analysis-title">
@@ -81,9 +81,9 @@ We study how species traits, populations, and communities shape disease transmis
       <h2 id="toolkit-modeling-title">Mechanistic Modeling</h2>
     </div>
     <div class="toolkit-methods">
-      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">ABM</span><span>Agent-based models</span></div>
-      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">SIR</span><span>SIR / SEIR models</span></div>
-      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">NET</span><span>Network models</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">ABM</span><span>Agent-based model</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">SIR</span><span>Compartment model</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">NET</span><span>Network model</span></div>
     </div>
   </section>
 
@@ -97,7 +97,7 @@ We study how species traits, populations, and communities shape disease transmis
     </div>
     <div class="toolkit-methods">
       <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">GPS</span><span>GPS telemetry</span></div>
-      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">BIRD</span><span>eBird observations</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">BIRD</span><span>Bird observations</span></div>
       <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">RS</span><span>Remote sensing</span></div>
       <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">SURV</span><span>Disease surveillance</span></div>
       <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">DNA</span><span>Genomic data</span></div>
