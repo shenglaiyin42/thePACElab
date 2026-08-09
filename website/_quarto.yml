@@ -39,7 +39,9 @@ website:
 format:
   html:
     theme: cosmo
-    css: pace-site.css
+    css:
+      - pace-site.css
+      - navigation-stability.css
     toc: false
     highlight-style: none
     anchor-sections: true
