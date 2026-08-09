@@ -284,6 +284,7 @@ body.people-page #title-block-header {
 body.research-page-body #title-block-header h1.title,
 body.publications-page-body #title-block-header h1.title,
 body.contact-page-body #title-block-header h1.title,
+.research-toolkit h1,
 .research-projects h1 {
   font-size: clamp(2.2rem, 3.6vw, 3.1rem);
   margin: 0 0 2rem;
@@ -563,8 +564,167 @@ body.research-page-body #title-block-header {
   margin: 0;
 }
 
+.research-toolkit {
+  margin-top: clamp(2.75rem, 5vw, 4.25rem);
+  max-width: 1120px;
+}
+
+.research-toolkit h1 {
+  margin-bottom: 0.8rem;
+}
+
+.toolkit-intro {
+  color: var(--pace-ink-soft);
+  margin: 0 0 1.65rem;
+  max-width: 850px;
+}
+
+.toolkit-groups {
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.toolkit-group {
+  min-width: 0;
+  padding: 0 1.5rem;
+}
+
+.toolkit-group:first-child {
+  padding-left: 0;
+}
+
+.toolkit-group:last-child {
+  padding-right: 0;
+}
+
+.toolkit-group + .toolkit-group {
+  border-left: 1px solid var(--pace-line);
+}
+
+.toolkit-heading {
+  align-items: center;
+  display: flex;
+  gap: 0.9rem;
+  margin-bottom: 1.15rem;
+}
+
+.toolkit-heading h2 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.toolkit-category-symbol {
+  border: 1.5px solid var(--pace-arrow);
+  border-radius: 50%;
+  flex: 0 0 4.35rem;
+  height: 4.35rem;
+  position: relative;
+  width: 4.35rem;
+}
+
+.toolkit-category-symbol .bi {
+  color: var(--pace-arrow);
+  line-height: 1;
+  position: absolute;
+}
+
+.toolkit-icon-gear {
+  font-size: 2.5rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toolkit-icon-funnel {
+  font-size: 1.55rem;
+  left: 50%;
+  top: 0.58rem;
+  transform: translateX(-50%);
+}
+
+.toolkit-icon-database {
+  bottom: 0.52rem;
+  font-size: 1.45rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.toolkit-symbol-data::after {
+  background: var(--pace-arrow);
+  content: "";
+  height: 0.42rem;
+  left: 50%;
+  position: absolute;
+  top: 2.04rem;
+  transform: translateX(-50%);
+  width: 1.5px;
+}
+
+.toolkit-analysis-axis {
+  border-bottom: 1.5px solid var(--pace-arrow);
+  border-left: 1.5px solid var(--pace-arrow);
+  bottom: 1.05rem;
+  height: 2.35rem;
+  left: 1.02rem;
+  position: absolute;
+  width: 2.45rem;
+}
+
+.toolkit-bar {
+  background: var(--pace-arrow);
+  bottom: 1.12rem;
+  position: absolute;
+  width: 0.38rem;
+}
+
+.toolkit-bar-a {
+  height: 0.85rem;
+  left: 1.38rem;
+}
+
+.toolkit-bar-b {
+  height: 1.45rem;
+  left: 2.02rem;
+}
+
+.toolkit-bar-c {
+  height: 2.05rem;
+  left: 2.66rem;
+}
+
+.toolkit-methods {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.toolkit-method {
+  align-items: center;
+  color: var(--pace-ink-soft);
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: 2.55rem minmax(0, 1fr);
+  line-height: 1.32;
+}
+
+.toolkit-method-mark {
+  align-items: center;
+  background: rgba(119, 118, 111, 0.07);
+  border: 1px solid var(--pace-line);
+  border-radius: 50%;
+  color: var(--pace-arrow);
+  display: inline-flex;
+  font-size: 0.66rem;
+  font-weight: 750;
+  height: 2.55rem;
+  justify-content: center;
+  letter-spacing: 0.01em;
+  width: 2.55rem;
+}
+
 .research-projects {
-  margin-top: clamp(1.33rem, 2.33vw, 2rem);
+  margin-top: clamp(2.25rem, 4vw, 3.25rem);
   max-width: 980px;
 }
 
@@ -682,6 +842,21 @@ body.research-page-body #title-block-header {
     grid-template-columns: 1fr;
   }
 
+  .toolkit-groups {
+    gap: 1.75rem;
+    grid-template-columns: 1fr;
+  }
+
+  .toolkit-group {
+    padding: 0;
+  }
+
+  .toolkit-group + .toolkit-group {
+    border-left: 0;
+    border-top: 1px solid var(--pace-line);
+    padding-top: 1.75rem;
+  }
+
   .research-connections {
     display: none;
   }
@@ -729,6 +904,7 @@ body.research-page-body #title-block-header {
   body.research-page-body #title-block-header h1.title,
   body.publications-page-body #title-block-header h1.title,
   body.contact-page-body #title-block-header h1.title,
+  .research-toolkit h1,
   .research-projects h1 {
     font-size: 2.2rem;
   }

@@ -48,6 +48,65 @@ We study how species traits, populations, and communities shape disease transmis
 </div>
 :::
 
+```{=html}
+<section id="research-toolkit" class="research-toolkit">
+<h1>Research Toolkit</h1>
+
+<p class="toolkit-intro">PACE Lab combines mechanistic models with movement, environmental, ecological, and disease-surveillance data to understand and predict infectious-disease dynamics.</p>
+
+<div class="toolkit-groups">
+  <section class="toolkit-group" aria-labelledby="toolkit-analysis-title">
+    <div class="toolkit-heading">
+      <div class="toolkit-category-symbol toolkit-symbol-analysis" aria-hidden="true">
+        <span class="toolkit-analysis-axis"></span>
+        <span class="toolkit-bar toolkit-bar-a"></span>
+        <span class="toolkit-bar toolkit-bar-b"></span>
+        <span class="toolkit-bar toolkit-bar-c"></span>
+      </div>
+      <h2 id="toolkit-analysis-title">Quantitative Analysis</h2>
+    </div>
+    <div class="toolkit-methods">
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">STAT</span><span>Statistical modeling</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">ML</span><span>Machine learning</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">MAP</span><span>Spatial analysis</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">HPC</span><span>High-performance computing</span></div>
+    </div>
+  </section>
+
+  <section class="toolkit-group" aria-labelledby="toolkit-modeling-title">
+    <div class="toolkit-heading">
+      <div class="toolkit-category-symbol toolkit-symbol-model" aria-hidden="true">
+        <i class="bi bi-gear-wide-connected toolkit-icon-gear"></i>
+      </div>
+      <h2 id="toolkit-modeling-title">Mechanistic Modeling</h2>
+    </div>
+    <div class="toolkit-methods">
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">ABM</span><span>Agent-based models</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">SIR</span><span>SIR / SEIR models</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">NET</span><span>Network models</span></div>
+    </div>
+  </section>
+
+  <section class="toolkit-group" aria-labelledby="toolkit-data-title">
+    <div class="toolkit-heading">
+      <div class="toolkit-category-symbol toolkit-symbol-data" aria-hidden="true">
+        <i class="bi bi-funnel toolkit-icon-funnel"></i>
+        <i class="bi bi-database toolkit-icon-database"></i>
+      </div>
+      <h2 id="toolkit-data-title">Data Integration</h2>
+    </div>
+    <div class="toolkit-methods">
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">GPS</span><span>GPS telemetry</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">BIRD</span><span>eBird observations</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">RS</span><span>Remote sensing</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">SURV</span><span>Disease surveillance</span></div>
+      <div class="toolkit-method"><span class="toolkit-method-mark" aria-hidden="true">DNA</span><span>Genomic data</span></div>
+    </div>
+  </section>
+</div>
+</section>
+```
+
 ::: {.research-projects}
 # Funding Projects
 
