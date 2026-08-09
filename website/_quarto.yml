@@ -24,15 +24,15 @@ website:
     search: false
     right:
       - text: "Home"
-        href: index.qmd
+        href: index.html?v=nav-20260808-3
       - text: "Research"
-        href: research.qmd
+        href: research.html?v=nav-20260808-3
       - text: "People"
-        href: people.qmd
+        href: people.html?v=nav-20260808-3
       - text: "Pubs"
-        href: publications.qmd
+        href: publications.html?v=nav-20260808-3
       - text: "Contact"
-        href: contact.qmd
+        href: contact.html?v=nav-20260808-3
   open-graph: true
   twitter-card: true
 
@@ -50,6 +50,32 @@ format:
     include-in-header:
       text: |
         <meta name="theme-color" content="#171716">
+        <script>
+          window.addEventListener("DOMContentLoaded", function () {
+            const navigationVersion = "nav-20260808-3";
+            const normalizePath = function (path) {
+              return path.endsWith("/index.html")
+                ? path.slice(0, -"index.html".length)
+                : path;
+            };
+            const currentPath = normalizePath(window.location.pathname);
+
+            document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+              const linkPath = normalizePath(new URL(link.href, window.location.origin).pathname);
+              const isCurrentPage = linkPath === currentPath;
+              link.classList.toggle("active", isCurrentPage);
+              if (isCurrentPage) {
+                link.setAttribute("aria-current", "page");
+              } else {
+                link.removeAttribute("aria-current");
+              }
+            });
+
+            if (new URLSearchParams(window.location.search).get("v") === navigationVersion) {
+              window.history.replaceState({}, "", currentPath + window.location.hash);
+            }
+          });
+        </script>
 
 execute:
   freeze: auto
