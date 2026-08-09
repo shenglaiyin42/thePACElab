@@ -1,12 +1,12 @@
 ---
-title: "Meet the People of PACE Lab"
-description: "Meet the people of PACE Lab."
+title: "Meet the PACE Lab Team"
+description: "Meet the PACE Lab team."
 page-layout: full
 body-classes: "people-page"
 ---
 
 ::: {.page-shell .people-opening}
-# Meet the People of PACE Lab
+# Meet the PACE Lab Team
 
 PACE Lab is created by Dr. Shenglai Yin.
 

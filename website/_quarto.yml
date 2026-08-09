@@ -24,15 +24,15 @@ website:
     search: false
     right:
       - text: "Home"
-        href: index.html?v=nav-20260808-3
+        href: index.html?v=nav-20260809-4
       - text: "Research"
-        href: research.html?v=nav-20260808-3
-      - text: "People"
-        href: people.html?v=nav-20260808-3
+        href: research.html?v=nav-20260809-4
+      - text: "Team"
+        href: people.html?v=nav-20260809-4
       - text: "Pubs"
-        href: publications.html?v=nav-20260808-3
+        href: publications.html?v=nav-20260809-4
       - text: "Contact"
-        href: contact.html?v=nav-20260808-3
+        href: contact.html?v=nav-20260809-4
   open-graph: true
   twitter-card: true
 
@@ -52,7 +52,7 @@ format:
         <meta name="theme-color" content="#171716">
         <script>
           window.addEventListener("DOMContentLoaded", function () {
-            const navigationVersion = "nav-20260808-3";
+            const navigationVersion = "nav-20260809-4";
             const normalizePath = function (path) {
               return path.endsWith("/index.html")
                 ? path.slice(0, -"index.html".length)
