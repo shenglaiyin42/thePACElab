@@ -1,26 +1,26 @@
-# PaceLab 资料库
+# PACE Lab Repository
 
-本仓库用于集中维护 PaceLab 的课题组资料、工作手册和公共网站。
+This repository provides a central place for maintaining PACE Lab materials, the lab handbook, and the public website.
 
-目前采用以下结构：
+The repository currently uses the following structure:
 
 ```text
 thePACElab/
-├── handbook/           # 课题组手册与入组资料
-│   └── onboarding/     # 新成员入组指南
-└── website/            # PaceLab 公共网站子项目
+├── handbook/           # Lab handbook and onboarding materials
+│   └── onboarding/     # New-member onboarding guide
+└── website/            # PACE Lab public website project
 ```
 
-## 课题组手册
+## Lab Handbook
 
-- [新成员入组指南](handbook/onboarding/README.md)
+- [New-Member Onboarding Guide](handbook/onboarding/README.md)
 
-手册目前从最必要的内容开始，后续可根据实际需要逐步增加数据与代码管理、野外工作、组会与沟通、常用模板等资料。
+The handbook begins with essential information. Additional guidance on data and code management, fieldwork, lab meetings and communication, commonly used templates, and other topics can be added as needed.
 
-## 公共网站
+## Public Website
 
-网站的内容、样式和构建脚本统一保存在 [`website/`](website/) 中。网站仍可独立维护和发布，详细说明见 [网站维护指南](website/README.md)。
+The website content, styles, and build scripts are maintained in [`website/`](website/). The website can be maintained and published independently; see the [Website Maintenance Guide](website/README.md) for details.
 
-课题组内部资料不会自动发布到 PaceLab 网站。只有 `website/` 子项目中的内容会进入网站构建与发布流程。
+Internal lab materials are not automatically published on the PACE Lab website. Only content in the `website/` project is included in the website build and deployment process.
 
-> 本仓库目前是公开仓库。请勿在手册或资料中提交密码、未公开数据、私人联系方式或其他敏感信息。
+> This repository is public. Do not commit passwords, unpublished data, private contact details, or other sensitive information to the handbook or other repository materials.

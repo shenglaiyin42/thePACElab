@@ -10,23 +10,11 @@ body-classes: "pace-home"
 
 ::: {.pace-expansion}
 **P**athogen Dynamics, **A**nimal Movement, Global **C**hanges, and **E**cology.
-
-::: {.home-chinese}
-病原体动态、动物移动、全球变化与生态。
-:::
 :::
 
 ::: {.home-pi}
 Dr. Shenglai Yin.
-
-::: {.home-chinese}
-研究组负责人：殷盛来博士。
-:::
 :::
 
 I combine quantitative analyses, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, particularly agent-based model, to understand infectious disease transmission across scales.
-
-::: {.home-chinese}
-我结合定量分析（包括统计建模、网络分析与机器学习）和机制建模，尤其是个体基础模型，来理解不同尺度上的病原体传播动态。
-:::
 :::
