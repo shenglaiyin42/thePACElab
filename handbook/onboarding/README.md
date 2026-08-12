@@ -8,7 +8,7 @@
 
 ## 1. 关于 PaceLab
 
-PaceLab 的全称是 **Pathogen Dynamics, Animal Movement, Global Change, and Ecology Lab**。我们关注病原体动态、动物移动、全球变化与生态过程之间的联系。
+PaceLab 的全称是 **Pathogen Dynamics, Animal Movement, Global Changes, and Ecology Lab**。我们关注病原体动态、动物移动、全球变化与生态过程之间的联系。
 
 目前，课题组的工作主要以数据分析和模型建模为主。未来随着研究项目的发展，我们也可能开展一些野外工作。
 
