@@ -1,16 +1,15 @@
-# PACE Lab Website
+# PACE Personal Website
 
-This is the public website project within the PACE Lab repository.
+This is the public personal website project for Dr. Shenglai Yin.
 
-The website is built with [Quarto](https://quarto.org/). Only content in this directory is included in the website build and deployment process; the lab handbook elsewhere in the repository is not automatically published on the website.
+The website is built with [Quarto](https://quarto.org/). Only content in this directory is included in the website build and deployment process; other repository materials are not automatically published on the website.
 
 ## Editing the Website
 
 The primary files are:
 
-- `index.qmd`: Home page and lab introduction
+- `index.qmd`: Home page and personal introduction
 - `research.qmd`: Research topics, toolkit, and funding projects
-- `people.qmd`: Team profiles
 - `publications.qmd`: Publications
 - `contact.qmd`: Contact information
 - `_quarto.yml`: Navigation and site-wide settings

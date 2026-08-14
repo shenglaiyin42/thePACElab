@@ -1,5 +1,5 @@
 ---
-title: "Publications from PACE Lab"
+title: "Publications"
 page-layout: full
 body-classes: "publications-page-body"
 ---

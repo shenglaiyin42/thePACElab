@@ -1,4 +1,4 @@
-/* PACE Lab site styles */
+/* PACE personal site styles */
 :root {
   --pace-ink: #171716;
   --pace-ink-soft: #3f3e3a;
@@ -204,10 +204,37 @@ body.people-page #title-block-header {
 .home-pi {
   color: var(--pace-ink-soft);
   font-size: var(--pace-body-size);
-  margin-bottom: clamp(2.6rem, 6vw, 4.2rem);
+  margin-bottom: clamp(1.2rem, 2.5vw, 1.8rem);
 }
 
 .home-pi p {
+  margin: 0;
+}
+
+.home-profile {
+  align-items: start;
+  display: grid;
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  grid-template-columns: 172px minmax(0, 1fr);
+  margin: 0;
+}
+
+.home-profile .profile-image-wrap {
+  max-width: 172px;
+}
+
+.home-profile .profile-image {
+  box-shadow: 6px 6px 0 var(--pace-sand);
+}
+
+.home-profile-copy {
+  color: #31302d;
+  font-size: var(--pace-body-size);
+  line-height: 1.85;
+  max-width: 700px;
+}
+
+.home-profile-copy p {
   margin: 0;
 }
 
@@ -863,6 +890,10 @@ body.research-page-body #title-block-header {
 
   .profile-image-wrap {
     max-width: 220px;
+  }
+
+  .home-profile {
+    grid-template-columns: 1fr;
   }
 
   .contact-band {

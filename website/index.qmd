@@ -1,12 +1,12 @@
 ---
-title: "PACE Lab"
+title: "PACE | Shenglai Yin"
 description: "Pathogens, Animal Movement, Changes, and Ecology"
 page-layout: full
 body-classes: "pace-home"
 ---
 
 ::: {.home-simple}
-# PACE Lab
+# PACE
 
 ::: {.pace-expansion}
 **P**athogen Dynamics, **A**nimal Movement, Global **C**hanges, and **E**cology.
@@ -16,5 +16,20 @@ body-classes: "pace-home"
 Dr. Shenglai Yin.
 :::
 
-I combine quantitative analyses, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, particularly agent-based model, to understand infectious disease transmission across scales.
+::: {.home-profile}
+::: {.profile-image-wrap}
+<img src="assets/img/shenglai-yin-headshot.jpg" class="profile-image" alt="Professional headshot of Dr. Shenglai Yin">
+
+<nav class="profile-social-links" aria-label="Dr. Shenglai Yin’s social and research profiles">
+  <a href="https://x.com/Shenglai_Y" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin on X (Twitter)"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
+  <a href="https://bsky.app/profile/shenglai.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin on Bluesky"><i class="bi bi-bluesky" aria-hidden="true"></i></a>
+  <a href="https://orcid.org/0000-0001-9889-9656" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin’s ORCID profile"><span class="profile-orcid-mark" aria-hidden="true">iD</span></a>
+  <a href="https://scholar.google.com/citations?user=J9VueqQAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Dr. Shenglai Yin’s Google Scholar profile"><i class="bi bi-mortarboard" aria-hidden="true"></i></a>
+</nav>
+:::
+
+::: {.home-profile-copy}
+I study infectious-disease dynamics at the intersection of disease ecology, animal movement, and global change. My research combines quantitative analysis—including statistical modeling, network analysis, and machine learning—with mechanistic approaches, especially agent-based models, to understand how pathogens transmit and emerge across scales.
+:::
+:::
 :::

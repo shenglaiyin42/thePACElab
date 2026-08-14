@@ -1,5 +1,5 @@
 ---
-title: "Research Topics"
+title: "Research"
 page-layout: full
 body-classes: "research-page-body"
 ---
@@ -52,7 +52,7 @@ I study how species traits, populations, and communities shape disease transmiss
 <section id="research-toolkit" class="research-toolkit">
 <h1>Research Toolkit</h1>
 
-<p class="toolkit-intro">PACE Lab combines statistical and mechanistic models with movement, environmental, ecological, and disease-surveillance data to study infectious-disease dynamics.</p>
+<p class="toolkit-intro">I combine statistical and mechanistic models with movement, environmental, ecological, and disease-surveillance data to study infectious-disease dynamics.</p>
 
 <div class="toolkit-groups">
   <section class="toolkit-group" aria-labelledby="toolkit-analysis-title">
