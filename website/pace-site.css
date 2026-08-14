@@ -176,7 +176,7 @@ body.people-page #title-block-header {
   color: var(--pace-ink-soft);
   font-size: clamp(1.05rem, 2vw, 1.28rem);
   letter-spacing: 0.01em;
-  margin-bottom: 0.45rem;
+  margin-bottom: 1.35rem;
 }
 
 .pace-expansion p {
@@ -232,6 +232,17 @@ body.people-page #title-block-header {
   font-size: var(--pace-body-size);
   line-height: 1.85;
   max-width: 700px;
+}
+
+.home-profile-name {
+  color: var(--pace-ink-soft);
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 0 0 0.85rem;
+}
+
+.home-profile-name p {
+  margin: 0;
 }
 
 .home-profile-copy p {
