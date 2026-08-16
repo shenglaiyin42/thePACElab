@@ -249,6 +249,24 @@ body.people-page #title-block-header {
   margin: 0;
 }
 
+.cv-download-button {
+  border: 1px solid #7d7a72;
+  color: #46443f;
+  display: inline-block;
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-top: 1.5rem;
+  padding: 0.36rem 1.28rem;
+  text-decoration: none;
+}
+
+.cv-download-button:hover,
+.cv-download-button:focus-visible {
+  background: var(--pace-ink);
+  color: var(--pace-paper);
+}
+
 .home-simple > p {
   color: #31302d;
   font-size: var(--pace-body-size);

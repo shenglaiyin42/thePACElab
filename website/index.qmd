@@ -30,6 +30,8 @@ Dr. Shenglai Yin.
 :::
 
 I study infectious-disease dynamics at the intersection of disease ecology, animal movement, and global change. My research combines quantitative analysis, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, especially agent-based models, to understand how pathogens transmit and emerge across scales.
+
+<a class="cv-download-button" href="assets/documents/Curriculum_Vitae_Shenglai_Yin_August_2026.pdf" download="Curriculum_Vitae_Shenglai_Yin_August_2026.pdf">CV</a>
 :::
 :::
 :::
