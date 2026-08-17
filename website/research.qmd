@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Topics"
 page-layout: full
 body-classes: "research-page-body"
 ---

@@ -24,7 +24,7 @@ website:
     right:
       - text: "Home"
         href: index.html?v=nav-20260809-4
-      - text: "Research"
+      - text: "Topics"
         href: research.html?v=nav-20260809-4
       - text: "Pubs"
         href: publications.html?v=nav-20260809-4
