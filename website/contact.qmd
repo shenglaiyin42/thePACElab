@@ -5,5 +5,5 @@ body-classes: "contact-page-body"
 ---
 
 ::: {.page-shell .page-intro}
-For research questions, collaboration inquiries, or future opportunities, please send an email to [Dr. Shenglai Yin](mailto:shenglai.yin@outlook.com) [shenglai.yin AT outlook.com].
+For research questions, collaboration inquiries, or future opportunities, please send an email to [Dr. Shenglai Yin](mailto:shenglai.yin42@outlook.com) [shenglai.yin42 AT outlook.com].
 :::

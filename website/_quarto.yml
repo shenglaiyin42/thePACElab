@@ -4,28 +4,31 @@ project:
   render:
     - index.qmd
     - research.qmd
+    - people.qmd
     - publications.qmd
     - contact.qmd
   resources:
     - assets
 
 website:
-  title: "PACE | Shenglai Yin"
+  title: "PACE Lab"
   description: "Pathogens, Animal Movement, Changes, and Ecology"
   favicon: assets/favicon.svg
   navbar:
     headroom: false
     logo: assets/logo-concepts/pace-logo-official-v2.png
-    logo-alt: "PACE logo"
-    title: false
+    logo-alt: "PACE Lab logo"
+    title: "PACE Lab"
     background: "#fffdf7"
     foreground: "#171716"
     search: false
     right:
       - text: "Home"
         href: index.html?v=nav-20260809-4
-      - text: "Topics"
+      - text: "Research"
         href: research.html?v=nav-20260809-4
+      - text: "Team"
+        href: people.html?v=nav-20260809-4
       - text: "Pubs"
         href: publications.html?v=nav-20260809-4
       - text: "Contact"
