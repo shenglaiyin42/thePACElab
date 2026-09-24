@@ -406,6 +406,20 @@ body.contact-page-body #title-block-header h1.title,
   color: var(--pace-ink);
 }
 
+.team-profiles {
+  padding-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.lab-history {
+  border-top: 1px solid var(--pace-line);
+  margin-top: 0;
+  padding-top: clamp(2rem, 4vw, 3rem);
+}
+
+.lab-history h2 {
+  margin-bottom: 1.5rem;
+}
+
 .profile-grid {
   align-items: start;
   display: grid;

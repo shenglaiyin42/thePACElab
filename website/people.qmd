@@ -13,7 +13,7 @@ PACE Lab is created by Dr. Shenglai Yin.
 Additional lab members and collaborators will be added as the team grows.
 :::
 
-::: {.page-shell .content-shell}
+::: {.page-shell .content-shell .team-profiles}
 ::: {.profile-grid}
 ::: {.profile-image-wrap}
 <img src="assets/img/shenglai-yin-headshot.jpg" class="profile-image" alt="Professional headshot of Dr. Shenglai Yin">
@@ -39,4 +39,10 @@ He develops quantitative approaches, including agent-based, epidemiological, net
 His current work focuses on migratory waterbirds, avian influenza, and One Health challenges at wildlife–poultry–human interfaces. Through ecological data and mechanistic models, he aims to improve prediction of disease spread, spillover, and viral emergence while supporting wildlife conservation and animal health.
 :::
 :::
+:::
+
+::: {.page-shell .content-shell .lab-history}
+## PACE Lab History
+
+1. The PACE Lab is expected to be officially established in January 2027.
 :::
