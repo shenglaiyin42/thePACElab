@@ -1,5 +1,5 @@
 ---
-title: "Publications from PACE Lab"
+title: "Publications"
 page-layout: full
 body-classes: "publications-page-body"
 ---
@@ -25,7 +25,7 @@ body-classes: "publications-page-body"
 14. **Shenglai Yin**, et al. (2015). *Spartina alterniflora* invasions impact CH4 and N2O fluxes from a salt marsh in eastern China. *Ecological Engineering*. [https://doi.org/10.1016/j.ecoleng.2015.04.044](https://doi.org/10.1016/j.ecoleng.2015.04.044)
 15. Lingyan Zhou, **Shenglai Yin**<sup>&#42;</sup>, et al. (2015). *Spartina alterniflora* invasion alters carbon exchange and soil organic carbon in the eastern salt marsh of China. *CLEAN – Soil, Air, Water*. [https://doi.org/10.1002/clen.201300838](https://doi.org/10.1002/clen.201300838)
 
-## Collaborative publications
+## Collaborated publications
 
 16. Baihong Pan, Nishan Bhattarai, Yanhua Xie, **Shenglai Yin**, et al. Identifying yellow flowers of canola crop with PlanetScope images and the Carotenoids and Yellow Flower Indicator (CYFI). *Remote Sensing of Environment*. *Under review.*
 17. Johanna Harvey, Matthew Gonnerman, **Shenglai Yin**, et al. (2026). Feathers and flu: Identifying data gaps in avian influenza host dynamics to prioritize wildlife conservation. *Wildlife Monographs*. [https://doi.org/10.1002/wmon.70015](https://doi.org/10.1002/wmon.70015)
