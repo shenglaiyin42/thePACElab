@@ -12,5 +12,5 @@ body-classes: "pace-home"
 **P**athogen Dynamics, **A**nimal Movement, Global **C**hanges, and **E**cology.
 :::
 
-Our lab combines quantitative analyses, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, particularly agent-based and compartment models, to understand infectious disease transmission in wildlife across scales.
+Our team combines quantitative analyses, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, particularly agent-based and compartment models, to understand infectious disease transmission in wildlife across scales.
 :::

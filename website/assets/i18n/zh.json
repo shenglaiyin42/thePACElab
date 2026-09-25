@@ -11,8 +11,8 @@
       "title": "首页",
       "selectors": {
         ".home-simple > h1": "PACE Lab",
-        ".pace-expansion > p": "病原体动态、动物迁移、全球变化与生态。",
-        ".home-simple > p": "我们团队擅长运用统计模型、网络分析和机器学习等定量分析方法，结合个体基础模型和箱式模型等机制模型，研究不同尺度上的传染病传播动态。"
+        ".pace-expansion > p": "病原体动态、动物迁移、全球变化与生态过程。",
+        ".home-simple > p": "我们团队擅长运用统计模型、网络分析和机器学习等定量分析方法，结合个体基础模型（agent-based model）和箱式模型（compartment model）等机理模型，研究不同尺度上的传染病传播动态。"
       }
     },
     "research": {
