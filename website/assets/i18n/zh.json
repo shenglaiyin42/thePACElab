@@ -1,10 +1,10 @@
 {
   "navigation": {
     "Home": "首页",
-    "Research": "研究",
-    "Team": "团队",
+    "Research": "研究主题",
+    "Team": "研究团队",
     "Pubs": "论文",
-    "Contact": "联系"
+    "Contact": "联系我们"
   },
   "pages": {
     "index": {
