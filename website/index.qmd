@@ -1,6 +1,6 @@
 ---
 title: "PACE Lab"
-description: "Pathogens, Animal Movement, Changes, and Ecology"
+description: "Pathogen Dynamics, Animal Movement, Global Changes, and Ecology"
 page-layout: full
 body-classes: "pace-home"
 ---
@@ -12,9 +12,5 @@ body-classes: "pace-home"
 **P**athogen Dynamics, **A**nimal Movement, Global **C**hanges, and **E**cology.
 :::
 
-::: {.home-pi}
-Dr. Shenglai Yin.
-:::
-
-I combine quantitative analyses, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, particularly agent-based model, to understand infectious disease transmission across scales.
+Our lab combines quantitative analyses, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, particularly agent-based model, compartment model, and network model, to understand infectious disease transmission in wildlife across scales.
 :::
