@@ -35,9 +35,9 @@
       const href = link.getAttribute("href");
       if (!href || href.startsWith("#") || link.hasAttribute("download")) return;
       const url = new URL(href, window.location.href);
-      if (url.origin !== window.location.origin || !url.pathname.endsWith(".html")) return;
+      if (url.origin !== window.location.origin ||
+          !(url.pathname === "/" || url.pathname.endsWith(".html"))) return;
       if (language === "zh") {
-        url.searchParams.delete("v");
         url.searchParams.set("lang", "zh");
       } else {
         url.searchParams.delete("lang");

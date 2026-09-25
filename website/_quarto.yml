@@ -9,6 +9,7 @@ project:
     - contact.qmd
   resources:
     - assets
+    - navigation-stability-v2.css
 
 website:
   title: "PACE Lab"
@@ -24,15 +25,15 @@ website:
     search: false
     right:
       - text: "Home"
-        href: index.html?v=nav-20260809-4
+        href: index.html?v=nav-20260925-7
       - text: "Research"
-        href: research.html?v=nav-20260809-4
+        href: research.html?v=nav-20260925-7
       - text: "Team"
-        href: people.html?v=nav-20260809-4
+        href: people.html?v=nav-20260925-7
       - text: "Pubs"
-        href: publications.html?v=nav-20260809-4
+        href: publications.html?v=nav-20260925-7
       - text: "Contact"
-        href: contact.html?v=nav-20260809-4
+        href: contact.html?v=nav-20260925-7
   open-graph: true
   twitter-card: true
 
@@ -50,10 +51,10 @@ format:
     include-in-header:
       text: |
         <meta name="theme-color" content="#171716">
-        <script defer src="assets/js/language-switch.js?v=home-en-20260925"></script>
+        <script defer src="assets/js/language-switch.js?v=nav-cache-20260925"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
-            const navigationVersion = "nav-20260809-4";
+            const navigationVersion = "nav-20260925-7";
             const normalizePath = function (path) {
               return path.endsWith("/index.html")
                 ? path.slice(0, -"index.html".length)
@@ -73,7 +74,9 @@ format:
             });
 
             if (new URLSearchParams(window.location.search).get("v") === navigationVersion) {
-              window.history.replaceState({}, "", currentPath + window.location.hash);
+              const cleanUrl = new URL(window.location.href);
+              cleanUrl.searchParams.delete("v");
+              window.history.replaceState({}, "", currentPath + cleanUrl.search + cleanUrl.hash);
             }
           });
         </script>
