@@ -52,14 +52,14 @@
       }
     },
     "people": {
-      "title": "团队",
+      "title": "PACE Lab 团队",
       "selectors": {
-        ".people-opening > h1": "认识 PACE Lab 团队",
+        ".people-opening > h1": "PACE Lab 团队",
         ".people-opening > p:nth-of-type(1)": "PACE Lab 依托于南京林业大学生命科学学院，由殷盛来博士组建。",
-        "section[id=\"dr.-shenglai-yin-pi\"] > h2": "殷盛来博士（首席研究员）",
-        "section[id=\"dr.-shenglai-yin-pi\"] > p:nth-of-type(1)": "殷盛来博士组建了 PACE Lab。他的研究深度融合了疾病生态学、野生动物迁移生态学与全球变化生物学，致力于解析和预测病原体的传播。他开发了一系列定量研究方法，包括基于个体模型（Agent-based models）、流行病学模型、网络模型、统计学以及机器学习模型，旨在探究动物迁移、景观与气候变化以及宿主群落组成如何共同影响野生动物疾病风险。目前，他的研究重点聚焦于迁徙水鸟、禽流感，以及野生动物-家禽-人类交界面上的“同一健康”（One Health）挑战。通过结合生态学数据与机制模型，他旨在提升对疾病传播、跨物种溢出（Spillover）及新发传染病（Emergence）的预测能力，同时为野生动物保育与动物健康提供科学支撑。",
-        "#the-pace-lab-journey > h2": "PACE Lab 发展历程",
-        "#the-pace-lab-journey > ol > li:nth-child(1)": "the PACE Lab 预计于 2027 年 1 月正式成立。"
+        "section[id=\"dr.-shenglai-yin-pi\"] > h2": "殷盛来 博士（首席研究员）",
+        "section[id=\"dr.-shenglai-yin-pi\"] > p:nth-of-type(1)": "殷盛来博士的研究深度融合了疾病生态学、野生动物迁移生态学与全球变化生物学，致力于解析和预测病原体的传播。他运用一系列研究手段，包括基于个体模型（agent-based models）、流行病学模型、网络模型、统计学以及机器学习模型等，旨在探究动物迁移、景观与气候变化以及宿主群落组成如何共同影响野生动物疾病风险。目前，他的研究重点聚焦于迁徙水鸟、禽流感，以及野生动物-家禽-人类交界面上的“同一健康”（One Health）挑战。通过结合生态学数据与多样化的模型方法，他旨在提升对疾病传播、跨物种溢出（Spillover）及新发传染病（Emergence）的预测能力，同时为野生动物保育与动物健康提供科学支撑。",
+        "#pace-lab-journey > h2": "PACE Lab 发展历程",
+        "#pace-lab-journey > ol > li:nth-child(1)": "PACE Lab 预计于 2027 年 1 月正式成立。"
       }
     },
     "publications": {

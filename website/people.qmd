@@ -1,5 +1,5 @@
 ---
-title: "Meet the PACE Lab Team"
+title: "Meet the Team"
 description: "Meet the team."
 page-layout: full
 body-classes: "people-page"
@@ -30,13 +30,13 @@ Dr. Shenglai Yin established the PACE Lab at the School of Life Sciences, Nanjin
 
 ## Dr. Shenglai Yin (PI)
 
-Dr. Shenglai Yin established the PACE Lab. His research integrates disease ecology, movement ecology, and global change biology to understand and predict pathogen transmission. He develops quantitative approaches, including agent-based, epidemiological, network, statistical, and machine-learning models, to examine how animal movement, landscape and climate changes, and host communities shape disease risk. His current work focuses on migratory waterbirds, avian influenza, and One Health challenges at wildlife–poultry–human interfaces. Through ecological data and mechanistic models, he aims to improve prediction of disease spread, spillover, and viral emergence while supporting wildlife conservation and animal health.
+His research integrates disease ecology, movement ecology, and global change biology to understand and predict wildlife pathogen transmission dynamics. He develops quantitative approaches, including agent-based, epidemiological, network, statistical, and machine-learning models, to examine how animal movement, landscape and climate changes, and host communities shape disease risk. His current work focuses on migratory waterbirds, avian influenza, and One Health challenges at wildlife–poultry–human interfaces. Through ecological data and various modeling approaches, he aims to improve prediction of disease spread, spillover, and emergence while supporting wildlife conservation and animal health.
 :::
 :::
 :::
 
 ::: {.page-shell .content-shell .lab-history}
-## the PACE Lab Journey
+## PACE Lab Journey
 
 1. The PACE Lab is expected to be officially established in January 2027.
 :::
