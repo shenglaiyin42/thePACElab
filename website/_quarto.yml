@@ -50,7 +50,7 @@ format:
     include-in-header:
       text: |
         <meta name="theme-color" content="#171716">
-        <script defer src="assets/js/language-switch.js"></script>
+        <script defer src="assets/js/language-switch.js?v=home-en-20260925"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
             const navigationVersion = "nav-20260809-4";

@@ -14,6 +14,8 @@
   function savedLanguage() {
     const requested = new URLSearchParams(window.location.search).get("lang");
     if (requested === "zh" || requested === "en") return requested;
+    // Direct homepage visits start in English; explicit ?lang=zh still works.
+    if (page === "index") return "en";
     try {
       return window.localStorage.getItem("pace-language") === "zh" ? "zh" : "en";
     } catch (_) {
