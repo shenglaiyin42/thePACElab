@@ -1,16 +1,14 @@
 ---
 title: "Meet the PACE Lab Team"
-description: "Meet the PACE Lab team."
+description: "Meet the team."
 page-layout: full
 body-classes: "people-page"
 ---
 
 ::: {.page-shell .people-opening}
-# Meet the PACE Lab Team
+# Meet the Team
 
-PACE Lab is created by Dr. Shenglai Yin.
-
-Additional lab members and collaborators will be added as the team grows.
+Dr. Shenglai Yin founded the PACE Lab at the School of Life Sciences, Nanjing Forestry University.
 :::
 
 ::: {.page-shell .content-shell .team-profiles}
@@ -30,19 +28,15 @@ Additional lab members and collaborators will be added as the team grows.
 ::: {.eyebrow}
 :::
 
-## Dr. Shenglai Yin
+## Dr. Shenglai Yin (PI)
 
-Dr. Shenglai Yin build the PACE Lab. His research integrates disease ecology, movement ecology, and global change biology to understand and predict pathogen transmission.
-
-He develops quantitative approaches, including agent-based, epidemiological, network, statistical, and machine-learning models, to examine how animal movement, landscape and climate changes, and host communities shape disease risk.
-
-His current work focuses on migratory waterbirds, avian influenza, and One Health challenges at wildlife–poultry–human interfaces. Through ecological data and mechanistic models, he aims to improve prediction of disease spread, spillover, and viral emergence while supporting wildlife conservation and animal health.
+Dr. Shenglai Yin established the PACE Lab. His research integrates disease ecology, movement ecology, and global change biology to understand and predict pathogen transmission. He develops quantitative approaches, including agent-based, epidemiological, network, statistical, and machine-learning models, to examine how animal movement, landscape and climate changes, and host communities shape disease risk. His current work focuses on migratory waterbirds, avian influenza, and One Health challenges at wildlife–poultry–human interfaces. Through ecological data and mechanistic models, he aims to improve prediction of disease spread, spillover, and viral emergence while supporting wildlife conservation and animal health.
 :::
 :::
 :::
 
 ::: {.page-shell .content-shell .lab-history}
-## PACE Lab History
+## the PACE Lab Journey
 
 1. The PACE Lab is expected to be officially established in January 2027.
 :::
