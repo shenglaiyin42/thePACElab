@@ -17,25 +17,25 @@ body-classes: "research-page-body"
 ::: {.research-card}
 ## Pathogen Dynamics
 
-I study how pathogens transmit, diversify, and emerge in wild animal populations by linking host traits, ecological communities, surveillance data, and quantitative models.
+We study how pathogens transmit, diversify, and emerge in wildlife by integrating host traits, ecological communities, and surveillance datasets with quantitative models.
 :::
 
 ::: {.research-card}
 ## Animal Movement
 
-I study how animals move across changing landscapes and climates, and how those movements connect populations and shape ecological and disease processes.
+We study how animal move through global changes, and how those movements connect populations and shape ecological and disease processes.
 :::
 
 ::: {.research-card}
 ## Global Changes
 
-I investigate how climate and landscape change reshape host ecology and influence disease dynamics.
+We investigate how climate and landscape changes reshape host ecology and influence pathogen dynamics.
 :::
 
 ::: {.research-card}
 ## Ecology
 
-I study how species traits, populations, and communities shape disease transmission dynamics across space and time.
+We study how animal traits, population dynamics, and community compositions shape disease dynamics across space and time.
 :::
 
 <div class="research-connections" aria-hidden="true">
@@ -51,8 +51,6 @@ I study how species traits, populations, and communities shape disease transmiss
 ```{=html}
 <section id="research-toolkit" class="research-toolkit">
 <h1>Research Toolkit</h1>
-
-<p class="toolkit-intro">PACE Lab combines statistical and mechanistic models with movement, environmental, ecological, and disease-surveillance data to study infectious-disease dynamics.</p>
 
 <div class="toolkit-groups">
   <section class="toolkit-group" aria-labelledby="toolkit-analysis-title">
@@ -108,12 +106,12 @@ I study how species traits, populations, and communities shape disease transmiss
 ```
 
 ::: {.research-projects}
-# Funding Projects
+# Funded Projects
 
-1. 2023 NSFC General Program: Multiscale Study of the Effects of Species Functional Traits on Animal Infectious Disease Risk (Participate, granted, ¥540,000)
-2. 2022 NSFC Young Scientists Fund (C): Using multiplex network to identify spatial pattern of HPAI occurrence and its landscape driving mechanism (PI, granted, ¥200,000)
-3. 2013 Funding of China Scholarship Council funding: How does the migration of geese influence the dispersal and perpetuation of avian influenza viruses? (Ph.D. funding, granted, ¥550,000)
-4. 08/2022 - present US-China Workshop on Frontiers in Ecology and Evolution of Infectious Diseases (EEID) [NSF award number: 1911955, postdoc researcher]
-5. 08/2022 - present PIPP Phase 1: International Center for Avian Influenza Pandemic Prediction and Prevention (PIPP Phase I) [NSF award number: 2200310, postdoc researcher]
+1. 2023-2025 NSFC General Program: Multiscale Study of the Effects of Species Functional Traits on Animal Infectious Disease Risk (Participate, granted, ¥540,000)
+2. 2022-2024 NSFC Young Scientists Fund (C): Using multiplex network to identify spatial pattern of HPAI occurrence and its landscape driving mechanism (PI, granted, ¥200,000)
+3. 2014-2018 Funding of China Scholarship Council funding: How does the migration of geese influence the dispersal and perpetuation of avian influenza viruses? (Ph.D. funding, granted, ¥550,000)
+4. 08/2022-12/2026 US-China Workshop on Frontiers in Ecology and Evolution of Infectious Diseases (EEID) [NSF award number: 1911955, postdoc researcher]
+5. 08/2022-12/2026 PIPP Phase 1: International Center for Avian Influenza Pandemic Prediction and Prevention (PIPP Phase I) [NSF award number: 2200310, postdoc researcher]
 :::
 :::
