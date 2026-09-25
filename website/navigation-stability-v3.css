@@ -5,11 +5,16 @@ html {
 }
 
 @media (min-width: 992px) {
+  .navbar-expand-lg {
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+  }
+
   .navbar-expand-lg .navbar-nav {
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    width: 29rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    width: 35rem;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link,
