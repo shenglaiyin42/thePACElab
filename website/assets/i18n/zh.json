@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "Home": "首页",
+    "Research": "研究",
+    "Team": "团队",
+    "Pubs": "论文",
+    "Contact": "联系"
+  },
+  "pages": {
+    "index": {
+      "title": "首页",
+      "selectors": {
+        ".home-simple > h1": "PACE Lab",
+        ".pace-expansion > p": "病原体动态、动物迁移、全球变化与生态。",
+        ".home-simple > p": "我们团队擅长运用统计模型、网络分析和机器学习等定量分析方法，结合个体基础模型和箱式模型等机制模型，研究不同尺度上的传染病传播动态。"
+      }
+    },
+    "research": {
+      "title": "研究主题",
+      "selectors": {
+        "#title-block-header h1.title": "研究主题",
+        "#pathogen-dynamics h2 a:first-child": "病原体动态",
+        "#pathogen-dynamics > p": "我们结合宿主性状、生态群落组成、疾病监测数据和定量模型，研究病原体如何在野生动物种群中传播、演化和暴发。",
+        "#animal-movement h2 a:first-child": "动物迁移",
+        "#animal-movement > p": "我们研究野生动物如何在全球变化背景中迁移，以及这些迁移过程如何与种群动态共同影响生态过程和疾病传播。",
+        "#global-changes h2 a:first-child": "全球变化",
+        "#global-changes > p": "我们关注气候与景观变化如何重塑宿主生态，并影响疾病动态。",
+        "#ecology h2 a:first-child": "生态",
+        "#ecology > p": "我们研究物种性状、种群动态和群落组成如何塑造野生动物疾病传播时空动态。",
+        "#research-toolkit > h1": "研究方法",
+        "#toolkit-analysis-title": "定量分析",
+        "#toolkit-modeling-title": "机制建模",
+        "#toolkit-data-title": "数据整合",
+        "#research-toolkit .toolkit-group:nth-child(1) .toolkit-method:nth-child(1) > span:last-child": "统计建模",
+        "#research-toolkit .toolkit-group:nth-child(1) .toolkit-method:nth-child(2) > span:last-child": "机器学习",
+        "#research-toolkit .toolkit-group:nth-child(1) .toolkit-method:nth-child(3) > span:last-child": "空间分析",
+        "#research-toolkit .toolkit-group:nth-child(1) .toolkit-method:nth-child(4) > span:last-child": "高性能计算",
+        "#research-toolkit .toolkit-group:nth-child(2) .toolkit-method:nth-child(1) > span:last-child": "个体基础模型",
+        "#research-toolkit .toolkit-group:nth-child(2) .toolkit-method:nth-child(2) > span:last-child": "箱式模型",
+        "#research-toolkit .toolkit-group:nth-child(2) .toolkit-method:nth-child(3) > span:last-child": "网络模型",
+        "#research-toolkit .toolkit-group:nth-child(3) .toolkit-method:nth-child(1) > span:last-child": "GPS 追踪数据",
+        "#research-toolkit .toolkit-group:nth-child(3) .toolkit-method:nth-child(2) > span:last-child": "鸟类观测记录",
+        "#research-toolkit .toolkit-group:nth-child(3) .toolkit-method:nth-child(3) > span:last-child": "遥感数据",
+        "#research-toolkit .toolkit-group:nth-child(3) .toolkit-method:nth-child(4) > span:last-child": "疾病监测数据",
+        "#research-toolkit .toolkit-group:nth-child(3) .toolkit-method:nth-child(5) > span:last-child": "基因组数据",
+        "#funded-projects > h1": "资助项目",
+        "#funded-projects > ol > li:nth-child(1)": "2023-2025 国家自然科学基金面上项目：物种功能性状对动物传染病风险影响的多尺度研究（参与，已获资助，54 万元）",
+        "#funded-projects > ol > li:nth-child(2)": "2022-2024 国家自然科学基金青年科学基金项目：利用多层网络识别高致病性禽流感的空间发生格局及其景观驱动机制（项目负责人，已获资助，20 万元）",
+        "#funded-projects > ol > li:nth-child(3)": "2014-2018 国家留学基金委资助：鹅类迁徙如何影响禽流感病毒的传播与持续存在？（博士研究资助，已获资助，55 万元）",
+        "#funded-projects > ol > li:nth-child(4)": "2022/8-2026/12 美中传染病生态与演化前沿研讨项目（EEID；NSF项目编号 1911955；博士后研究人员）",
+        "#funded-projects > ol > li:nth-child(5)": "2022/8-2026/12 禽流感大流行预测与预防国际中心第一阶段项目（PIPP Phase I；NSF项目编号 2200310；博士后研究人员）"
+      }
+    },
+    "people": {
+      "title": "团队",
+      "selectors": {
+        ".people-opening > h1": "认识 PACE Lab 团队",
+        ".people-opening > p:nth-of-type(1)": "PACE Lab 依托于南京林业大学生命科学学院，由殷盛来博士组建。",
+        "section[id=\"dr.-shenglai-yin-pi\"] > h2": "殷盛来博士（首席研究员）",
+        "section[id=\"dr.-shenglai-yin-pi\"] > p:nth-of-type(1)": "殷盛来博士组建了 PACE Lab。他的研究深度融合了疾病生态学、野生动物迁移生态学与全球变化生物学，致力于解析和预测病原体的传播。他开发了一系列定量研究方法，包括基于个体模型（Agent-based models）、流行病学模型、网络模型、统计学以及机器学习模型，旨在探究动物迁移、景观与气候变化以及宿主群落组成如何共同影响野生动物疾病风险。目前，他的研究重点聚焦于迁徙水鸟、禽流感，以及野生动物-家禽-人类交界面上的“同一健康”（One Health）挑战。通过结合生态学数据与机制模型，他旨在提升对疾病传播、跨物种溢出（Spillover）及新发传染病（Emergence）的预测能力，同时为野生动物保育与动物健康提供科学支撑。",
+        "#the-pace-lab-journey > h2": "PACE Lab 发展历程",
+        "#the-pace-lab-journey > ol > li:nth-child(1)": "the PACE Lab 预计于 2027 年 1 月正式成立。"
+      }
+    },
+    "publications": {
+      "title": "论文",
+      "selectors": {
+        "#title-block-header h1.title": "PACE Lab 论文",
+        "#selected-publications > h2": "代表性论文",
+        "#additional-lead--or-corresponding-author-publications > h2": "其他第一作者或通讯作者论文",
+        "#collaborated-publications > h2": "合作论文"
+      }
+    },
+    "contact": {
+      "title": "联系我们",
+      "selectors": {
+        "#title-block-header h1.title": "联系我们",
+        ".page-intro > p": {
+          "html": "如有研究问题、合作意向或未来发展机会，欢迎通过邮件联系<a href=\"mailto:shenglai.yin42@outlook.com\">殷盛来博士</a>（shenglai.yin42 AT outlook.com）。"
+        }
+      }
+    }
+  }
+}

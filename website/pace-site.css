@@ -107,6 +107,38 @@ a:focus {
   margin-left: 1rem;
 }
 
+.pace-language-item {
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.pace-language-switch {
+  background: transparent;
+  border: 1px solid var(--pace-line);
+  border-radius: 999px;
+  color: var(--pace-ink-soft);
+  cursor: pointer;
+  font-family: var(--pace-sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.4rem 0.7rem;
+  white-space: nowrap;
+}
+
+.pace-language-switch:hover,
+.pace-language-switch:focus-visible,
+.pace-language-switch[aria-pressed="true"] {
+  border-color: var(--pace-green);
+  color: var(--pace-green);
+}
+
+.pace-language-switch:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--pace-green);
