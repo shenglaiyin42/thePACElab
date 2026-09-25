@@ -23,13 +23,13 @@ We study how pathogens transmit, diversify, and emerge in wildlife by integratin
 ::: {.research-card}
 ## Animal Movement
 
-We study how animal move through global changes, and how those movements connect populations and shape ecological and disease processes.
+We investigate how global changes impact animal movement, and how these spatial and temporal patterns connect populations to drive ecological and disease processes.
 :::
 
 ::: {.research-card}
 ## Global Changes
 
-We investigate how climate and landscape changes reshape host ecology and influence pathogen dynamics.
+We examine how climate and landscape changes reshape host ecology, particularly the spatial distribution and movement, and subsequently influence pathogen dynamics.
 :::
 
 ::: {.research-card}
@@ -108,7 +108,7 @@ We study how animal traits, population dynamics, and community compositions shap
 ::: {.research-projects}
 # Funded Projects
 
-1. 2023-2025 NSFC General Program: Multiscale Study of the Effects of Species Functional Traits on Animal Infectious Disease Risk (Participate, granted, ¥540,000)
+1. 2023-2025 NSFC General Program: Multiscale Study of the Effects of Species Functional Traits on Animal Infectious Disease Risk (Participate)
 2. 2022-2024 NSFC Young Scientists Fund (C): Using multiplex network to identify spatial pattern of HPAI occurrence and its landscape driving mechanism (PI, granted, ¥200,000)
 3. 2014-2018 Funding of China Scholarship Council funding: How does the migration of geese influence the dispersal and perpetuation of avian influenza viruses? (Ph.D. funding, granted, ¥550,000)
 4. 08/2022-12/2026 US-China Workshop on Frontiers in Ecology and Evolution of Infectious Diseases (EEID) [NSF award number: 1911955, postdoc researcher]
