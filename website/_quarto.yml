@@ -55,6 +55,11 @@ format:
           @view-transition { navigation: auto; }
           ::view-transition-old(root),
           ::view-transition-new(root) { animation-duration: 0s; }
+          html.pace-zh-pending::view-transition-old(root) {
+            animation-duration: 5s;
+            animation-timing-function: steps(1, end);
+          }
+          html.pace-zh-pending::view-transition-new(root) { visibility: hidden; }
           html.pace-zh-pending { background: #fffdf7; }
           html.pace-zh-pending body { visibility: hidden; }
         </style>
@@ -68,16 +73,28 @@ format:
               try { needsChinese = window.localStorage.getItem("pace-language") === "zh"; } catch (_) {}
             }
             if (needsChinese) {
-              // Subsequent page clicks have translations in this browser tab.
-              // Hiding the body again caused the visible white blink.
-              let hasCachedTranslation = false;
-              try { hasCachedTranslation = !!window.sessionStorage.getItem("pace-zh-translations"); } catch (_) {}
-              if (!hasCachedTranslation) {
-                document.documentElement.classList.add("pace-zh-pending");
-                window.setTimeout(function () {
-                  document.documentElement.classList.remove("pace-zh-pending");
-                }, 5000);
-              }
+              document.documentElement.classList.add("pace-zh-pending");
+              window.setTimeout(function () {
+                document.documentElement.classList.remove("pace-zh-pending");
+              }, 5000);
+              // Hold the outgoing page over the new one until its Chinese copy
+              // is ready. This avoids both a white frame and an English frame.
+              window.addEventListener("pagereveal", function (event) {
+                if (!event.viewTransition || typeof event.viewTransition.waitUntil !== "function") return;
+                event.viewTransition.waitUntil(new Promise(function (resolve) {
+                  if (!document.documentElement.classList.contains("pace-zh-pending")) {
+                    resolve();
+                    return;
+                  }
+                  const observer = new MutationObserver(function () {
+                    if (!document.documentElement.classList.contains("pace-zh-pending")) {
+                      observer.disconnect();
+                      resolve();
+                    }
+                  });
+                  observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+                }));
+              }, { once: true });
             }
           })();
         </script>
