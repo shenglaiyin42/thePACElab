@@ -25,15 +25,15 @@ website:
     search: false
     right:
       - text: "Home"
-        href: index.html?v=nav-20260925-7
+        href: index.html?v=nav-20260925-8
       - text: "Research"
-        href: research.html?v=nav-20260925-7
+        href: research.html?v=nav-20260925-8
       - text: "Team"
-        href: people.html?v=nav-20260925-7
+        href: people.html?v=nav-20260925-8
       - text: "Pubs"
-        href: publications.html?v=nav-20260925-7
+        href: publications.html?v=nav-20260925-8
       - text: "Contact"
-        href: contact.html?v=nav-20260925-7
+        href: contact.html?v=nav-20260925-8
   open-graph: true
   twitter-card: true
 
@@ -75,7 +75,7 @@ format:
         <script defer src="assets/js/language-switch.js?v=zh-no-flash-20260925"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
-            const navigationVersion = "nav-20260925-7";
+            const navigationVersion = "nav-20260925-8";
             const normalizePath = function (path) {
               return path.endsWith("/index.html")
                 ? path.slice(0, -"index.html".length)
