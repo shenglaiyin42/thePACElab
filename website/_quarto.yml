@@ -51,7 +51,28 @@ format:
     include-in-header:
       text: |
         <meta name="theme-color" content="#171716">
-        <script defer src="assets/js/language-switch.js?v=nav-cache-20260925"></script>
+        <style>
+          html.pace-zh-pending { background: #fffdf7; }
+          html.pace-zh-pending body { visibility: hidden; }
+        </style>
+        <script>
+          (function () {
+            const requested = new URLSearchParams(window.location.search).get("lang");
+            const isHome = window.location.pathname === "/" ||
+              window.location.pathname.endsWith("/index.html");
+            let needsChinese = requested === "zh";
+            if (!requested && !isHome) {
+              try { needsChinese = window.localStorage.getItem("pace-language") === "zh"; } catch (_) {}
+            }
+            if (needsChinese) {
+              document.documentElement.classList.add("pace-zh-pending");
+              window.setTimeout(function () {
+                document.documentElement.classList.remove("pace-zh-pending");
+              }, 5000);
+            }
+          })();
+        </script>
+        <script defer src="assets/js/language-switch.js?v=zh-no-flash-20260925"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
             const navigationVersion = "nav-20260925-7";

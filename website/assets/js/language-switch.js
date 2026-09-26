@@ -86,9 +86,26 @@
     updateInternalLinks(language);
   }
 
+  function releasePendingChinesePage() {
+    document.documentElement.classList.remove("pace-zh-pending");
+  }
+
+  function cachedTranslations() {
+    try {
+      const cached = window.sessionStorage.getItem("pace-zh-translations");
+      const copy = cached ? JSON.parse(cached) : null;
+      return copy && copy.pages && copy.navigation ? copy : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
   document.addEventListener("DOMContentLoaded", async function () {
     const nav = document.querySelector(".navbar-nav");
-    if (!nav) return;
+    if (!nav) {
+      releasePendingChinesePage();
+      return;
+    }
     const item = document.createElement("li");
     item.className = "nav-item pace-language-item";
     const button = document.createElement("button");
@@ -98,19 +115,35 @@
     button.disabled = true;
     item.appendChild(button);
     nav.appendChild(item);
+    button.addEventListener("click", function () {
+      if (translations) apply(currentLanguage === "en" ? "zh" : "en", button);
+    });
+
+    // Reuse the translation from this browser tab before the next page paints.
+    const cached = cachedTranslations();
+    if (cached) {
+      translations = cached;
+      button.disabled = false;
+      apply(savedLanguage(), button);
+      releasePendingChinesePage();
+    }
 
     try {
+      // Refresh in the background so manual edits to zh.json still appear.
       const response = await fetch(translationsUrl, { cache: "no-cache" });
       if (!response.ok) throw new Error("Translation file returned " + response.status);
-      translations = await response.json();
+      const fresh = await response.json();
+      const serialized = JSON.stringify(fresh);
+      const changed = !cached || serialized !== JSON.stringify(cached);
+      translations = fresh;
+      try { window.sessionStorage.setItem("pace-zh-translations", serialized); } catch (_) {}
       button.disabled = false;
-      button.addEventListener("click", function () {
-        apply(currentLanguage === "en" ? "zh" : "en", button);
-      });
-      apply(savedLanguage(), button);
+      if (changed) apply(cached ? currentLanguage : savedLanguage(), button);
     } catch (error) {
       console.error("PACE language switch could not load Chinese translations:", error);
-      button.title = "Translations unavailable";
+      if (!cached) button.title = "Translations unavailable";
+    } finally {
+      releasePendingChinesePage();
     }
   });
 })();
