@@ -27,5 +27,7 @@ if [[ ! -x "${INSTALL_DIR}/bin/quarto" ]]; then
   tar -xzf "/tmp/${ARCHIVE}" -C "${INSTALL_DIR}" --strip-components=1
 fi
 
+python3 -m venv "${INSTALL_DIR}/python"
+"${INSTALL_DIR}/python/bin/python3" -m pip install -r requirements.txt
+export PATH="${PWD}/${INSTALL_DIR}/python/bin:${PATH}"
 "${INSTALL_DIR}/bin/quarto" render
-

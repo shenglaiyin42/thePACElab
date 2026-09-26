@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  post-render:
+    - python3 scripts/build-bilingual.py
   render:
     - index.qmd
     - research.qmd
@@ -25,15 +27,15 @@ website:
     search: false
     right:
       - text: "Home"
-        href: index.html?v=nav-20260925-8
+        href: index.html?v=lang-static-20260925
       - text: "Research"
-        href: research.html?v=nav-20260925-8
+        href: research.html?v=lang-static-20260925
       - text: "Team"
-        href: people.html?v=nav-20260925-8
+        href: people.html?v=lang-static-20260925
       - text: "Pubs"
-        href: publications.html?v=nav-20260925-8
+        href: publications.html?v=lang-static-20260925
       - text: "Contact"
-        href: contact.html?v=nav-20260925-8
+        href: contact.html?v=lang-static-20260925
   open-graph: true
   twitter-card: true
 
@@ -52,56 +54,28 @@ format:
       text: |
         <meta name="theme-color" content="#171716">
         <style>
-          @view-transition { navigation: auto; }
-          ::view-transition-old(root),
-          ::view-transition-new(root) { animation-duration: 0s; }
-          html.pace-zh-pending::view-transition-old(root) {
-            animation-duration: 5s;
-            animation-timing-function: steps(1, end);
-          }
-          html.pace-zh-pending::view-transition-new(root) { visibility: hidden; }
-          html.pace-zh-pending { background: #fffdf7; }
-          html.pace-zh-pending body { visibility: hidden; }
+          [data-pace-copy="zh"] { display: none; }
+          html[lang="zh-CN"] [data-pace-copy="en"] { display: none; }
+          html[lang="zh-CN"] [data-pace-copy="zh"] { display: inline; }
         </style>
         <script>
           (function () {
             const requested = new URLSearchParams(window.location.search).get("lang");
-            const isHome = window.location.pathname === "/" ||
-              window.location.pathname.endsWith("/index.html");
-            let needsChinese = requested === "zh";
-            if (!requested && !isHome) {
-              try { needsChinese = window.localStorage.getItem("pace-language") === "zh"; } catch (_) {}
-            }
-            if (needsChinese) {
-              document.documentElement.classList.add("pace-zh-pending");
-              window.setTimeout(function () {
-                document.documentElement.classList.remove("pace-zh-pending");
-              }, 5000);
-              // Hold the outgoing page over the new one until its Chinese copy
-              // is ready. This avoids both a white frame and an English frame.
-              window.addEventListener("pagereveal", function (event) {
-                if (!event.viewTransition || typeof event.viewTransition.waitUntil !== "function") return;
-                event.viewTransition.waitUntil(new Promise(function (resolve) {
-                  if (!document.documentElement.classList.contains("pace-zh-pending")) {
-                    resolve();
-                    return;
-                  }
-                  const observer = new MutationObserver(function () {
-                    if (!document.documentElement.classList.contains("pace-zh-pending")) {
-                      observer.disconnect();
-                      resolve();
-                    }
-                  });
-                  observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
-                }));
-              }, { once: true });
-            }
+            let saved = "en";
+            try { saved = window.localStorage.getItem("pace-language") || "en"; } catch (_) {}
+            const language = requested === "zh" || requested === "en" ? requested : saved;
+            const root = document.documentElement;
+            root.lang = language === "zh" ? "zh-CN" : "en";
+            root.setAttribute("xml:lang", root.lang);
+            const title = root.getAttribute("data-pace-title-" + (language === "zh" ? "zh" : "en"));
+            if (title) document.title = title;
+            try { window.localStorage.setItem("pace-language", language === "zh" ? "zh" : "en"); } catch (_) {}
           })();
         </script>
-        <script defer src="assets/js/language-switch.js?v=zh-no-flash-20260925"></script>
+        <script defer src="assets/js/language-switch.js?v=static-copy-20260925"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
-            const navigationVersion = "nav-20260925-8";
+            const navigationVersion = "lang-static-20260925";
             const normalizePath = function (path) {
               return path.endsWith("/index.html")
                 ? path.slice(0, -"index.html".length)
