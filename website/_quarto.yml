@@ -52,6 +52,9 @@ format:
       text: |
         <meta name="theme-color" content="#171716">
         <style>
+          @view-transition { navigation: auto; }
+          ::view-transition-old(root),
+          ::view-transition-new(root) { animation-duration: 0s; }
           html.pace-zh-pending { background: #fffdf7; }
           html.pace-zh-pending body { visibility: hidden; }
         </style>
@@ -65,10 +68,16 @@ format:
               try { needsChinese = window.localStorage.getItem("pace-language") === "zh"; } catch (_) {}
             }
             if (needsChinese) {
-              document.documentElement.classList.add("pace-zh-pending");
-              window.setTimeout(function () {
-                document.documentElement.classList.remove("pace-zh-pending");
-              }, 5000);
+              // Subsequent page clicks have translations in this browser tab.
+              // Hiding the body again caused the visible white blink.
+              let hasCachedTranslation = false;
+              try { hasCachedTranslation = !!window.sessionStorage.getItem("pace-zh-translations"); } catch (_) {}
+              if (!hasCachedTranslation) {
+                document.documentElement.classList.add("pace-zh-pending");
+                window.setTimeout(function () {
+                  document.documentElement.classList.remove("pace-zh-pending");
+                }, 5000);
+              }
             }
           })();
         </script>
