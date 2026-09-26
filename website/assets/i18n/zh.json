@@ -76,7 +76,7 @@
       "selectors": {
         "#title-block-header h1.title": "联系我们",
         ".page-intro > p": {
-          "html": "如有任何学术探讨、合作意向，或有意加入本实验室，欢迎通过邮件联系<a href=\"mailto:shenglai.yin42@outlook.com\">殷盛来博士</a>（shenglai.yin42 AT outlook.com）。"
+          "html": "如有任何学术探讨、合作意向，或有意加入本团队，欢迎通过邮件联系<a href=\"mailto:shenglai.yin42@outlook.com\">殷盛来博士</a>（shenglai.yin42 AT outlook.com）。"
         }
       }
     }
