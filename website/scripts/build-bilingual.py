@@ -5,6 +5,7 @@ source. CSS selects the language before first paint; no browser translation
 request, page hiding, or view-transition support is needed.
 """
 
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -50,6 +51,40 @@ def build_page(path, copy, navigation):
         element.unwrap()
     for element in soup.select(".pace-language-item"):
         element.decompose()
+    for element in soup.select(".pace-brand-tagline"):
+        element.decompose()
+    for element in soup.select(".pace-brand-main"):
+        element.unwrap()
+
+    # Keep the brand descriptor in the HTML before first paint, in both languages.
+    brand = soup.select_one(".navbar-brand-container")
+    brand["class"] = list(dict.fromkeys([*brand.get("class", []), "pace-brand-lockup"]))
+    main = soup.new_tag("div", attrs={"class": "pace-brand-main"})
+    for element in list(brand.select(".navbar-brand")):
+        main.append(element.extract())
+    for whitespace in list(brand.find_all(string=True, recursive=False)):
+        if not whitespace.strip():
+            whitespace.extract()
+    brand.append(main)
+    tagline = soup.new_tag("div", attrs={"class": "pace-brand-tagline", "lang": "en"})
+    for line in (
+        "<strong>P</strong>athogen Dynamics, <strong>A</strong>nimal Movement,",
+        "Global <strong>C</strong>hanges, and <strong>E</strong>cology",
+    ):
+        span = soup.new_tag("span")
+        fragment = BeautifulSoup(line, "html.parser")
+        for child in list(fragment.contents):
+            span.append(child.extract())
+        tagline.append(span)
+        tagline.append("\n")
+    brand.append(tagline)
+
+    # Refresh cached CSS when previewing a changed header layout.
+    css_version = hashlib.sha256((SITE / "pace-site.css").read_bytes()).hexdigest()[:12]
+    for link in soup.select('link[rel="stylesheet"]'):
+        href = link.get("href", "")
+        if href.split("?", 1)[0].endswith("pace-site.css"):
+            link["href"] = href.split("?", 1)[0] + "?v=" + css_version
 
     targets = []
     for selector, translation in copy["selectors"].items():

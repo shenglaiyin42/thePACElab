@@ -99,6 +99,48 @@ a:focus {
   margin-right: 0.12rem;
 }
 
+/* The descriptor spans exactly the logo-and-name lockup above it. */
+.navbar .navbar-brand-container.pace-brand-lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: max-content;
+  max-width: none;
+  flex-shrink: 0;
+}
+
+.pace-brand-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pace-brand-main > .navbar-brand {
+  padding-bottom: 0;
+}
+
+.pace-brand-main > .navbar-brand:not(.navbar-brand-logo) {
+  margin-right: 0;
+}
+
+.pace-brand-tagline {
+  width: 100%;
+  margin-top: -0.25rem;
+  padding-bottom: 0.1rem;
+  color: var(--pace-ink-soft);
+  font-family: var(--pace-sans);
+  font-size: calc(0.625rem + 1pt);
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.pace-brand-tagline > span {
+  display: block;
+  text-align: left;
+  white-space: nowrap;
+}
+
 .navbar-nav .nav-link {
   color: var(--pace-ink-soft);
   font-size: 0.95rem;
