@@ -62,6 +62,8 @@ format:
           [data-pace-copy="zh"] { display: none; }
           html[lang="zh-CN"] [data-pace-copy="en"] { display: none; }
           html[lang="zh-CN"] [data-pace-copy="zh"] { display: inline; }
+          html:not([lang="zh-CN"]) [data-pace-copy="en"][data-pace-block] { display: block; }
+          html[lang="zh-CN"] [data-pace-copy="zh"][data-pace-block] { display: block; }
           /* Chinese-only sizing; preserve English copy and shared layout sizes. */
           html[lang="zh-CN"] [data-pace-copy="zh"] {
             font-size: calc(1em - 1pt);

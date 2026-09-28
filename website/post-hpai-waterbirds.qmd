@@ -4,15 +4,18 @@ page-layout: full
 body-classes: "post-article-body"
 ---
 
-<!-- English draft supplied by the author. Publication date: 2026-09-28.
-     No Chinese translation has been generated. -->
+<!-- Both language drafts supplied by the author. Publication date: 2026-09-28.
+     Chinese copy is embedded from assets/i18n/zh.json during the build. -->
 
-::: {.post-article lang="en"}
+::: {.post-article}
 <p class="post-date"><time datetime="2026-09-28">September 28, 2026</time></p>
 
+::: {.post-opening}
 To understand HPAI in wild birds, one of the first questions is which species can act as hosts, and why some species appear more frequently in avian influenza records than others \[1\].
 
 Now picture a winter wetland crowded with ducks, geese and swans. Once multiple host species share the same habitat, the question becomes a community problem: which species are present, how abundant are they, how do they feed and move, and how closely related are they? We asked whether these species-level traits and community-level differences help explain where HPAI outbreaks occur, and whether the same ecological signals persist from one epidemic to the next \[1-3\].
+
+:::
 
 ## What makes some waterbirds more likely hosts?
 
@@ -58,5 +61,5 @@ The broader message is that a flock is more than a number. Its species compositi
 
 \[4\] Harvey, J. A., et al. (2026). Feathers and flu: identifying data gaps in avian influenza host dynamics to prioritize wildlife conservation. Wildlife Monographs, e70015. doi: [10.1002/wmon.70015](https://doi.org/10.1002/wmon.70015)
 
-<p class="post-back"><a href="posts.html?lang=en">Back to posts</a></p>
+<p class="post-back"><a href="posts.html">Back to posts</a></p>
 :::

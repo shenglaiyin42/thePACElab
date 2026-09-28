@@ -19,10 +19,14 @@ if not OUTPUT.is_absolute():
 
 
 def add_pair(soup, element, translation):
-    english = soup.new_tag("span", attrs={"data-pace-copy": "en", "lang": "en"})
+    # Paragraph groupings can differ between the author's language drafts.
+    block = isinstance(translation, dict) and translation.get("block", False)
+    tag = "div" if block else "span"
+    attrs = {"data-pace-block": "true"} if block else {}
+    english = soup.new_tag(tag, attrs={**attrs, "data-pace-copy": "en", "lang": "en"})
     for child in list(element.contents):
         english.append(child.extract())
-    chinese = soup.new_tag("span", attrs={"data-pace-copy": "zh", "lang": "zh-CN"})
+    chinese = soup.new_tag(tag, attrs={**attrs, "data-pace-copy": "zh", "lang": "zh-CN"})
     if isinstance(translation, str):
         chinese.string = translation
     elif isinstance(translation, dict) and isinstance(translation.get("html"), str):

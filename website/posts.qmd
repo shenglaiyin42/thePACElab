@@ -9,9 +9,9 @@ body-classes: "posts-page-body"
   <p id="posts-intro" class="posts-intro">Get a closer look at what our research is about: research stories, findings, and more.</p>
   <!-- Add approved articles here, newest first, with a linked title and date. -->
   <ul class="posts-feed">
-    <li class="posts-feed-item posts-english-only" lang="en">
-      <a href="post-hpai-waterbirds.html?lang=en">What can a flock tell us about HPAI?</a>
-      <time datetime="2026-09-28">September 28, 2026</time>
+    <li class="posts-feed-item">
+      <a id="hpai-post-title" href="post-hpai-waterbirds.html">What can a flock tell us about HPAI?</a>
+      <time id="hpai-post-date" datetime="2026-09-28">September 28, 2026</time>
     </li>
   </ul>
 </div>

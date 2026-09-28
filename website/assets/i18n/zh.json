@@ -56,12 +56,44 @@
       "title": "研究动态",
       "selectors": {
         "#title-block-header h1.title": "研究动态",
-        "#posts-intro": {"html": "<strong>近距离了解我们的研究。</strong>"}
+        "#posts-intro": {
+          "html": "<strong>近距离了解我们的研究。</strong>"
+        },
+        "#hpai-post-title": "从一群水鸟中，我们能看出什么 HPAI 风险信息？",
+        "#hpai-post-date": "2026年9月28日"
       }
     },
     "post-hpai-waterbirds": {
-      "title": "What can a flock tell us about HPAI?",
-      "selectors": {}
+      "title": "从一群水鸟中，我们能看出什么 HPAI 风险信息？",
+      "selectors": {
+        "#title-block-header h1.title": "从一群水鸟中，我们能看出什么 HPAI 风险信息？",
+        ".post-date > time": "2026年9月28日",
+        ".post-opening": {
+          "html": "<p>要理解野生鸟类中的 HPAI（高致病性禽流感）风险，一个首先要回答的问题是：哪些物种可以作为宿主？为什么有些物种在禽流感记录中出现得更频繁？再把视角拉到一个冬季湿地：鸭、雁、天鹅等多种水鸟聚集在一起。当多个宿主物种共享同一片栖息地时，问题就从单个物种扩展到了群落层面：这里有哪些鸟？数量有多少？它们如何取食和移动？彼此在演化上有多接近？我们想搞清楚的问题是，这些物种性状和群落差异，是否能够解释 HPAI 更容易在哪里发生，以及这些生态学信号能否在不同疫情之间保持一致 [1-3]。</p>",
+          "block": true
+        },
+        "#what-makes-some-waterbirds-more-likely-hosts > h2": "为什么有些水鸟更容易成为 AIV 宿主？",
+        "#what-makes-some-waterbirds-more-likely-hosts > p:nth-of-type(1)": "我们首先比较了欧洲 143 种水鸟。我们将历史 AIV （禽流感）监测记录与鸟类的食性、体型、繁殖和移动相关性状结合起来分析。由于近缘物种往往共享许多生物特征，我们的统计分析也纳入了系统发育关系，而不是把近缘物种当作完全独立的样本 [1]。",
+        "#what-makes-some-waterbirds-more-likely-hosts > p:nth-of-type(2)": "截至 2021 年，143 种水鸟中有 82 种曾被记录为 AIV 宿主。体型更大、性成熟更早，以及与较强扩散能力相关的翅形（hand-wing index），都与宿主状态有关。更强的扩散能力还与记录到更多病毒亚型相关；窝卵数较大和寿命较长的物种，也往往记录到更多 AIV 亚型 [1]。",
+        "#what-makes-some-waterbirds-more-likely-hosts > p:nth-of-type(3)": "需要注意的是，这一物种层面的分析针对的是 AIV 整体，并不只局限于 HPAI H5；“被记录为宿主”本身，也不能直接说明一个物种传播病毒的效率有多高。但这些结果表明，水鸟之间的感染记录并不是随机分布的，生态和生活史性状可以解释其中的一部分差异 [1,4]。",
+        "#the-company-birds-keep-matters > h2": "鸟和谁生活在一起，也很重要",
+        "#the-company-birds-keep-matters > p:nth-of-type(1)": "鸟类并不是彼此孤立地生活。为了从单个物种走向整个群落，我们将欧洲 26 个国家 7,000 多个地点的冬季水鸟计数，与报告的 HPAI 疫情及天气、水体、家禽密度等环境信息对应起来。分析集中在 11 月至次年 3 月，以与水鸟调查季节保持一致 [1-3]。",
+        "#the-company-birds-keep-matters > p:nth-of-type(2)": "我们发现，在水鸟总量更高、以及绿头鸭、赤颈鸭、凤头潜鸭和疣鼻天鹅等关键物种更丰富的地点，更常监测到野鸟 HPAI 疫情。但“数量”只解释了故事的一部分。系统发育多样性更高，也就是群落中的物种在演化上彼此更远的地点，HPAI 疫情的概率反而持续较低 [2,3]。",
+        "#the-company-birds-keep-matters > p:nth-of-type(3)": {
+          "html": "<strong>性状研究又补上了一层证据：饮食差异更大的群落，</strong><strong>HPAI </strong><strong>发生率更低。一种可能的解释是，食性或栖息地利用更相似的物种更容易在同一地点接触；而亲缘关系较近的物种，也可能共享一些有利于跨物种感染的生物学特征</strong><strong> [1-3]</strong><strong>。</strong>"
+        },
+        "#the-company-birds-keep-matters > p:nth-of-type(4)": "因此，我们的发现并不简单的是“物种越多，疾病越少”。一个湿地可以有很多物种，但这些物种彼此可能很近缘、生态性状也很相似；反过来，一个物种数较少的群落，也可能由亲缘关系更远、功能差异更大的物种组成，同时个体总量依然很高。真正重要的不只是“有多少种鸟”，还包括“哪些鸟生活在一起” [2,3]。",
+        "#do-the-same-patterns-hold-across-epidemics > h2": "这些规律能否跨越不同疫情？",
+        "#do-the-same-patterns-hold-across-epidemics > p:nth-of-type(1)": "在我们 2024 年的研究中，用 2016/17 疫情建立的模型，能够较好地区分 2020/21 疫情中的 HPAI 空间分布，而2025 年的研究进一步扩展了这一检验：用 2016/17 和 2020/21 两轮以 H5N8 为主的疫情训练的模型，在应用到 2021/22 的 H5N1 记录时仍然表现良好 [2,3]。",
+        "#do-the-same-patterns-hold-across-epidemics > p:nth-of-type(2)": "从 2005/06 到 2021/22，跨越四轮疫情，水鸟丰度和系统发育多样性与野鸟 HPAI 的关联总体上保持一致。但是，我们并没有在家禽中看到同样的模型稳定性。水鸟群落变量的作用更弱，而且在不同疫情之间变化较大；相比之下，农业气候和家禽相关因素的作用更突出。这可能反映了养殖鸟类中主导宿主和传播路径与野鸟系统并不相同。因此，用于解释野鸟 HPAI 的风险因子，不应直接套用到家禽疫情上 [2,3]。",
+        "#from-bird-counts-to-better-surveillance > h2": "从水鸟计数走向更好的监测",
+        "#from-bird-counts-to-better-surveillance > p:nth-of-type(1)": "把这些研究放在一起看，常规水鸟调查的价值可能不只是追踪种群变化。与病毒监测和环境数据结合后，这些调查可以提供重要的生态信息，帮助识别哪些地点更值得加强 HPAI （或者其他疾病？）监测，并用于构建早期预警风险地图 [2,3]。",
+        "#from-bird-counts-to-better-surveillance > p:nth-of-type(2)": "我们共同参与的、由 Johanna Harvey 博士（美国罗德岛大学助理教授）领衔的另一项研究，则补充了一个保护生物学视角：一个物种在传播中的作用，并不等于它遭受重症或死亡的脆弱性。把“传播能力”和“感染后脆弱性”这两个维度放在一起看，同时正视不同物种感染数据仍存在大量缺口，可以帮助我们区分哪些物种可能对传播更重要，哪些物种更需要优先保护 [4]。",
+        "#from-bird-counts-to-better-surveillance > p:nth-of-type(3)": "这些研究也有明确的局限。结论主要来自观察性关联,被动疫情监测会漏掉部分感染记录,而后期分析中部分水鸟数据也来自较早年份。此外，这些欧洲冬季的规律，还需要在其他地区和季节中继续检验 [1-3]。",
+        "#from-bird-counts-to-better-surveillance > p:nth-of-type(4)": "更广义地说，一个鸟群远不只是一个数量。它由哪些物种组成，这些物种具有什么性状，以及它们之间的演化和生态关系，都包含着 HPAI 风险的信息。把这些生态学信息纳入监测，可以让我们更有依据地判断，应该在哪些地点、哪些物种上投入更多关注 [1-4]。",
+        "#relative-publications > h2": "相关论文",
+        ".post-back > a": "返回研究动态"
+      }
     },
     "people": {
       "title": "PACE Lab 团队",
