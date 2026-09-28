@@ -7,6 +7,7 @@ project:
     - index.qmd
     - research.qmd
     - posts.qmd
+    - post-hpai-waterbirds.qmd
     - people.qmd
     - publications.qmd
     - contact.qmd
@@ -48,7 +49,7 @@ format:
     css:
       - pace-site.css
       - navigation-stability-v4.css
-      - posts.css
+      - posts-v2.css
     toc: false
     highlight-style: none
     anchor-sections: true
@@ -100,7 +101,8 @@ format:
 
             document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
               const linkPath = normalizePath(new URL(link.href, window.location.origin).pathname);
-              const isCurrentPage = linkPath === currentPath;
+              const isCurrentPage = linkPath === currentPath ||
+                (document.body.classList.contains("post-article-body") && linkPath.endsWith("/posts.html"));
               link.classList.toggle("active", isCurrentPage);
               if (isCurrentPage) {
                 link.setAttribute("aria-current", "page");

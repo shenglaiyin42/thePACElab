@@ -59,6 +59,10 @@
         "#posts-intro": {"html": "<strong>近距离了解我们的研究。</strong>"}
       }
     },
+    "post-hpai-waterbirds": {
+      "title": "What can a flock tell us about HPAI?",
+      "selectors": {}
+    },
     "people": {
       "title": "PACE Lab 团队",
       "selectors": {

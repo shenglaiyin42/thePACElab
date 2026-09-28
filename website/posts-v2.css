@@ -1,4 +1,4 @@
-/* Simple title-and-date feed and a matching article reading layout. */
+/* Compact title-and-date feed and article layout. New URL refreshes cached styles. */
 body.posts-page-body #title-block-header,
 body.post-article-body #title-block-header {
   margin-bottom: 0;
@@ -19,7 +19,7 @@ body.post-article-body #title-block-header h1.title {
 .posts-intro {
   color: var(--pace-ink-soft);
   max-width: 52rem;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.1rem;
 }
 
 .posts-feed {
@@ -33,7 +33,7 @@ body.post-article-body #title-block-header h1.title {
   align-items: baseline;
   justify-content: space-between;
   gap: 0.4rem 2rem;
-  padding: 1.1rem 0;
+  padding: 0.55rem 0;
   border-bottom: 1px solid var(--pace-line);
 }
 
@@ -66,6 +66,43 @@ body.post-article-body #title-block-header h1.title {
 
 .post-back {
   margin-top: 2rem;
+}
+
+/* English-only drafts stay out of the Chinese feed until copy is supplied. */
+html[lang="zh-CN"] .posts-english-only {
+  display: none;
+}
+
+body.post-article-body #title-block-header,
+.post-article {
+  width: 100%;
+  max-width: 52rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-article {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.post-article > p {
+  max-width: none;
+}
+
+.post-article h2 {
+  border: 0;
+  padding-bottom: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-article .post-references {
+  overflow-wrap: anywhere;
+}
+
+.post-article .post-references > p:not(.post-back) {
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 620px) {

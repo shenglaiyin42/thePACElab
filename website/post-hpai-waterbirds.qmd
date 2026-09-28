@@ -1,0 +1,62 @@
+---
+title: "What can a flock tell us about HPAI?"
+page-layout: full
+body-classes: "post-article-body"
+---
+
+<!-- English draft supplied by the author. Publication date: 2026-09-28.
+     No Chinese translation has been generated. -->
+
+::: {.post-article lang="en"}
+<p class="post-date"><time datetime="2026-09-28">September 28, 2026</time></p>
+
+To understand HPAI in wild birds, one of the first questions is which species can act as hosts, and why some species appear more frequently in avian influenza records than others \[1\].
+
+Now picture a winter wetland crowded with ducks, geese and swans. Once multiple host species share the same habitat, the question becomes a community problem: which species are present, how abundant are they, how do they feed and move, and how closely related are they? We asked whether these species-level traits and community-level differences help explain where HPAI outbreaks occur, and whether the same ecological signals persist from one epidemic to the next \[1-3\].
+
+## What makes some waterbirds more likely hosts?
+
+We started by comparing 143 waterbird species found in Europe. We combined historical AIV records with information on diet, body size, reproduction and movement-related traits. Because closely related species share many characteristics, our statistical comparisons also accounted for evolutionary relationships \[1\].
+
+Of the 143 species, 82 had been recorded as AIV hosts by 2021. Larger body size, earlier maturity and wing shape associated with greater dispersal ability were linked to host status. Greater dispersal ability was also associated with more recorded virus subtypes, together with larger clutch size and longer lifespan \[1\].
+
+This species-level analysis covered avian influenza viruses broadly, not only HPAI H5 viruses, and host status alone does not tell us how efficiently a species transmits a virus. Still, these patterns show that ecological and life-history traits can help explain why infection records are unevenly distributed across waterbird species \[1,4\].
+
+## The company birds keep matters
+
+Birds do not live in isolation. To investigate whole communities, we linked winter waterbird counts from more than 7,000 sites across 26 European countries with reported HPAI outbreaks and environmental information, including weather, waterbodies and poultry density. We focused on November-March outbreaks to match the bird survey season \[1-3\].
+
+Wild-bird outbreaks were more often reported where waterbirds were abundant, and where key species such as Mallard, Eurasian Wigeon, Tufted Duck and Mute Swan were more abundant. But numbers were only part of the story. Communities containing more distantly related species were consistently less likely to have HPAI outbreaks \[2,3\].
+
+**The trait-based study added another layer. Greater differences in diet were associated with lower HPAI occurrence. One possible explanation is that species with similar diets or habitat use encounter one another more often, while close relatives can also share biological characteristics that make cross-species infection easier \[1-3\].**
+
+This is not simply “more species means less disease”. A wetland can contain many species that are nevertheless closely related and share similar ecological traits, or fewer species that are more distantly related and functionally different but in high abundance. Thus, which birds live together matters, not just how many \[2,3\].
+
+## Do the same patterns hold across epidemics?
+
+In our 2024 study, a model developed from the 2016/17 epidemic successfully distinguished HPAI outbreak sites from comparison sites in the 2020/21 epidemic. Our 2025 study extended that test that models trained on the 2016/17 and 2020/21 H5N8-dominated epidemics also performed well when applied to H5N1 records from 2021/22 \[2,3\].
+
+Across four epidemic periods from 2005/06 to 2021/22, associations with waterbird abundance and phylogenetic diversity were broadly consistent in wild birds. The models identify spatial conditions associated with reported outbreaks. The same consistency, however, did not appear in poultry. Waterbird community variables were weaker and changed between epidemics, while agro-climatic and poultry-related factors played larger roles, likely reflecting differences in dominant hosts and transmission pathways within farmed birds. This matters because predictors of HPAI in wild birds should not be assumed to transfer directly to poultry \[2,3\].
+
+## From bird counts to better surveillance
+
+Together, these studies suggest that routine bird surveys could do more than track populations. Combined with virus surveillance and environmental data, they can provide ecological information for identifying places where closer HPAI monitoring may be most useful and for building early-warning maps \[2,3\].
+
+Complementary work led by Johanna Harvey, which we co-authored, adds a conservation perspective. A species’ ability to contribute to transmission is not the same as its vulnerability to severe disease or mortality. Considering both dimensions and recognizing the large gaps in species-specific infection data, can help separate species that may be important for transmission from those that are priorities for conservation \[4\].
+
+There are limits to what we can infer. These studies are based largely on observational associations, but passive outbreak surveillance misses infections, and some later analyses relied on older bird counts. The European winter patterns also need testing in other regions and seasons \[1-3\].
+
+The broader message is that a flock is more than a number. Its species composition, the traits those species carry, and their evolutionary and ecological relationships contain information about HPAI risk. Bringing those data into surveillance gives us a more biologically informed way to decide where and in which species to look more closely \[1-4\].
+
+## Relative publications {.post-references}
+
+\[1\] Yin, S., et al. (2023). Functional traits explain waterbirds’ host status, subtype richness, and community-level infection risk for avian influenza. Ecology Letters, 26, 1780-1791. doi: [10.1111/ele.14294](https://doi.org/10.1111/ele.14294)
+
+\[2\] Yin, S., et al. (2024). Strong and consistent effects of waterbird composition on HPAI H5 occurrences across Europe. Ecological Applications, 34, e3010. doi: [10.1002/eap.3010](https://doi.org/10.1002/eap.3010)
+
+\[3\] Yin, S., et al. (2025). The predictable HPAI H5 outbreaks in European wild birds. Avian Research, 16, 100311. doi: [10.1016/j.avrs.2025.100311](https://doi.org/10.1016/j.avrs.2025.100311)
+
+\[4\] Harvey, J. A., et al. (2026). Feathers and flu: identifying data gaps in avian influenza host dynamics to prioritize wildlife conservation. Wildlife Monographs, e70015. doi: [10.1002/wmon.70015](https://doi.org/10.1002/wmon.70015)
+
+<p class="post-back"><a href="posts.html?lang=en">Back to posts</a></p>
+:::
