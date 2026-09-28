@@ -18,3 +18,9 @@ This folder stores source material in GitHub, outside the published `website/`
 directory. Use GitHub's History view on the draft and article source to trace
 revisions. The commit adding this folder also contains the first published
 English article and its approved layout.
+
+## Website revisions
+
+- September 28, 2026: Added the author-requested affiliation after Johanna Harvey:
+  “Assistant Professor from the University of Rhode Island”. The original Word
+  draft remains unchanged; the article source history records this revision.
