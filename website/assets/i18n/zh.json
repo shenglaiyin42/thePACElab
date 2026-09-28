@@ -80,7 +80,7 @@
         "#the-company-birds-keep-matters > p:nth-of-type(1)": "鸟类并不是彼此孤立地生活。为了从单个物种走向整个群落，我们将欧洲 26 个国家 7,000 多个地点的冬季水鸟计数，与报告的 HPAI 疫情及天气、水体、家禽密度等环境信息对应起来。分析集中在 11 月至次年 3 月，以与水鸟调查季节保持一致 [1-3]。",
         "#the-company-birds-keep-matters > p:nth-of-type(2)": "我们发现，在水鸟总量更高、以及绿头鸭、赤颈鸭、凤头潜鸭和疣鼻天鹅等关键物种更丰富的地点，更常监测到野鸟 HPAI 疫情。但“数量”只解释了故事的一部分。系统发育多样性更高，也就是群落中的物种在演化上彼此更远的地点，HPAI 疫情的概率反而持续较低 [2,3]。",
         "#the-company-birds-keep-matters > p:nth-of-type(3)": {
-          "html": "<strong>性状研究又补上了一层证据：饮食差异更大的群落，</strong><strong>HPAI </strong><strong>发生率更低。一种可能的解释是，食性或栖息地利用更相似的物种更容易在同一地点接触；而亲缘关系较近的物种，也可能共享一些有利于跨物种感染的生物学特征</strong><strong> [1-3]</strong><strong>。</strong>"
+          "html": "<strong>性状研究又补上了一层证据：食性差异更大的群落，</strong><strong>HPAI </strong><strong>发生率更低。一种可能的解释是，食性或栖息地利用更相似的物种更容易在同一地点接触；而亲缘关系较近的物种，也可能共享一些有利于跨物种感染的生物学特征</strong><strong> [1-3]</strong><strong>。</strong>"
         },
         "#the-company-birds-keep-matters > p:nth-of-type(4)": "因此，我们的发现并不简单的是“物种越多，疾病越少”。一个湿地可以有很多物种，但这些物种彼此可能很近缘、生态性状也很相似；反过来，一个物种数较少的群落，也可能由亲缘关系更远、功能差异更大的物种组成，同时个体总量依然很高。真正重要的不只是“有多少种鸟”，还包括“哪些鸟生活在一起” [2,3]。",
         "#do-the-same-patterns-hold-across-epidemics > h2": "这些规律能否跨越不同疫情？",
