@@ -4,6 +4,19 @@ page-layout: full
 body-classes: "contact-page-body"
 ---
 
+```{=html}
+<style>
+/* Reduce both parts of the title-to-copy gap to one third, in either language.
+   Keep this page-specific rule in the HTML so cached shared CSS cannot mask it. */
+body.contact-page-body #title-block-header {
+  margin-bottom: calc(1rem / 3);
+}
+body.contact-page-body .page-intro {
+  padding-top: calc(clamp(4rem, 8vw, 7rem) / 3);
+}
+</style>
+```
+
 ::: {.page-shell .page-intro}
 For research questions, collaboration inquiries, or future opportunities, please send an email to [Dr. Shenglai Yin](mailto:shenglai.yin42@outlook.com) [shenglai.yin42 AT outlook.com].
 :::
