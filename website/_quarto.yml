@@ -29,7 +29,7 @@ website:
     search: false
     right:
       - text: "Home"
-        href: index.html?v=lang-static-20260925
+        href: index.html?v=header-20260928
       - text: "Research"
         href: research.html?v=lang-static-20260925
       - text: "Posts"
@@ -68,8 +68,11 @@ format:
           html[lang="zh-CN"] [data-pace-copy="zh"] {
             font-size: calc(1em - 1pt);
           }
-          html[lang="zh-CN"] :is(h1, h2, h3, h4, h5, h6, .menu-text) > [data-pace-copy="zh"] {
+          html[lang="zh-CN"] :is(h1, h2, h3, h4, h5, h6) > [data-pace-copy="zh"] {
             font-size: 0.8em;
+          }
+          html[lang="zh-CN"] .menu-text > [data-pace-copy="zh"] {
+            font-size: 0.92em;
           }
           /* The unchanged Latin brand name is not Chinese text. */
           html[lang="zh-CN"] .home-simple > h1 > [data-pace-copy="zh"] {
@@ -93,7 +96,7 @@ format:
         <script defer src="assets/js/language-switch.js?v=static-copy-20260925"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
-            const navigationVersion = "lang-static-20260925";
+            const navigationVersion = "header-20260928";
             const normalizePath = function (path) {
               return path.endsWith("/index.html")
                 ? path.slice(0, -"index.html".length)

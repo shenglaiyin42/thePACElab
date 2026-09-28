@@ -68,7 +68,7 @@ a:focus {
   background: var(--pace-paper);
   border-bottom: 1px solid var(--pace-line);
   box-shadow: none;
-  padding: 0.75rem 0;
+  padding: 0.5rem 0;
   position: sticky;
   top: 0;
   z-index: 1030;
@@ -88,11 +88,11 @@ a:focus {
 }
 
 .navbar-logo {
-  height: 5.25rem;
+  height: 4.125rem;
   margin-right: 0.18rem;
   max-height: none;
   object-fit: contain;
-  width: 5.25rem;
+  width: 4.125rem;
 }
 
 .navbar-brand-logo {
@@ -112,7 +112,7 @@ a:focus {
 .pace-brand-main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .pace-brand-main > .navbar-brand {
@@ -139,6 +139,16 @@ a:focus {
   display: block;
   text-align: left;
   white-space: nowrap;
+}
+
+@media (max-width: 344px) {
+  .pace-brand-tagline {
+    font-size: 0.625rem;
+  }
+
+  .navbar .navbar-toggler {
+    margin-right: 0 !important;
+  }
 }
 
 .navbar-nav .nav-link {

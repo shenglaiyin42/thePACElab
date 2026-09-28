@@ -59,6 +59,9 @@ def build_page(path, copy, navigation):
     # Keep the brand descriptor in the HTML before first paint, in both languages.
     brand = soup.select_one(".navbar-brand-container")
     brand["class"] = list(dict.fromkeys([*brand.get("class", []), "pace-brand-lockup"]))
+    home_href = soup.select_one('.navbar-nav .nav-link')["href"]
+    for link in brand.select("a.navbar-brand"):
+        link["href"] = home_href
     main = soup.new_tag("div", attrs={"class": "pace-brand-main"})
     for element in list(brand.select(".navbar-brand")):
         main.append(element.extract())
@@ -79,12 +82,13 @@ def build_page(path, copy, navigation):
         tagline.append("\n")
     brand.append(tagline)
 
-    # Refresh cached CSS when previewing a changed header layout.
-    css_version = hashlib.sha256((SITE / "pace-site.css").read_bytes()).hexdigest()[:12]
+    # Refresh cached header styles when the published layout changes.
     for link in soup.select('link[rel="stylesheet"]'):
-        href = link.get("href", "")
-        if href.split("?", 1)[0].endswith("pace-site.css"):
-            link["href"] = href.split("?", 1)[0] + "?v=" + css_version
+        href = link.get("href", "").split("?", 1)[0]
+        name = Path(href).name
+        if name in {"pace-site.css", "navigation-stability-v4.css"}:
+            css_version = hashlib.sha256((SITE / name).read_bytes()).hexdigest()[:12]
+            link["href"] = href + "?v=" + css_version
 
     targets = []
     for selector, translation in copy["selectors"].items():
