@@ -45,7 +45,7 @@ Across four epidemic periods from 2005/06 to 2021/22, associations with waterbir
 
 Together, these studies suggest that routine bird surveys could do more than track populations. Combined with virus surveillance and environmental data, they can provide ecological information for identifying places where closer HPAI monitoring may be most useful and for building early-warning maps \[2,3\].
 
-Complementary work led by Johanna Harvey (**Assistant Professor from the** University of Rhode Island), which we co-authored, adds a conservation perspective. A species’ ability to contribute to transmission is not the same as its vulnerability to severe disease or mortality. Considering both dimensions and recognizing the large gaps in species-specific infection data, can help separate species that may be important for transmission from those that are priorities for conservation \[4\].
+Complementary work led by Johanna Harvey (Assistant Professor from the University of Rhode Island), which we co-authored, adds a conservation perspective. A species’ ability to contribute to transmission is not the same as its vulnerability to severe disease or mortality. Considering both dimensions and recognizing the large gaps in species-specific infection data, can help separate species that may be important for transmission from those that are priorities for conservation \[4\].
 
 There are limits to what we can infer. These studies are based largely on observational associations, but passive outbreak surveillance misses infections, and some later analyses relied on older bird counts. The European winter patterns also need testing in other regions and seasons \[1-3\].
 
