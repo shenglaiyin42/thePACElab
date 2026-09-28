@@ -1,0 +1,75 @@
+/* Simple title-and-date feed and a matching article reading layout. */
+body.posts-page-body #title-block-header,
+body.post-article-body #title-block-header {
+  margin-bottom: 0;
+}
+
+body.posts-page-body #title-block-header h1.title,
+body.post-article-body #title-block-header h1.title {
+  font-size: clamp(2.2rem, 3.6vw, 3.1rem);
+  margin-bottom: 0;
+}
+
+.posts-page,
+.post-article {
+  padding-top: 1.1rem;
+  padding-bottom: 4rem;
+}
+
+.posts-intro {
+  color: var(--pace-ink-soft);
+  max-width: 52rem;
+  margin-bottom: 2.2rem;
+}
+
+.posts-feed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.posts-feed-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem 2rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--pace-line);
+}
+
+.posts-feed-item > a {
+  color: var(--pace-ink);
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.posts-feed-item > a:hover,
+.posts-feed-item > a:focus-visible {
+  text-decoration: underline;
+}
+
+.posts-feed-item time,
+.post-date {
+  color: var(--pace-ink-soft);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.post-article > p {
+  max-width: 46rem;
+}
+
+.post-date {
+  margin-bottom: 1.5rem;
+}
+
+.post-back {
+  margin-top: 2rem;
+}
+
+@media (max-width: 620px) {
+  .posts-feed-item {
+    flex-direction: column;
+  }
+}

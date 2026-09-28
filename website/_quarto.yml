@@ -6,6 +6,7 @@ project:
   render:
     - index.qmd
     - research.qmd
+    - posts.qmd
     - people.qmd
     - publications.qmd
     - contact.qmd
@@ -30,6 +31,8 @@ website:
         href: index.html?v=lang-static-20260925
       - text: "Research"
         href: research.html?v=lang-static-20260925
+      - text: "Posts"
+        href: posts.html
       - text: "Team"
         href: people.html?v=lang-static-20260925
       - text: "Pubs"
@@ -44,7 +47,8 @@ format:
     theme: cosmo
     css:
       - pace-site.css
-      - navigation-stability-v3.css
+      - navigation-stability-v4.css
+      - posts.css
     toc: false
     highlight-style: none
     anchor-sections: true
