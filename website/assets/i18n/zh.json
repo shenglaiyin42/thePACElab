@@ -56,7 +56,7 @@
       "title": "研究动态",
       "selectors": {
         "#title-block-header h1.title": "研究动态",
-        "#posts-intro": "在这里，我们分享研究中的一些故事和新发现。"
+        "#posts-intro": {"html": "<strong>近距离了解我们的研究。</strong>"}
       }
     },
     "people": {

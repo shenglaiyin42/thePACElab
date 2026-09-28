@@ -6,7 +6,7 @@ body-classes: "posts-page-body"
 
 ```{=html}
 <div class="page-shell posts-page">
-  <p id="posts-intro" class="posts-intro">Get a closer look at what our research is about: research stories, new findings, and more.</p>
+  <p id="posts-intro" class="posts-intro">Get a closer look at what our research is about: research stories, findings, and more.</p>
   <!-- Add approved articles here, newest first, with a linked title and date. -->
   <ul class="posts-feed"></ul>
 </div>

@@ -61,6 +61,17 @@ format:
           [data-pace-copy="zh"] { display: none; }
           html[lang="zh-CN"] [data-pace-copy="en"] { display: none; }
           html[lang="zh-CN"] [data-pace-copy="zh"] { display: inline; }
+          /* Chinese-only sizing; preserve English copy and shared layout sizes. */
+          html[lang="zh-CN"] [data-pace-copy="zh"] {
+            font-size: calc(1em - 1pt);
+          }
+          html[lang="zh-CN"] :is(h1, h2, h3, h4, h5, h6, .menu-text) > [data-pace-copy="zh"] {
+            font-size: 0.8em;
+          }
+          /* The unchanged Latin brand name is not Chinese text. */
+          html[lang="zh-CN"] .home-simple > h1 > [data-pace-copy="zh"] {
+            font-size: inherit;
+          }
         </style>
         <script>
           (function () {
