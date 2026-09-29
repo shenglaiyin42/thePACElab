@@ -10,6 +10,10 @@ body-classes: "posts-page-body"
   <!-- Add approved articles here, newest first, with a linked title and date. -->
   <ul class="posts-feed">
     <li class="posts-feed-item">
+      <a id="landscape-post-title" href="post-landscape-migration-avian-influenza.html">How changing landscapes reshape migration and avian influenza risk</a>
+      <time id="landscape-post-date" datetime="2026-09-29">September 29, 2026</time>
+    </li>
+    <li class="posts-feed-item">
       <a id="hpai-post-title" href="post-hpai-waterbirds.html">What can a flock tell us about HPAI?</a>
       <time id="hpai-post-date" datetime="2026-09-28">September 28, 2026</time>
     </li>

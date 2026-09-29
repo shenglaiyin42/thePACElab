@@ -1,0 +1,68 @@
+---
+title: "How changing landscapes reshape migration and avian influenza risk"
+page-layout: full
+body-classes: "post-article-body"
+---
+
+<!-- Article supplied by the author. The Chinese copy is embedded from
+     assets/i18n/zh.json during the build. -->
+
+::: {.post-article}
+<p class="post-date"><time datetime="2026-09-29">September 29, 2026</time></p>
+
+::: {.post-opening}
+A migratory waterfowl population does not move across an empty map. It depends on a chain of wetlands, feeding areas and stopover sites that connect breeding and wintering grounds. When those landscapes change, birds can change where they stop, how far they travel, and where they concentrate. Across a series of studies, we followed that ecological chain one step further: if landscape change reshapes migration, can it also reshape the spatial and temporal dynamics of avian influenza viruses (AIVs)? \[1–5\]
+:::
+
+## First, the landscape changes the birds {#landscape-changes-birds}
+
+The starting point was a study led by Dr. Yanjie Xu (University of Helsinki) that did not examine avian influenza at all. Instead, we asked how habitat degradation affected the seasonal distributions of eight migratory waterfowl species in the East Asian-Australasian Flyway (EAAF). Using bird observations, species distributions and land-cover data, we mapped changes in wetland availability, fragmentation and isolation between 1992 and 2012 \[1\].
+
+The changes were strongly uneven across the flyway. Wetlands generally deteriorated more in the southern and eastern parts of the flyway, including coastal China and Japan, while habitat conditions improved in some inland and northern regions. Importantly, species were not affected equally. Waterfowl with longer, narrower migration corridors were more exposed to habitat degradation because they had fewer parallel alternatives when important sites were lost. Species using shorter and broader corridors had more flexibility to shift among alternative sites \[1\].
+
+That result is fundamentally about conservation and migration ecology, not disease. But it raises an obvious next question: if landscape change can redirect migratory birds and alter where they aggregate, how does this change influence the spatial and temporal dynamics of avian influenza transmission that vectored by these migratory birds?
+
+## Migration can change infection risk in more than one way {#migration-infection-risk}
+
+Landscape change matters for disease partly because it reshapes the migration routes and stopover sites that determine where birds aggregate and which epidemiological environments they encounter. To understand this link, we first examined how different migration routes relate to HPAI exposure. In one empirical study, we compared the migration routes of Swan Geese and Bar-headed Geese, together with two Whooper Swan populations, against domestic duck densities and reported HPAI outbreaks. Swan Geese actually used areas with higher domestic duck densities and were closer to outbreak locations, yet no HPAI outbreaks were recorded in Swan Geese in the dataset, whereas Bar-headed Geese had multiple recorded outbreaks \[2\].
+
+Exposure alone therefore could not explain the contrasting infection records. We proposed two possible explanations: frequent historical contact with domestic ducks might be associated with greater immune protection in Swan Geese, whereas the energetic and physiological costs of high-altitude migration might increase vulnerability in Bar-headed Geese. These were hypotheses rather than directly tested mechanisms, but the contrast showed that migration route, exposure and host response need to be considered together \[2\].
+
+Landscape change can also alter the structure of migration itself by removing, adding or redistributing stopover opportunities. To isolate what such changes in migration structure might mean for infection, we used a theoretical transmission model to test how migration network configuration and timing affect AIV dynamics. We compared networks containing serial or parallel stopover sites and varied how synchronized the birds were in their movements. Multiple serial stopovers and highly synchronized migration reduced cumulative infection in the model, partly because birds repeatedly moved into sites where environmental virus levels were still low. In contrast, parallel stopovers could accelerate infection accumulation, and less synchronized migration increased cumulative infection because later birds encountered environments already contaminated by earlier arrivals \[3\].
+
+In other words, migration can facilitate pathogen dispersal, but it can also allow birds to move away from contaminated site-a process known as “migratory escape.” Whether migration amplifies or reduces infection depends on how the migration network is organized and how birds move through it \[3\].
+
+## What happens when habitats disappear? {#habitats-disappear}
+
+We then connected these ideas directly to landscape change using an agent-based model. For Greater White-fronted Geese, we constructed six fall-migration networks representing progressively greater habitat loss and simulated both individual migration and AIV transmission. As sites were removed, the migration network became smaller, birds shifted their distribution, and larger congregations formed at the remaining sites \[4\].
+
+Those movement changes altered the modeled epidemiology. Simulated outbreak risk shifted northward with the birds, and remaining sites experienced higher outbreak risk because more geese were concentrated there. Habitat loss also increased virus transmission through greater congregation and environmental contamination. Under the intact network, migration could reduce the main infection peak through migratory escape; extensive habitat loss shortened migration and weakened that protective effect \[4\].
+
+## From virus transmission to viral diversification {#viral-diversification}
+
+Our most recent model extended the same framework from transmission within wild birds to the wild bird-poultry interface. We combined satellite tracking, eBird observations, remote-sensing data and poultry distributions to reconstruct landscapes representing 2000 and 2015. The model allowed Greater White-fronted Geese to respond to changes in wetlands, surface water and rice paddies, and then simulated transmission of a wild-bird-origin AIV strain into poultry already carrying a poultry-origin strain \[5\].
+
+This matters because coinfection creates an opportunity for viral reassortment, the exchange of genome segments between influenza viruses. In the model, landscape changes between 2000 and 2015 reshaped bird migration, increased wild-poultry spillover and produced substantially more reassortment in poultry. The study reported a substantial increase in reassortment rate, with simulated risk increasing across parts of southeastern China, the Yellow River Basin and northeastern China \[5\].
+
+That result should be interpreted carefully. We did not simulate the complete molecular evolution of HPAI, and reassortment was used as a proxy for ecological and transmission conditions that could favor viral diversification and the emergence of novel subtypes. The model therefore identifies a mechanism and potential risk landscape, not a prediction that a particular new HPAI strain will emerge at a particular place or time \[5\].
+
+## A changing landscape is part of the epidemiological system {#changing-landscape-epidemiology}
+
+Taken together, these studies trace a continuous pathway. Landscape change alters habitat availability. Habitat availability reshapes bird distribution and migration networks. Those movement changes alter aggregation, environmental exposure and contact with poultry. These changes can in turn affect virus transmission, spillover and opportunities for reassortment \[1–5\].
+
+The implication is not that every habitat change increases disease risk. Habitat loss can concentrate birds, while habitat gains can attract birds into new areas, including landscapes shared with domestic poultry. What matters is where change occurs, how it alters connectivity, and which new contacts it creates. For surveillance, this means that disease hotspots should not be treated as fixed points on a map. Combining landscape monitoring, bird tracking and virus surveillance can help us follow a flyway as it changes, and identify where ecological change may create the next transmission opportunity.
+
+## Related publications {.post-references #related-publications}
+
+\[1\] Xu, Y., et al. (2019). Species-dependent effects of habitat degradation in relation to seasonal distribution of migratory waterfowl in the East Asian–Australasian Flyway. Landscape Ecology, 34, 243–257. doi: [10.1007/s10980-018-00767-7](https://doi.org/10.1007/s10980-018-00767-7)
+
+\[2\] Yin, S., et al. (2021). Do contrasting patterns of migration movements and disease outbreaks between congeneric waterfowl species reflect differing immunity? Geospatial Health, 16, 909. doi: [10.4081/gh.2021.909](https://doi.org/10.4081/gh.2021.909)
+
+\[3\] Yin, S., et al. (2020). Effects of migration network configuration and migration synchrony on infection prevalence in geese. Journal of Theoretical Biology, 502, 110315. doi: [10.1016/j.jtbi.2020.110315](https://doi.org/10.1016/j.jtbi.2020.110315)
+
+\[4\] Yin, S., et al. (2022). Habitat loss exacerbates pathogen spread: An agent-based model of avian influenza infection in migratory waterfowl. PLOS Computational Biology, 18(8), e1009577. doi: [10.1371/journal.pcbi.1009577](https://doi.org/10.1371/journal.pcbi.1009577)
+
+\[5\] Yin, S., et al. (2025). Landscape changes elevate the risk of avian influenza virus diversification and emergence in the East Asian–Australasian Flyway. Proceedings of the National Academy of Sciences, 122(34), e2503427122. doi: [10.1073/pnas.2503427122](https://doi.org/10.1073/pnas.2503427122)
+
+<p class="post-back"><a href="posts.html">Back to posts</a></p>
+:::
