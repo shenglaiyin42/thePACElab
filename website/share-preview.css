@@ -1,0 +1,225 @@
+/* Lightweight, first-party sharing controls. */
+.pace-post-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pace-post-meta .post-date {
+  margin: 0;
+}
+
+.pace-share {
+  position: relative;
+  width: fit-content;
+  color: var(--pace-ink-soft);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.pace-share-footer {
+  width: auto;
+  max-width: 1180px;
+  margin: 1.5rem auto 3rem;
+  padding: 1rem 1.5rem 0;
+  border-top: 1px solid var(--pace-line);
+}
+
+.pace-share > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid var(--pace-line);
+  border-radius: 999px;
+  background: var(--pace-paper);
+  padding: 0.32rem 0.85rem;
+  font-weight: 600;
+}
+
+.pace-share > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pace-share > summary::before {
+  content: "↗";
+  font-size: 1.05em;
+  line-height: 1;
+}
+
+.pace-share > summary:hover,
+.pace-share > summary:focus-visible,
+.pace-share[open] > summary {
+  border-color: var(--pace-moss);
+  color: var(--pace-ink);
+}
+
+.pace-share-menu {
+  position: absolute;
+  right: 0;
+  z-index: 1060;
+  width: max-content;
+  min-width: 12.5rem;
+  max-width: min(18rem, calc(100vw - 2rem));
+  margin-top: 0.35rem;
+  padding: 0.35rem;
+  border: 1px solid var(--pace-line);
+  border-radius: 0.55rem;
+  background: var(--pace-paper);
+  box-shadow: 0 8px 24px rgb(23 23 22 / 10%);
+}
+
+.pace-share-footer .pace-share-menu {
+  left: 1.5rem;
+  right: auto;
+}
+
+.pace-share-menu > a,
+.pace-share-menu > button {
+  display: block;
+  width: 100%;
+  padding: 0.48rem 0.65rem;
+  border: 0;
+  border-radius: 0.3rem;
+  background: transparent;
+  color: var(--pace-ink);
+  text-align: left;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.pace-share-menu > :is(a, button):hover,
+.pace-share-menu > :is(a, button):focus-visible {
+  background: var(--pace-mist);
+}
+
+.pace-share-menu [hidden] {
+  display: none !important;
+}
+
+.pace-share-menu-status {
+  margin: 0;
+  padding: 0 0.65rem;
+  color: var(--pace-green);
+  font-size: 0.78rem;
+}
+
+.pace-share-menu-status:empty {
+  display: none;
+}
+
+.pace-share-dialog {
+  width: min(25rem, calc(100vw - 2rem));
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  border: 1px solid var(--pace-line);
+  border-radius: 0.7rem;
+  background: var(--pace-paper);
+  color: var(--pace-ink);
+  box-shadow: 0 18px 48px rgb(23 23 22 / 18%);
+  text-align: center;
+}
+
+.pace-share-dialog::backdrop {
+  background: rgb(23 23 22 / 45%);
+}
+
+.pace-share-dialog h2 {
+  margin: 0 1rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+.pace-share-dialog p {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.pace-share-dialog-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.55rem;
+  border: 0;
+  background: transparent;
+  color: var(--pace-ink-soft);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.pace-share-qr {
+  display: block;
+  margin: 0.8rem auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.pace-share-poster {
+  display: block;
+  width: min(240px, 100%);
+  height: auto;
+  margin: 0.8rem auto;
+  border: 1px solid var(--pace-line);
+}
+
+html[lang="zh-CN"] .pace-share-poster[data-share-poster="en"],
+html:not([lang="zh-CN"]) .pace-share-poster[data-share-poster="zh"] {
+  display: none;
+}
+
+.pace-share-poster-download {
+  display: inline-block;
+  margin: 0.1rem auto 0.7rem;
+  padding: 0.42rem 0.85rem;
+  border: 1px solid var(--pace-moss);
+  border-radius: 999px;
+  color: var(--pace-ink);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pace-share-poster-download:hover,
+.pace-share-poster-download:focus-visible {
+  background: var(--pace-mist);
+  color: var(--pace-ink);
+}
+
+html[lang="zh-CN"] .pace-share-qr[data-share-qr="en"],
+html:not([lang="zh-CN"]) .pace-share-qr[data-share-qr="zh"] {
+  display: none;
+}
+
+.pace-share-dialog-copy {
+  padding: 0.38rem 0.8rem;
+  border: 1px solid var(--pace-moss);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--pace-ink);
+  font: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.pace-share-dialog .pace-share-status {
+  min-height: 1.2em;
+  margin-bottom: 0;
+  color: var(--pace-green);
+}
+
+@media (max-width: 575px) {
+  .pace-share-footer {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+
+  .pace-share-footer .pace-share-menu {
+    left: 1.1rem;
+  }
+}

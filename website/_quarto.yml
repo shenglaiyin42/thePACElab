@@ -51,6 +51,7 @@ format:
       - pace-site.css
       - navigation-stability-v4.css
       - posts-v2.css
+      - share-preview.css
     toc: false
     highlight-style: none
     anchor-sections: true
@@ -95,6 +96,7 @@ format:
           })();
         </script>
         <script defer src="assets/js/language-switch.js?v=static-copy-20260925"></script>
+        <script defer src="assets/js/share-preview.js?v=1"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
             const navigationVersion = "header-20260928";
