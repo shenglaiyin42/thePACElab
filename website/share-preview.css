@@ -76,6 +76,8 @@
 .pace-share-footer .pace-share-menu {
   left: 1.5rem;
   right: auto;
+  bottom: calc(100% + 0.35rem);
+  margin-top: 0;
 }
 
 .pace-share-menu > a,
