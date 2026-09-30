@@ -105,6 +105,25 @@ body.post-article-body #title-block-header,
   margin-bottom: 0.5rem;
 }
 
+.post-climate-figure {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(72rem, calc(100vw - 2rem));
+  margin: 1.25rem 0 1.75rem;
+}
+
+.post-climate-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.post-climate-figure a {
+  display: block;
+  cursor: zoom-in;
+}
+
 @media (max-width: 620px) {
   .posts-feed-item {
     flex-direction: column;

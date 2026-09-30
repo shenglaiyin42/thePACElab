@@ -125,6 +125,9 @@ def poster(page, language, title, description=None, published=None):
     title_breaks = {
         "post-hpai-waterbirds": ["从一群水鸟中，我们能看出", "什么 HPAI 风险信息？"],
         "post-landscape-migration-avian-influenza": ["景观变化如何重塑", "迁徙与禽流感风险"],
+        "post-climate-change-bird-migration-hpai": [
+            "气候变化如何重塑", "鸟类迁徙与高致病性", "禽流感风险？",
+        ],
     }
     if language == "zh" and page in title_breaks:
         title_y = curated_lines(draw, title, title_breaks[page], 72, 353,
@@ -185,7 +188,8 @@ def main():
         raise ValueError("Homepage English copy changed; update the poster generator before regenerating")
     generated = [poster("index", "en", "PACE Lab", home_en),
                  poster("index", "zh", "PACE Lab", home_zh)]
-    for name in ("post-hpai-waterbirds", "post-landscape-migration-avian-influenza"):
+    for name in ("post-hpai-waterbirds", "post-landscape-migration-avian-influenza",
+                 "post-climate-change-bird-migration-hpai"):
         source = SITE / f"{name}.qmd"
         published = page_date(source)
         generated.append(poster(name, "en", frontmatter_title(source), published=published))
