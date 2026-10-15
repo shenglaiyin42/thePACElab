@@ -38,5 +38,8 @@ His research integrates disease ecology, movement ecology, and global change bio
 ::: {.page-shell .content-shell .lab-history style="border-top: 0;"}
 ## PACE Lab Journey
 
-1. The PACE Lab is expected to be officially established in January 2027.
+<ol class="journey-list">
+<li><div class="journey-row"><span class="journey-text">The PACE Lab is expected to be officially established in January 2027.</span><time class="journey-date" datetime="2026-09-24">September 24, 2026</time></div></li>
+</ol>
+
 :::

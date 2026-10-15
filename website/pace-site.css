@@ -504,6 +504,23 @@ body.contact-page-body #title-block-header h1.title,
   margin-bottom: 1.5rem;
 }
 
+.journey-list {
+  padding-left: 1.5rem;
+}
+
+.journey-row {
+  align-items: start;
+  display: grid;
+  gap: clamp(1rem, 4vw, 3rem);
+  grid-template-columns: minmax(0, 1fr) max-content;
+}
+
+.journey-date {
+  color: var(--pace-ink-soft);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
 .profile-grid {
   align-items: start;
   display: grid;
@@ -1025,6 +1042,15 @@ body.research-page-body #title-block-header {
     align-items: flex-start;
     flex-direction: column;
     gap: 0.75rem;
+  }
+
+  .journey-row {
+    gap: 0.25rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .journey-date {
+    justify-self: end;
   }
 
 }
