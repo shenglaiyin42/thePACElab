@@ -170,6 +170,8 @@
       "title": "论文",
       "selectors": {
         "#title-block-header h1.title": "PACE Lab 论文",
+        "#publication-years-heading": "年度论文数量",
+        ".publication-year-summary": "2013-2026 年，共 32 篇已发表论文",
         "#selected-publications > h2": "代表性论文",
         "#additional-lead--or-corresponding-author-publications > h2": "其他第一作者或通讯作者论文",
         "#collaborated-publications > h2": "合作论文"

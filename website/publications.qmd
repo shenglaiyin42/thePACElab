@@ -5,6 +5,29 @@ body-classes: "publications-page-body"
 ---
 
 ::: {.page-shell .publications-page}
+::: {.publications-layout}
+<aside class="publication-year-chart" aria-labelledby="publication-years-heading">
+<h2 id="publication-years-heading">Publications by year</h2>
+<p class="publication-year-summary">32 published papers (2013–2026)</p>
+<div class="publication-year-bars">
+<div class="publication-year-row"><span>2026</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 85.7%"></span></span><span class="publication-year-count">6</span></div>
+<div class="publication-year-row"><span>2025</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 100%"></span></span><span class="publication-year-count">7</span></div>
+<div class="publication-year-row"><span>2024</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 42.9%"></span></span><span class="publication-year-count">3</span></div>
+<div class="publication-year-row"><span>2023</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 42.9%"></span></span><span class="publication-year-count">3</span></div>
+<div class="publication-year-row"><span>2022</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 57.1%"></span></span><span class="publication-year-count">4</span></div>
+<div class="publication-year-row"><span>2021</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 14.3%"></span></span><span class="publication-year-count">1</span></div>
+<div class="publication-year-row"><span>2020</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 28.6%"></span></span><span class="publication-year-count">2</span></div>
+<div class="publication-year-row"><span>2019</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 14.3%"></span></span><span class="publication-year-count">1</span></div>
+<div class="publication-year-row"><span>2018</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 0%"></span></span><span class="publication-year-count">0</span></div>
+<div class="publication-year-row"><span>2017</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 14.3%"></span></span><span class="publication-year-count">1</span></div>
+<div class="publication-year-row"><span>2016</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 0%"></span></span><span class="publication-year-count">0</span></div>
+<div class="publication-year-row"><span>2015</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 42.9%"></span></span><span class="publication-year-count">3</span></div>
+<div class="publication-year-row"><span>2014</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 0%"></span></span><span class="publication-year-count">0</span></div>
+<div class="publication-year-row"><span>2013</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 14.3%"></span></span><span class="publication-year-count">1</span></div>
+</div>
+</aside>
+
+::: {.publication-bibliography}
 ## Selected publications
 1. **Shenglai Yin**<sup>&#42;</sup>, et al. (2025). Landscape changes elevate the risk of avian influenza virus diversification and emergence in the East Asian-Australasian Flyway. *Proceedings of the National Academy of Sciences*. [https://doi.org/10.1073/pnas.2503427122](https://doi.org/10.1073/pnas.2503427122)
 2. Diann J. Prosser<sup>†</sup>, Claire S. Teitelbaum<sup>†</sup>, **Shenglai Yin**<sup>†</sup>, et al. (2023). Climate change impacts on bird migration and highly pathogenic avian influenza. *Nature Microbiology*. [https://doi.org/10.1038/s41564-023-01538-0](https://doi.org/10.1038/s41564-023-01538-0)
@@ -48,3 +71,6 @@ body-classes: "publications-page-body"
 34. Lijun Ren, Lili Xu, Yuyuan Zhang, Wei Pan, **Shenglai Yin**, et al. (2015). Effects of connection mode and hydraulic retention time on wastewater pollutants removal in constructed wetland microcosms. *CLEAN – Soil, Air, Water*. [https://doi.org/10.1002/clen.201300842](https://doi.org/10.1002/clen.201300842)
 35. Wen Yang, Hui Zhao, Xinglong Chen, **Shenglai Yin**, et al. (2013). Consequences of short-term C4 plant *Spartina alterniflora* invasions for soil organic carbon dynamics in a coastal wetland of Eastern China. *Ecological Engineering*. [https://doi.org/10.1016/j.ecoleng.2013.09.056](https://doi.org/10.1016/j.ecoleng.2013.09.056)
 :::
+:::
+:::
+<script defer src="assets/js/publication-years.js"></script>
