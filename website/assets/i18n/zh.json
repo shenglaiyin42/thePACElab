@@ -61,10 +61,19 @@
         },
         "#climate-post-title": "气候变化如何重塑鸟类迁徙与高致病性禽流感风险？",
         "#climate-post-date": "2026年9月29日",
+        "#climate-post-pin": "置顶",
+        "#climate-post-excerpt": "气候变化和高致病性禽流感看似不同，却通过野生鸟类的生态过程相互关联。我们讨论长期气候变化与极端天气如何影响鸟类迁徙、宿主健康及病毒在环境中的存留。这些作用可能彼此叠加，也可能方向相反，因此不能简单地认为气候变化一定会提高疾病风险...",
+        "#climate-post-more": "[点击查看详情]",
         "#hpai-post-title": "从一群水鸟中，我们能看出什么 HPAI 风险信息？",
         "#hpai-post-date": "2026年9月28日",
+        "#hpai-post-pin": "置顶",
+        "#hpai-post-excerpt": "为什么有些水鸟更常见于禽流感记录，而一些越冬湿地更容易报告疫情？这篇文章不仅看数量，也关注宿主性状、群落组成及物种间的差异。研究提示，哪些鸟聚在一起，可能与鸟有多少同样重要。监测数据仍有局限，野鸟中的规律也不能直接套用到家禽...",
+        "#hpai-post-more": "[点击查看详情]",
         "#landscape-post-title": "景观变化如何重塑迁徙与禽流感风险",
-        "#landscape-post-date": "2026年9月29日"
+        "#landscape-post-date": "2026年9月29日",
+        "#landscape-post-pin": "置顶",
+        "#landscape-post-excerpt": "迁徙水鸟依赖沿途的湿地和停歇地。景观变化可能改变迁徙路线、鸟类聚集地点与感染环境。我们串联多项研究，探讨栖息地退化如何影响迁徙网络、禽流感传播及野鸟与家禽交界面上的病毒重配。疾病风险取决于变化发生在哪里，以及鸟类如何响应...",
+        "#landscape-post-more": "[点击查看详情]"
       }
     },
     "post-climate-change-bird-migration-hpai": {

@@ -228,7 +228,7 @@ def build_page(path, copy, navigation):
     for link in soup.select('link[rel="stylesheet"]'):
         href = link.get("href", "").split("?", 1)[0]
         name = Path(href).name
-        if name in {"pace-site.css", "navigation-stability-v4.css", "share-preview.css"}:
+        if name in {"pace-site.css", "navigation-stability-v4.css", "posts-v2.css", "share-preview.css"}:
             css_version = hashlib.sha256((SITE / name).read_bytes()).hexdigest()[:12]
             link["href"] = href + "?v=" + css_version
 

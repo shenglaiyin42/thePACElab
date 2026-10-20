@@ -7,20 +7,24 @@ body-classes: "posts-page-body"
 ```{=html}
 <div class="page-shell posts-page">
   <p id="posts-intro" class="posts-intro">Get a closer look at what our research is about: research stories, findings, and more.</p>
-  <!-- Add approved articles here, newest first, with a linked title and date. -->
+  <!-- Add approved articles here. Set data-pinned="true" to keep a post above unpinned posts. -->
   <ul class="posts-feed">
-    <li class="posts-feed-item">
+    <li class="posts-feed-item" data-pinned="false">
       <a id="climate-post-title" href="post-climate-change-bird-migration-hpai.html">How could climate change reshape bird migration and HPAI?</a>
-      <time id="climate-post-date" datetime="2026-09-29">September 29, 2026</time>
+      <div class="posts-feed-meta"><span id="climate-post-pin" class="posts-pinned-badge">Pinned</span><time id="climate-post-date" datetime="2026-09-29">September 29, 2026</time></div>
+      <p class="posts-feed-excerpt"><span id="climate-post-excerpt">Climate change and highly pathogenic avian influenza (HPAI) are often treated as separate challenges, yet they intersect through wild bird ecology. In our 2023 Comment, we asked how long-term climate change and short-term extreme weather could alter migration, host populations, individual health, and virus persistence in the environment. These pathways may reinforce or counteract one another, so climate change does not automatically mean greater disease risk. Understanding what happens requires following birds, viruses, and changing environments across scales: from the condition of individual birds and their local contacts to the movement of populations along entire flyways. This story outlines connections...</span> <a id="climate-post-more" class="posts-feed-more" href="post-climate-change-bird-migration-hpai.html">[click for more details]</a></p>
     </li>
-    <li class="posts-feed-item">
+    <li class="posts-feed-item" data-pinned="false">
       <a id="landscape-post-title" href="post-landscape-migration-avian-influenza.html">How changing landscapes reshape migration and avian influenza risk</a>
-      <time id="landscape-post-date" datetime="2026-09-29">September 29, 2026</time>
+      <div class="posts-feed-meta"><span id="landscape-post-pin" class="posts-pinned-badge">Pinned</span><time id="landscape-post-date" datetime="2026-09-29">September 29, 2026</time></div>
+      <p class="posts-feed-excerpt"><span id="landscape-post-excerpt">Migratory waterfowl depend on connected wetlands, feeding areas, and stopover sites between breeding and wintering grounds. When landscapes change, birds may travel along different routes, gather elsewhere, and encounter new sources of infection. This story connects studies of habitat degradation, migration networks, avian influenza transmission, and possible viral reassortment at the wild bird–poultry interface. Habitat loss does not produce one universal disease outcome. Risk depends on where sites are lost or gained, how birds respond, and which populations then meet. We trace those links through field observations and models, while distinguishing possible mechanisms from predictions of specific future disease outbreaks...</span> <a id="landscape-post-more" class="posts-feed-more" href="post-landscape-migration-avian-influenza.html">[click for more details]</a></p>
     </li>
-    <li class="posts-feed-item">
+    <li class="posts-feed-item" data-pinned="false">
       <a id="hpai-post-title" href="post-hpai-waterbirds.html">What can a flock tell us about HPAI?</a>
-      <time id="hpai-post-date" datetime="2026-09-28">September 28, 2026</time>
+      <div class="posts-feed-meta"><span id="hpai-post-pin" class="posts-pinned-badge">Pinned</span><time id="hpai-post-date" datetime="2026-09-28">September 28, 2026</time></div>
+      <p class="posts-feed-excerpt"><span id="hpai-post-excerpt">Why are some waterbird species more often recorded as avian influenza hosts, and why do outbreaks occur at some winter wetlands but not others? This story looks beyond bird counts. Across studies of European waterbirds, we examine host traits, abundance, community composition, and how closely related the species are. We also ask whether ecological patterns associated with highly pathogenic avian influenza (HPAI) remain useful across epidemic periods. The findings suggest that which species gather together can matter as much as how many birds are present. Observational records have limits, and patterns in wild birds may not transfer unchanged to poultry...</span> <a id="hpai-post-more" class="posts-feed-more" href="post-hpai-waterbirds.html">[click for more details]</a></p>
     </li>
   </ul>
 </div>
+<script defer src="assets/js/posts-feed.js"></script>
 ```
