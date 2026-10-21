@@ -76,6 +76,10 @@
         "#landscape-post-more": "[点击查看详情]"
       }
     },
+    "post-disease-emergence-special-issue": {
+      "title": "Call for papers: Environmental and Ecological Determinants of Infectious Disease Emergence",
+      "selectors": {}
+    },
     "post-asian-flyways-special-issue": {
       "title": "Call for papers: Asian Flyways under Global Change: Movement Ecology and Emerging Threats, special issue with Avian Research",
       "selectors": {}

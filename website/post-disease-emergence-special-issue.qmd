@@ -1,0 +1,35 @@
+---
+title: "Call for papers: Environmental and Ecological Determinants of Infectious Disease Emergence"
+page-layout: full
+body-classes: "post-article-body"
+---
+
+<!-- Both language views use this English copy. The supplied flyer is preserved unchanged. -->
+
+::: {.post-article}
+<p class="post-date"><time datetime="2026-10-20">October 20, 2026</time></p>
+
+<p id="disease-emergence-intro">How do changing environments shape the emergence of infectious diseases? We are sharing a call for papers for a <a href="https://www.mdpi.com/journal/biology/special_issues/KHM9LG9485#info" target="_blank" rel="noopener noreferrer"><em>Biology</em> special issue</a> on environmental and ecological determinants of disease emergence. The issue welcomes work connecting global change, pathogen ecology, zoonotic spillover, and One Health, including research that uses new tools to improve surveillance and prediction.</p>
+
+<p id="disease-emergence-deadline"><strong>Manuscript submission deadline: December 31, 2027.</strong> Please check the <a href="https://www.mdpi.com/journal/biology/special_issues/KHM9LG9485#info" target="_blank" rel="noopener noreferrer">official special issue page</a> for current submission details.</p>
+
+## Topics covered {#disease-emergence-topics}
+
+- Global change drivers and zoonotic disease risk
+- Pathogen ecology and evolution, including environmental survival, transmission, virulence, and antimicrobial resistance
+- Ecological interfaces and spillover among humans, wildlife, and livestock
+- Surveillance and prediction using artificial intelligence, machine learning, and remote sensing
+- One Health approaches linking environmental health, wildlife conservation, and human well-being
+
+## Guest editors {#disease-emergence-editors}
+
+<p id="disease-emergence-guest-editors">Prof. Dr. Zheng Huang; Dr. Shenglai Yin; Dr. Yingying Wang; Dr. Qiang Wu.</p>
+
+<figure class="post-flyer">
+  <a href="assets/posts/mdpi-biology-disease-emergence-flyer.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the complete Biology special issue flyer as a PDF">
+    <img src="assets/posts/mdpi-biology-disease-emergence-flyer.png" alt="First page of the Biology special issue flyer listing the call topics, guest editors, and December 31, 2027 submission deadline" width="1214" height="1700" loading="lazy">
+  </a>
+</figure>
+
+<p class="post-back"><a href="posts.html">Back to posts</a></p>
+:::

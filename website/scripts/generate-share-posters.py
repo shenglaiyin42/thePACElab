@@ -118,6 +118,8 @@ def poster(page, language, title, description=None, published=None):
         eyebrow = "研究团队" if language == "zh" else "RESEARCH GROUP"
     elif page == "post-asian-flyways-special-issue":
         eyebrow = "CALL FOR PAPERS"
+    elif page == "post-disease-emergence-special-issue":
+        eyebrow = "CALL FOR PAPERS"
     draw.text((76, 279), eyebrow, font=font(30, language, bold=True), fill=MOSS, anchor="lt")
 
     title_size = 73 if language == "en" else 66
@@ -125,7 +127,10 @@ def poster(page, language, title, description=None, published=None):
         title_size = 88
     elif page == "post-asian-flyways-special-issue":
         title_size = 52  # The author-supplied title is longer than a research-story title.
-    title_language = "en" if page in {"index", "post-asian-flyways-special-issue"} else language
+    elif page == "post-disease-emergence-special-issue":
+        title_size = 52  # Keep the full special-issue title clear of the QR footer.
+    title_language = "en" if page in {"index", "post-asian-flyways-special-issue",
+                                     "post-disease-emergence-special-issue"} else language
     title_breaks = {
         "post-hpai-waterbirds": ["从一群水鸟中，我们能看出", "什么 HPAI 风险信息？"],
         "post-landscape-migration-avian-influenza": ["景观变化如何重塑", "迁徙与禽流感风险"],
@@ -158,9 +163,10 @@ def poster(page, language, title, description=None, published=None):
                     font(33), 52, language, SOFT)
     else:
         date_label = (f"{published.year} 年 {published.month} 月 {published.day} 日"
-                      if language == "zh" and page != "post-asian-flyways-special-issue"
+                      if language == "zh" and page not in {"post-asian-flyways-special-issue",
+                                                           "post-disease-emergence-special-issue"}
                       else f"{published:%B} {published.day}, {published.year}")
-        draw.text((76, title_y + 43), date_label, font=font(32, language), fill=MOSS, anchor="lt")
+        draw.text((76, title_y + 43), date_label, font=font(32, title_language), fill=MOSS, anchor="lt")
         draw.line((76, title_y + 114, 190, title_y + 114), fill=MOSS, width=4)
 
     # High-contrast, quiet footer keeps the QR usable in a saved/compressed image.
@@ -170,9 +176,10 @@ def poster(page, language, title, description=None, published=None):
                 f"?lang={language}")
     canvas.paste(qr, (780, 1058))
     callout = ("扫码浏览网站" if language == "zh" and page == "index" else
-               "扫码阅读文章" if language == "zh" else
+               "扫码阅读文章" if language == "zh" and
+               page != "post-disease-emergence-special-issue" else
                "Scan to visit the site" if page == "index" else "Scan to read the post")
-    draw.text((102, 1090), callout, font=font(37, language, bold=True), fill=INK, anchor="lt")
+    draw.text((102, 1090), callout, font=font(37, title_language, bold=True), fill=INK, anchor="lt")
     draw.text((102, 1164), "thepacelab.org", font=font(30), fill=SOFT, anchor="lt")
     draw.text((102, 1218), "PACE Lab", font=font(25, bold=True), fill=MOSS, anchor="lt")
 
@@ -194,7 +201,8 @@ def main():
     generated = [poster("index", "en", "PACE Lab", home_en),
                  poster("index", "zh", "PACE Lab", home_zh)]
     for name in ("post-hpai-waterbirds", "post-landscape-migration-avian-influenza",
-                 "post-climate-change-bird-migration-hpai", "post-asian-flyways-special-issue"):
+                 "post-climate-change-bird-migration-hpai", "post-asian-flyways-special-issue",
+                 "post-disease-emergence-special-issue"):
         source = SITE / f"{name}.qmd"
         published = page_date(source)
         generated.append(poster(name, "en", frontmatter_title(source), published=published))
