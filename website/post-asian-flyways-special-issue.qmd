@@ -8,7 +8,7 @@ body-classes: "post-article-body"
      Publication date: 2025-05-01. The original flyer is preserved as a PDF. -->
 
 ::: {.post-article}
-<p class="post-status">The submission has been closed.</p>
+<p class="post-status"><strong>The submission has been closed [<a href="https://www.sciencedirect.com/special-issue/1058C7PHVHM">click here for browsing published papers</a>].</strong></p>
 
 <p class="post-date"><time datetime="2025-05-01">May 1, 2025</time></p>
 
