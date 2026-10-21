@@ -14,5 +14,5 @@ body-classes: "pace-home"
 
 <p id="home-introduction">Our team combines quantitative analyses, including statistical modeling, network analysis, and machine learning, with mechanistic approaches, particularly agent-based and compartment models, to understand infectious disease transmission in wildlife across scales.</p>
 
-<p id="home-affiliation">The PACE Lab is associated with <a href="https://wdcgroup.org/" target="_blank" rel="noopener noreferrer">Wildlife Disease &amp; Conservation Group</a>.</p>
+<p id="home-affiliation">The PACE Lab is associated with <a href="https://wdcgroup.org/?lang=en" target="_blank" rel="noopener noreferrer">Wildlife Disease &amp; Conservation Group</a>.</p>
 :::
