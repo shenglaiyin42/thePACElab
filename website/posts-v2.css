@@ -198,6 +198,33 @@ body.post-article-body #title-block-header,
   cursor: zoom-in;
 }
 
+.post-status {
+  font-weight: 600;
+}
+
+.post-flyer {
+  max-width: 34rem;
+  margin: 1.5rem auto;
+}
+
+.post-flyer a,
+.post-flyer img {
+  display: block;
+  width: 100%;
+}
+
+.post-flyer img {
+  height: auto;
+  border: 1px solid var(--pace-line);
+}
+
+.post-flyer figcaption {
+  margin-top: 0.45rem;
+  color: var(--pace-ink-soft);
+  font-size: 0.86rem;
+  text-align: center;
+}
+
 @media (max-width: 620px) {
   .posts-feed-item {
     grid-template-columns: 1fr;

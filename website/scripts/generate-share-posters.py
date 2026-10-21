@@ -116,12 +116,16 @@ def poster(page, language, title, description=None, published=None):
     eyebrow = "研究动态" if language == "zh" else "RESEARCH STORY"
     if page == "index":
         eyebrow = "研究团队" if language == "zh" else "RESEARCH GROUP"
+    elif page == "post-asian-flyways-special-issue":
+        eyebrow = "CALL FOR PAPERS"
     draw.text((76, 279), eyebrow, font=font(30, language, bold=True), fill=MOSS, anchor="lt")
 
     title_size = 73 if language == "en" else 66
     if page == "index":
         title_size = 88
-    title_language = "en" if page == "index" else language
+    elif page == "post-asian-flyways-special-issue":
+        title_size = 52  # The author-supplied title is longer than a research-story title.
+    title_language = "en" if page in {"index", "post-asian-flyways-special-issue"} else language
     title_breaks = {
         "post-hpai-waterbirds": ["从一群水鸟中，我们能看出", "什么 HPAI 风险信息？"],
         "post-landscape-migration-avian-influenza": ["景观变化如何重塑", "迁徙与禽流感风险"],
@@ -153,7 +157,8 @@ def poster(page, language, title, description=None, published=None):
             wrapped(draw, description, 76, tagline_y + 70, 914,
                     font(33), 52, language, SOFT)
     else:
-        date_label = (f"{published.year} 年 {published.month} 月 {published.day} 日" if language == "zh"
+        date_label = (f"{published.year} 年 {published.month} 月 {published.day} 日"
+                      if language == "zh" and page != "post-asian-flyways-special-issue"
                       else f"{published:%B} {published.day}, {published.year}")
         draw.text((76, title_y + 43), date_label, font=font(32, language), fill=MOSS, anchor="lt")
         draw.line((76, title_y + 114, 190, title_y + 114), fill=MOSS, width=4)
@@ -189,7 +194,7 @@ def main():
     generated = [poster("index", "en", "PACE Lab", home_en),
                  poster("index", "zh", "PACE Lab", home_zh)]
     for name in ("post-hpai-waterbirds", "post-landscape-migration-avian-influenza",
-                 "post-climate-change-bird-migration-hpai"):
+                 "post-climate-change-bird-migration-hpai", "post-asian-flyways-special-issue"):
         source = SITE / f"{name}.qmd"
         published = page_date(source)
         generated.append(poster(name, "en", frontmatter_title(source), published=published))
