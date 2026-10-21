@@ -303,6 +303,10 @@ body.people-page #title-block-header {
   max-width: 760px;
 }
 
+#home-affiliation {
+  margin-top: 0.85rem;
+}
+
 .hero {
   background:
     radial-gradient(circle at 88% 20%, rgba(160, 190, 171, 0.28), transparent 30%),
