@@ -32,7 +32,6 @@ In this special issue, we invite contributions from the global research communit
   <a href="assets/posts/asian-flyways-special-issue-flyer.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the original special issue flyer as a PDF">
     <img src="assets/posts/asian-flyways-special-issue-flyer.png" alt="Original Avian Research virtual special issue flyer showing its topic list, guest editors, and submission deadline" width="1575" height="2048" loading="lazy">
   </a>
-  <figcaption>Original call-for-papers flyer (click to open the PDF).</figcaption>
 </figure>
 
 <p class="post-back"><a href="posts.html">Back to posts</a></p>
