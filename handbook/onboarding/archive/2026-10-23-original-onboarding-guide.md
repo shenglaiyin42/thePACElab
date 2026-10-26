@@ -46,6 +46,19 @@ PaceLab 是一个共同学习、工作并拓展研究领域边界的团队。与
 lei.li42@outlook.com
 ```
 
+## 必装软件与服务
+
+每位成员都应在自己的工作设备上安装或配置以下软件和服务：
+
+- Microsoft 365（Office 365，包括 Word、Excel、PowerPoint 等 Office 组件，以及 Outlook 和 OneDrive）
+- R
+- RStudio
+- GitHub（注册并配置个人账号）
+- QGIS
+- Zotero
+- Zoom
+- 腾讯会议
+
 ## GitHub 与代码管理
 
 为了方便投稿时公开代码、促进组内代码交流并提高透明度，每位成员都需要注册 GitHub，并尽快熟悉和正确使用其基础功能，主要包括 `pull`、`push`、`branch`、`merge` 和 `commit`。
@@ -132,4 +145,4 @@ AI 工具的订阅费用现阶段由补助金覆盖，之后会根据具体情�
 
 **文档状态：** 持续更新中
 
-**最近更新：** 2026-09-04
+**最近更新：** 2026-10-26
