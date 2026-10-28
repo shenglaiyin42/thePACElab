@@ -202,7 +202,7 @@ def main():
                  poster("index", "zh", "PACE Lab", home_zh)]
     for name in ("post-hpai-waterbirds", "post-landscape-migration-avian-influenza",
                  "post-climate-change-bird-migration-hpai", "post-asian-flyways-special-issue",
-                 "post-disease-emergence-special-issue"):
+                 "post-disease-emergence-special-issue", "post-avian-influenza-models"):
         source = SITE / f"{name}.qmd"
         published = page_date(source)
         generated.append(poster(name, "en", frontmatter_title(source), published=published))

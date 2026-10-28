@@ -198,6 +198,30 @@ body.post-article-body #title-block-header,
   cursor: zoom-in;
 }
 
+/* Preserve the supplied model-review figures, with full-size links on mobile. */
+.post-models-figure {
+  margin: 1.25rem auto 0.65rem;
+  text-align: center;
+}
+
+.post-models-figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
+.post-models-figure a {
+  cursor: zoom-in;
+}
+
+.post-models-caption {
+  color: var(--pace-ink-soft);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin-bottom: 1.1rem;
+}
+
 .post-status {
   font-weight: 600;
 }
