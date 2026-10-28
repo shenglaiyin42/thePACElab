@@ -56,6 +56,20 @@ For an optional Cloudflare Pages deployment:
 2. Set the build command to `bash scripts/cloudflare-build.sh`.
 3. Set the output directory to `_site`.
 
+## Visitor Analytics
+
+Cloudflare Web Analytics is installed through `assets/js/site-analytics.js`,
+loaded site-wide by `_quarto.yml`. It runs only on `thepacelab.org` and
+`www.thepacelab.org`; local previews and GitHub preview addresses are excluded.
+The script also avoids adding a second beacon if Cloudflare has already injected
+one. Its site identifier is public, not an account API credential.
+
+View traffic in Cloudflare's Web Analytics dashboard. The account's enabled
+weekly Web Analytics notification covers its registered sites; manage the
+recipient and notification in Cloudflare, not in the website repository.
+Visits and page views are aggregate traffic counts, not identified individuals.
+Tracking begins after installation and cannot reconstruct earlier visits.
+
 ## Prepublication Check
 
 Before publishing a university, department, office address, or other institutional information, confirm that it is accurate and appropriate for public release.

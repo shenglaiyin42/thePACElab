@@ -100,6 +100,7 @@ format:
         </script>
         <script defer src="assets/js/language-switch.js?v=static-copy-20260925"></script>
         <script defer src="assets/js/share-preview.js?v=1"></script>
+        <script defer src="assets/js/site-analytics.js?v=20261027"></script>
         <script>
           window.addEventListener("DOMContentLoaded", function () {
             const navigationVersion = "header-20260928";
