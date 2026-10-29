@@ -7,6 +7,11 @@ body-classes: "posts-page-body"
 ```{=html}
 <div class="page-shell posts-page">
   <p id="posts-intro" class="posts-intro">Get a closer look at what our research is about: research stories, findings, and more.</p>
+  <div class="posts-browser">
+  <div class="posts-tag-sidebar" role="complementary" aria-labelledby="posts-tags-heading"></div>
+  <div class="posts-feed-column">
+  <p class="posts-filter-status visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>
+  <p class="posts-empty-state" hidden></p>
   <!-- Add approved articles here. Set data-pinned="true" to keep a post above unpinned posts. -->
   <ul class="posts-feed">
     <li class="posts-feed-item" data-pinned="false">
@@ -40,6 +45,8 @@ body-classes: "posts-page-body"
       <p class="posts-feed-excerpt"><span>This call for papers invited work on migratory waterbirds in the Central Asian and East Asian–Australasian flyways. These routes connect breeding, stopover, and wintering habitats across many countries, making international collaboration essential. The special issue sought original research, reviews, and perspectives on movement ecology, habitat connectivity, climate change, human pressures, population dynamics, avian disease, and understudied species. Its goal was to connect disciplines and build knowledge that supports waterbird conservation as landscapes and environmental conditions change. Submissions have now closed, but the original flyer and the full scope of the call remain available here for reference...</span> <a class="posts-feed-more" href="post-asian-flyways-special-issue.html">[click for more details]</a></p>
     </li>
   </ul>
+  </div>
+  </div>
 </div>
 <script defer src="assets/js/posts-feed.js"></script>
 ```

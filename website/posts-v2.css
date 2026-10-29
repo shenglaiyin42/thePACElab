@@ -29,6 +29,109 @@ body.post-article-body #title-block-header h1.title {
   scroll-margin-top: 9rem;
 }
 
+.posts-browser {
+  display: grid;
+  grid-template-columns: 11.5rem minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.posts-feed-column {
+  min-width: 0;
+}
+
+.posts-tag-sidebar {
+  position: sticky;
+  top: 9rem;
+  padding-top: 1.1rem;
+}
+
+.posts-tag-sidebar h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+  margin: 0 0 0.7rem;
+  padding: 0 0.65rem;
+}
+
+.posts-tag-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.posts-tag-filter {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.42rem 0.65rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background: transparent;
+  color: var(--pace-ink-soft);
+  text-align: left;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.posts-tag-filter:hover,
+.posts-tag-filter:focus-visible,
+.posts-tag-filter.is-active {
+  background: var(--pace-mist);
+  color: var(--pace-ink);
+}
+
+.posts-tag-filter.is-active {
+  border-color: var(--pace-line);
+  font-weight: 600;
+}
+
+.posts-tag-count {
+  color: var(--pace-moss);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.posts-post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  grid-column: 1 / -1;
+}
+
+.posts-tag-badge {
+  display: inline-flex;
+  border: 1px solid var(--pace-line);
+  border-radius: 999px;
+  padding: 0.08rem 0.55rem;
+  color: var(--pace-ink-soft);
+  font-size: 0.76rem;
+  line-height: 1.55;
+  text-decoration: none;
+}
+
+.posts-tag-badge:hover,
+.posts-tag-badge:focus-visible {
+  background: var(--pace-mist);
+  color: var(--pace-ink);
+}
+
+.post-article-tags {
+  margin: -0.65rem 0 1.2rem;
+}
+
+.posts-empty-state {
+  color: var(--pace-ink-soft);
+  padding-top: 1.1rem;
+}
+
+.posts-empty-state[hidden],
+.posts-pagination[hidden] {
+  display: none;
+}
+
 .posts-feed-item {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -261,10 +364,40 @@ body.post-article-body #title-block-header,
   }
 
   .posts-feed-excerpt {
-    grid-row: 3;
+    grid-row: 4;
   }
 
   .posts-pagination {
     gap: 0.55rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .posts-browser {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .posts-tag-sidebar {
+    position: static;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .posts-tag-sidebar h2 {
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .posts-tag-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .posts-tag-filter {
+    width: auto;
+    border-color: var(--pace-line);
+    border-radius: 999px;
   }
 }

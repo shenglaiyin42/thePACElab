@@ -8,9 +8,11 @@ request, page hiding, or view-transition support is needed.
 import hashlib
 import json
 import os
+import re
 from base64 import b64encode
 from io import BytesIO
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import qrcode
 from qrcode.image.svg import SvgPathImage
@@ -31,6 +33,74 @@ def language_pair(soup, english, chinese):
         span.string = label
         wrapper.append(span)
     return wrapper
+
+
+def add_post_tags(soup, path, taxonomy):
+    """Embed both languages and post assignments from one editable registry."""
+    name = path.stem
+    if name != "posts" and not name.startswith("post-"):
+        return
+
+    def tag_bar(post_name):
+        if post_name not in taxonomy["posts"]:
+            raise ValueError(f"{post_name}: add its tags in assets/data/post-tags.json")
+        ids = taxonomy["posts"][post_name]
+        bar = soup.new_tag("div", attrs={
+            "class": "posts-post-tags", "aria-label": "Post tags / 文章标签",
+        })
+        for tag_id in ids:
+            label = taxonomy["tags"][tag_id]
+            link = soup.new_tag("a", href=f"posts.html?tag={tag_id}", attrs={
+                "class": "posts-tag-badge", "data-post-tag": tag_id,
+            })
+            link.append(language_pair(soup, label["en"], label["zh"]))
+            bar.append(link)
+        return bar, ids
+
+    if name != "posts":
+        bar, _ = tag_bar(name)
+        bar["class"].append("post-article-tags")
+        soup.select_one(".pace-post-meta").insert_after(bar)
+        return
+
+    counts = {tag_id: 0 for tag_id in taxonomy["tags"]}
+    items = soup.select(".posts-feed > .posts-feed-item")
+    for item in items:
+        link = item.find("a", recursive=False)
+        post_name = Path(urlsplit(link["href"]).path).stem
+        bar, ids = tag_bar(post_name)
+        item["data-post-tags"] = " ".join(ids)
+        item.select_one(".posts-feed-meta").insert_after(bar)
+        for tag_id in ids:
+            counts[tag_id] += 1
+
+    sidebar = soup.select_one(".posts-tag-sidebar")
+    sidebar.clear()
+    heading = soup.new_tag("h2", id="posts-tags-heading")
+    heading.append(language_pair(soup, "Tags", "标签"))
+    sidebar.append(heading)
+    listing = soup.new_tag("div", attrs={
+        "class": "posts-tag-list", "role": "group",
+        "aria-labelledby": "posts-tags-heading",
+    })
+    filters = [("all", {"en": "All posts", "zh": "全部文章"}, len(items))]
+    filters += [(tag_id, taxonomy["tags"][tag_id], count)
+                for tag_id, count in counts.items() if count]
+    for tag_id, label, count in filters:
+        button = soup.new_tag("button", type="button", attrs={
+            "class": "posts-tag-filter" + (" is-active" if tag_id == "all" else ""),
+            "data-post-tag-filter": tag_id,
+            "aria-pressed": "true" if tag_id == "all" else "false",
+        })
+        button.append(language_pair(soup, label["en"], label["zh"]))
+        number = soup.new_tag("span", attrs={"class": "posts-tag-count"})
+        number.string = str(count)
+        button.append(number)
+        listing.append(button)
+    sidebar.append(listing)
+    empty = soup.select_one(".posts-empty-state")
+    empty.clear()
+    empty.append(language_pair(soup, "No posts with this tag yet.", "这个标签下暂时没有文章。"))
 
 
 def qr_image(url):
@@ -178,7 +248,7 @@ def add_pair(soup, element, translation):
     element.append(chinese)
 
 
-def build_page(path, copy, navigation):
+def build_page(path, copy, navigation, taxonomy):
     soup = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
 
     # Quarto preview may rebuild one page at a time. Restore the English copy
@@ -190,6 +260,8 @@ def build_page(path, copy, navigation):
     for element in soup.select(".pace-language-item"):
         element.decompose()
     for element in soup.select(".pace-share, .pace-share-dialog"):
+        element.decompose()
+    for element in soup.select(".posts-post-tags"):
         element.decompose()
     for element in soup.select(".pace-post-meta"):
         element.unwrap()
@@ -231,6 +303,11 @@ def build_page(path, copy, navigation):
         if name in {"pace-site.css", "navigation-stability-v4.css", "posts-v2.css", "share-preview.css"}:
             css_version = hashlib.sha256((SITE / name).read_bytes()).hexdigest()[:12]
             link["href"] = href + "?v=" + css_version
+    for script in soup.select('script[src]'):
+        source = script["src"].split("?", 1)[0]
+        if source == "assets/js/posts-feed.js":
+            version = hashlib.sha256((SITE / source).read_bytes()).hexdigest()[:12]
+            script["src"] = source + "?v=" + version
 
     targets = []
     for selector, translation in copy["selectors"].items():
@@ -262,17 +339,32 @@ def build_page(path, copy, navigation):
     item.append(button)
     nav.append(item)
     add_share_controls(soup, path, copy)
+    add_post_tags(soup, path, taxonomy)
     return str(soup)
 
 
 def main():
     translations = json.loads((SITE / "assets/i18n/zh.json").read_text(encoding="utf-8"))
+    taxonomy = json.loads((SITE / "assets/data/post-tags.json").read_text(encoding="utf-8"))
+    for tag_id, labels in taxonomy["tags"].items():
+        if tag_id == "all" or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", tag_id):
+            raise ValueError(f"Invalid or reserved post tag: {tag_id}")
+        if not all(isinstance(labels.get(language), str) and labels[language].strip()
+                   for language in ("en", "zh")):
+            raise ValueError(f"{tag_id}: both English and Chinese tag labels are required")
+    for name, tags in taxonomy["posts"].items():
+        if name not in translations["pages"] or not name.startswith("post-"):
+            raise ValueError(f"Unknown tagged post: {name}")
+        if not isinstance(tags, list) or not tags or len(tags) != len(set(tags)):
+            raise ValueError(f"{name}: provide one or more unique tag IDs")
+        if any(tag_id not in taxonomy["tags"] for tag_id in tags):
+            raise ValueError(f"{name}: every tag must have a bilingual label in the registry")
     rendered = {}
     for name, copy in translations["pages"].items():
         path = OUTPUT / f"{name}.html"
         if not path.is_file():
             raise FileNotFoundError(f"Render the complete site first: missing {path}")
-        rendered[path] = build_page(path, copy, translations["navigation"])
+        rendered[path] = build_page(path, copy, translations["navigation"], taxonomy)
     # Validate every selector before updating any output file.
     for path, html in rendered.items():
         path.write_text(html, encoding="utf-8")

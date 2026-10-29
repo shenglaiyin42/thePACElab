@@ -1,0 +1,14 @@
+{
+  "tags": {
+    "original-research": {"en": "Original research", "zh": "原创研究"},
+    "opportunities": {"en": "Opportunities", "zh": "学术机会"}
+  },
+  "posts": {
+    "post-avian-influenza-models": ["original-research"],
+    "post-disease-emergence-special-issue": ["opportunities"],
+    "post-climate-change-bird-migration-hpai": ["original-research"],
+    "post-landscape-migration-avian-influenza": ["original-research"],
+    "post-hpai-waterbirds": ["original-research"],
+    "post-asian-flyways-special-issue": ["opportunities"]
+  }
+}

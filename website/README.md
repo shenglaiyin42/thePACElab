@@ -46,6 +46,19 @@ quarto render
 
 The rendered website is saved in `website/_site/`.
 
+## Post Tags
+
+Edit `assets/data/post-tags.json` to maintain the tag list. Each tag has a stable
+ID and an English and Chinese label; each post is mapped to a list of tag IDs.
+Add a new tag there and assign it to a post to make it appear automatically in
+the Posts sidebar. A post can have more than one tag. Tag labels are shown in
+the feed and on individual article pages without changing the article text.
+
+The sidebar includes all posts and per-tag counts. Clicking a tag filters in
+place; filtering happens before the existing ten-post pagination. Direct links
+such as `posts.html?tag=opportunities&lang=zh` keep the selected tag and language.
+On narrow screens the sidebar becomes a compact filter row above the feed.
+
 ## Publishing
 
 The GitHub Pages workflow is located at `.github/workflows/pages.yml` in the repository root. It builds and deploys the website when changes are pushed to `main`, and it can also be run manually.
