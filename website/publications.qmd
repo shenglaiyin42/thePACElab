@@ -8,9 +8,9 @@ body-classes: "publications-page-body"
 ::: {.publications-layout}
 <aside class="publication-year-chart" aria-labelledby="publication-years-heading">
 <h2 id="publication-years-heading">Publications by year</h2>
-<p class="publication-year-summary">32 published papers (2013–2026)</p>
+<p class="publication-year-summary">33 published papers (2013–2026)</p>
 <div class="publication-year-bars">
-<div class="publication-year-row"><span>2026</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 85.7%"></span></span><span class="publication-year-count">6</span></div>
+<div class="publication-year-row"><span>2026</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 100%"></span></span><span class="publication-year-count">7</span></div>
 <div class="publication-year-row"><span>2025</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 100%"></span></span><span class="publication-year-count">7</span></div>
 <div class="publication-year-row"><span>2024</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 42.9%"></span></span><span class="publication-year-count">3</span></div>
 <div class="publication-year-row"><span>2023</span><span class="publication-year-track"><span class="publication-year-fill" style="width: 42.9%"></span></span><span class="publication-year-count">3</span></div>
@@ -35,9 +35,9 @@ body-classes: "publications-page-body"
 
 ## Additional lead- or corresponding-author publications
 
-4. John Y. Takekawa, Diann J. Prosser, **Shenglai Yin**<sup>&#42;</sup>, et al. (2026). Global change and threats to waterbirds in the Asian flyways. *Avian Research*. [https://doi.org/10.1016/j.avrs.2026.100409](https://doi.org/10.1016/j.avrs.2026.100409)
-5. Yanjie Xu<sup>†</sup>, **Shenglai Yin**<sup>†&#42;</sup>, et al. Range shifts of migratory hosts facilitate avian influenza panzootics via crossroads of flyways. *In preparation.*
-6. **Shenglai Yin**, et al. A systematic review of avian influenza virus transmission models: Gaps and opportunities. *In revision.*
+4. **Shenglai Yin**, et al. (2026). A systematic review of avian influenza virus transmission models: Gaps and opportunities. *Methods in Ecology and Evolution.* [10.1111/2041-210x.70445](https://doi.org/10.1111/2041-210x.70445)
+5. John Y. Takekawa, Diann J. Prosser, **Shenglai Yin**<sup>&#42;</sup>, et al. (2026). Global change and threats to waterbirds in the Asian flyways. *Avian Research*. [https://doi.org/10.1016/j.avrs.2026.100409](https://doi.org/10.1016/j.avrs.2026.100409)
+6. Yanjie Xu<sup>†</sup>, **Shenglai Yin**<sup>†&#42;</sup>, et al. Range shifts of migratory hosts facilitate avian influenza panzootics via crossroads of flyways. *In preparation.*
 7. **Shenglai Yin**, et al. (2025). The predictable HPAI H5 outbreaks in European wild birds. *Avian Research*. [https://doi.org/10.1016/j.avrs.2025.100311](https://doi.org/10.1016/j.avrs.2025.100311)
 8. **Shenglai Yin**, et al. (2024). Strong and consistent effects of waterbird composition on HPAI H5 occurrences across Europe. *Ecological Applications*. [https://doi.org/10.1002/eap.3010](https://doi.org/10.1002/eap.3010)
 9. **Shenglai Yin**, et al. (2022). Habitat loss exacerbates pathogen spread: An agent-based model of avian influenza infection in migratory waterfowl. *PLOS Computational Biology*. [https://doi.org/10.1371/journal.pcbi.1009577](https://doi.org/10.1371/journal.pcbi.1009577)
