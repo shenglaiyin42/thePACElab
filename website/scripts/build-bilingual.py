@@ -139,9 +139,9 @@ def add_share_controls(soup, path, copy):
         link.string = label
         menu.append(link)
     for css_class, english, chinese in (
-        ("pace-share-native", "More options", "更多方式"),
-        ("pace-share-copy", "Copy link", "复制链接"),
         ("pace-share-wechat", "WeChat / Moments", "微信 / 朋友圈"),
+        ("pace-share-copy", "Copy link", "复制链接"),
+        ("pace-share-native", "More options", "更多方式"),
     ):
         button = soup.new_tag("button", type="button", attrs={"class": css_class})
         if css_class == "pace-share-native":
